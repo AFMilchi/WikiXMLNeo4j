@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import XmlStreamReader as xr
-import time
+'''Anpassungen für Pypy, fstring enfernen etc'''
 
 
 class BasicStatistics():
@@ -27,18 +27,10 @@ class BasicStatistics():
             t = t[idx + 1:]
         return t
 
-    def formatTimeElapsed(self, seconds):
-        '''Formatierung von Sekunden in hh:mm:ss.ss'''
-        h = int(seconds / (60 * 60))
-        m = int((seconds % (60 * 60)) / 60)
-        s = seconds % 60
-        return f'{h}:{m:>02}:{s:>05.2f}'
-
     def collectData(self):
         '''Das lesen der xml erfolgt im Stream verfahren, daher muss haendisch
         mit if und lokalen Variablen verfolgt werden in welchem XML-Tag man
         sich befindet und Information direkt extrahiert werden'''
-        startTime = time.time()
         for event, elem in self.reader.getNextArticle():
             tagName = self.stripTagName(elem)
             # event == start bei oeffnenden tags e.g. <page>
@@ -74,22 +66,18 @@ class BasicStatistics():
                 else:
                     self.redirectCount += 1
                     # writer
-                if self.totalCount % 100000 == 0:
-                    print(f'Verarbeitete Artikel: {self.totalCount}')
+                if self.totalCount % 10000 == 0:
+                    print(self.totalCount)
 
-                if self.totalCount > 1000000000:
+                if self.totalCount > 100000:
                     print('safty break')
                     break
 
-            # hilft Garbadge Collector
+            # gibt etwas ram wieder frei
             elem.clear()
 
-        elapsedTime = self.formatTimeElapsed(time.time() - startTime)
         print(self.totalCount)
         print('Endergebnisse:       ')
-        print(
-            f'totalCount:{self.totalCount} templateCount:{self.templateCount} articleCount:{self.articleCount} redirectCount:{self.redirectCount}')
-        print(f'Dauer: {elapsedTime}')
 
 
 if __name__ == '__main__':

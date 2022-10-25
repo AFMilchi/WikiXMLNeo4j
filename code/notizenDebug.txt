@@ -1,0 +1,18 @@
+- Erster Versuch ist Abgebrochen:
+
+Verarbeitete Artikel: 4750000
+Traceback (most recent call last):
+  File "/home/andreas/Dokumente/FOM/bsc/WikiXMLNeo4j/code/BasicStatistics.py", line 97, in <module>
+    print(test.collectData())
+  File "/home/andreas/Dokumente/FOM/bsc/WikiXMLNeo4j/code/BasicStatistics.py", line 42, in collectData
+    for event, elem in self.reader.getNextArticle():
+  File "/home/andreas/Dokumente/FOM/bsc/WikiXMLNeo4j/code/XmlStreamReader.py", line 28, in getNextArticle
+    for event, elem in et.iterparse(self.pathWikiXml, events=('start', 'end')):
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1259, in iterator
+    root = pullparser._close_and_return_root()
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1302, in _close_and_return_root
+    root = self._parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 344919814, column 84
+
+--> Problem in Zeile 344.919.814, column 84 !
+Vermutung: Nicht Wohlgeformte XML
