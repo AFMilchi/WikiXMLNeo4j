@@ -3,6 +3,7 @@ import codecs
 import csv
 import time
 import os
+import fileinput
 
 
 class XmlStreamReader():
@@ -22,10 +23,11 @@ class XmlStreamReader():
             yield event, elem
 
     def getNextLine(self):
-        print('hi')
+        with open(self.pathWikiXml, 'r') as file:
+            for line in file:
+                yield line
 
-    def test(self):
-        print('test')
+        return 'return Value'
 
 
 if __name__ == '__main__':

@@ -9,9 +9,26 @@ class DebugXml():
     def __init__(self):
         self.reader = xr.XmlStreamReader()
 
+    def printNLine(self, searchedLine):
+        count = 1
+        for line in self.reader.getNextLine():
+            if count >= searchedLine:
+                print(count, line)
+                break
+            count += 1
+
+    def printNLinesBlock(self, searchedLine, plus):
+        count = 1
+        for line in self.reader.getNextLine():
+            if count in range(searchedLine-plus, searchedLine+1+plus):
+                print(count, line)
+            if count >= searchedLine+plus+10:
+                break
+            count += 1
+
 
 if __name__ == '__main__':
-    test = DebugXml()
-    print('test')
-    print(test.reader.getNextLine())
-    test.reader.test()
+    debugger = DebugXml()
+    searchedLine = int(input('Gesuchte Zeile:'))
+    plus = int(input('Plus/Minus wie viel?: '))
+    debugger.printNLinesBlock(searchedLine, plus)
