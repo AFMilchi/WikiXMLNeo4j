@@ -69,10 +69,10 @@ class BasicStatistics():
                     self.templateCount += 1
                     # writer?
                 elif redirect:
-                    self.articleCount += 1
+                    self.redirectCount += 1
                     # writer
                 else:
-                    self.redirectCount += 1
+                    self.articleCount += 1
                     # writer
                 if self.totalCount % 100000 == 0:
                     print(f'Verarbeitete Artikel: {self.totalCount}')
