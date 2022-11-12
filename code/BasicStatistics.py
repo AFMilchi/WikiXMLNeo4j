@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import XmlStreamReader as xr
 import time
+import Utils
 
 
 class BasicStatistics():
@@ -18,15 +19,6 @@ class BasicStatistics():
         self.titel = None
         self.startTime = 0
 
-    def stripTagName(self, elem):
-        '''Simples entfernen der Nametags, die sonst wie im Beispiel ausehen
-        {http://www.mediawiki.org/xml/export-0.10/}page '''
-        t = elem.tag
-        idx = t.rfind('}')
-        if idx != -1:
-            t = t[idx + 1:]
-        return t
-
     def formatTimeElapsed(self, seconds):
         '''Formatierung von Sekunden in hh:mm:ss.ss'''
         h = int(seconds / (60 * 60))
@@ -40,7 +32,7 @@ class BasicStatistics():
         sich befindet und Information direkt extrahiert werden'''
         startTime = time.time()
         for event, elem in self.reader.getNextArticle():
-            tagName = self.stripTagName(elem)
+            tagName = Utils.Utils.stripTagName(elem)
             # event == start bei oeffnenden tags e.g. <page>
             if event == 'start':
                 if tagName == 'page':

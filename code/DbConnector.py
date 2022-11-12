@@ -27,6 +27,21 @@ class DbConnector():
         # Stringmanipulation enfernt ", " am Ende
         return dicString[:-2]
 
+    def createAdj(self, fromNode, toNode, adjType):
+        '''Bei Typ Kategorie wird eine Bidirektionale beziehung Hergstellt. 
+        Bei Artikeln welche auf Artikel verlinken nur Unidirektionale verbindungen'''
+        reverseAdj = ''
+        if adjType == 'TEIL_VON_KATEGORIE':
+            toNodeType = 'Kategorie'
+            reverseAdj = f'CREATE (tn)-[r2:BEINHALTET]->(fn)'
+        elif adjType == 'VERLINKT_AUF_ARTIKEL':
+            toNodeType = 'Artikel'
+        statement = f'MATCH (fn:Artikel), (tn:{toNodeType})' + \
+            f'WHERE fn.title = "{fromNode}" AND tn.title = "{toNode}"' + \
+            f'CREATE (fn)-[r1:{adjType}]->(tn)' + \
+            reverseAdj
+        print(statement)
+
 
 if __name__ == '__main__':
     testConnector = DbConnector()
