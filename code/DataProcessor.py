@@ -24,8 +24,8 @@ class DataProcessor():
                     ns = 0
                 elif tagName == 'revision':
                     inrevision = True
-                elif tagName == 'title':
-                    title = elem.text
+                elif tagName == 'title' and elem.text is not None:
+                    title = elem.text.replace('"', "'")
                 elif tagName == 'id' and not inrevision and elem.text is not None:
                     id = int(elem.text)
                 elif tagName == 'redirect':
@@ -55,7 +55,7 @@ class DataProcessor():
                 if totalCount % 100000 == 0:
                     print(f'Verarbeitete Artikel: {totalCount}')
 
-                if totalCount > 1000:
+                if totalCount > 10:
                     print('safty break')
                     break
 
@@ -95,4 +95,5 @@ class DataProcessor():
 
 if __name__ == '__main__':
     processor = DataProcessor()
-    processor.traverseData('node')
+    # processor.traverseData('Artikel')
+    processor.traverseData('Kategorie')

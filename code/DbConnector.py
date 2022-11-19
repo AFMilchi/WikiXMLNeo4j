@@ -12,7 +12,7 @@ class DbConnector():
 
     def createNode(self, nodeType, attributes):
         statement = f'CREATE (n:{nodeType}{{{self.convertDicString(attributes)}}})'
-        print(statement)
+        # print(statement)
         self.sendCommand(statement)
 
     def sendCommand(self, command):
@@ -23,7 +23,7 @@ class DbConnector():
             Form "key1: ’value1’, key2: 'value2'"'''
         dicString = str()
         for key, val in dic.items():
-            dicString += f"{key}: '{val}', "
+            dicString += f'{key}: "{val}", '
         # Stringmanipulation enfernt ", " am Ende
         return dicString[:-2]
 
@@ -33,7 +33,7 @@ class DbConnector():
         reverseAdj = ''
         if adjType == 'TEIL_VON_KATEGORIE':
             toNodeType = 'Kategorie'
-            reverseAdj = f'CREATE (tn)-[r2:BEINHALTET]->(fn)'
+            reverseAdj = 'CREATE (tn)-[r2:BEINHALTET]->(fn)'
         elif adjType == 'VERLINKT_AUF_ARTIKEL':
             toNodeType = 'Artikel'
         statement = f'MATCH (fn:Artikel), (tn:{toNodeType})' + \
@@ -41,6 +41,7 @@ class DbConnector():
             f'CREATE (fn)-[r1:{adjType}]->(tn)' + \
             reverseAdj
         print(statement)
+        self.sendCommand(statement)
 
 
 if __name__ == '__main__':
