@@ -16,3 +16,18 @@ xml.etree.ElementTree.ParseError: no element found: line 344919814, column 84
 
 --> Problem in Zeile 344.919.814, column 84 !
 Vermutung: Nicht Wohlgeformte XML
+
+
+
+- Neuer Fehler beim Generieren von Create Statements --> Escape Caracter müssen ausgeschlossen werden...
+  --> "" Versuchen und schauen ob es probleme gibt
+neo4j.exceptions.CypherSyntaxError: {code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input ''': expected whitespace, '.', node labels or rel types, '[', '^', '*', '/', '%', '+', '-', "=~", IN, STARTS, ENDS, CONTAINS, IS, '=', "<>", "!=", '<', '>', "<=", ">=", AND, XOR, OR, ',' or '}' (line 1, column 34 (offset: 33))
+"CREATE (n:Artikel{title: 'ʿUlamā'', id: '125608'})"
+
+- Jetzt gibts natürlich Artikel mit "" anstelle ''
+  --> So lassen wie es ist, alle "" mit '' ersetzen, bereits beim erheben der Titelnamen  
+                    title = elem.text.replace('"', "'")
+
+neo4j.exceptions.CypherSyntaxError: {code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input 'P': expected whitespace, '.', node labels or rel types, '[', '^', '*', '/', '%', '+', '-', "=~", IN, STARTS, ENDS, CONTAINS, IS, '=', "<>", "!=", '<', '>', "<=", ">=", AND, XOR, OR, ',' or '}' (line 1, column 69 (offset: 68))
+"CREATE (n:Artikel{title: "Lange 21-cm-Kanone in 38-cm-Schießgerüst "Paris-Geschütz"", id: "184997"})"
+
