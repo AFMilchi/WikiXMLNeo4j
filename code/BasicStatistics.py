@@ -84,7 +84,7 @@ class BasicStatistics():
         print(self.totalCount)
         print('Endergebnisse:       ')
         print(
-            f'totalCount:{self.totalCount} templateCount:{self.templateCount} articleCount:{self.articleCount} redirectCount:{self.redirectCount}')
+            f'totalCount:{self.totalCount} templateCount:{self.templateCount} articleCount:{self.articleCount} redirectCount:{self.redirectCount} categorieCount:{self.categorieCount}')
         print(f'Dauer: {elapsedTime}')
 
 

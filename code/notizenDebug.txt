@@ -31,3 +31,7 @@ neo4j.exceptions.CypherSyntaxError: {code: Neo.ClientError.Statement.SyntaxError
 neo4j.exceptions.CypherSyntaxError: {code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input 'P': expected whitespace, '.', node labels or rel types, '[', '^', '*', '/', '%', '+', '-', "=~", IN, STARTS, ENDS, CONTAINS, IS, '=', "<>", "!=", '<', '>', "<=", ">=", AND, XOR, OR, ',' or '}' (line 1, column 69 (offset: 68))
 "CREATE (n:Artikel{title: "Lange 21-cm-Kanone in 38-cm-Schießgerüst "Paris-Geschütz"", id: "184997"})"
 
+
+neuer Fehler beim erstellen der AJDs für Kategorien:
+1. sau langsam...
+2. Anscheinend Probleme bei sehr langen Kategorienanmen. Die Kategorien sind korrekt angelegt, aber es gibt probleme im create befehl...

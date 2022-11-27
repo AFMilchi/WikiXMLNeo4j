@@ -9,3 +9,8 @@ class Utils():
         if idx != -1:
             t = t[idx + 1:]
         return t
+
+    @staticmethod
+    def log(text):
+        with open('../log/log.txt', 'a') as file:
+            file.write(text+'\n')
