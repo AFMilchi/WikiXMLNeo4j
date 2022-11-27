@@ -34,7 +34,7 @@ class DbConnector():
         # Stringmanipulation enfernt ", " am Ende
         return dicString[:-2]
 
-    def createAdj(self, fromNodeID, toNodeTitle, adjType):
+    def createAdj(self, fromNodeTitle, toNodeTitle, adjType):
         '''Bei Typ Kategorie wird eine Bidirektionale beziehung Hergstellt. 
         Bei Artikeln welche auf Artikel verlinken nur Unidirektionale verbindungen'''
         reverseAdj = ''
@@ -46,16 +46,16 @@ class DbConnector():
             toNodeType = 'Artikel'
 
         statement = f'MATCH (fn:Artikel), (tn:{toNodeType}) ' + \
-            f'WHERE fn.id = "{fromNodeID}" AND tn.title = "{toNodeTitle}" ' + \
+            f'WHERE fn.title = "{fromNodeTitle}" AND tn.title = "{toNodeTitle}" ' + \
             f'CREATE (fn)-[r1:{adjType}]->(tn) ' + \
             reverseAdj + \
             f'return r1'
         self.sendCommand(statement)
         # print(statement)
 
-    def createCategorieAdjtoCsv(self, fromNodeID, toNodeTitle, adjType):
-        with open('./categories.csv', 'a') as file:
-            file.write(f'{fromNodeID},{toNodeTitle}\n')
+    def createCategorieAdjtoCsv(self, fromNodeTitle, toNodeTitle, adjType):
+        with open('../csvData/categories.csv', 'a') as file:
+            file.write(f'{fromNodeTitle},{toNodeTitle}\n')
 
 
 if __name__ == '__main__':

@@ -10122,3 +10122,296 @@ Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "12408299"}) return n
 Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "12408532"}) return n
 Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "12409609"}) return n
 Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "12410753"}) return n
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Alan Smithee" AND tn.title = "Fiktive Person" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Alan Smithee" AND tn.title = "Pseudonym" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Alan Smithee" AND tn.title = "Sammelpseudonym" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Alan Smithee" AND tn.title = "Werk von Alan Smithee" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Anschluss (Luhmann)" AND tn.title = "Soziologische Systemtheorie" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/I" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/J" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/G" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/D" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/T" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/O" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/E" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/N" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/Q" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/U" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Liste von Autoren/Y" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Anthony Minghella" AND tn.title = "Anthony Minghella" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Anthony Minghella" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.id = "Anthony Minghella" AND tn.title = "Drama" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Alessandro Volta" AND tn.title = "Ingenieur, Erfinder" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Gebrüder Montgolfier" AND tn.title = "Ingenieur, Erfinder" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Karel Appel" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Thomas Newcomen" AND tn.title = "Ingenieur, Erfinder" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Thomas Newcomen" AND tn.title = "Ingenieur, Erfinder" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Arnold von Siemens" AND tn.title = "Mitglied des Preußischen Herrenhauses" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Atomphysik" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Laserphysik" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Wort" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Wortart" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Nachtschattengewächse" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Einzelhandel" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Aufschnitt" AND tn.title = "Fleischerzeugnis" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Wildspitze" AND tn.title = "Berg in Tirol" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Betriebssystemtheorie" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Filmregisseur" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Drehbuchautor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Franzose" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Geboren 1959" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Mann" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Heinrich Wilhelm Krausnick" AND tn.title = "Mitglied des Preußischen Herrenhauses" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Wikipedia:Formatvorlage Ort (Schweiz)" AND tn.title = "Ort im Kanton XXX" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Reformator" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Blume des Jahres" AND tn.title = "Erstverleihung 1980" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Schachzubehör" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Schachregeln" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Marcelo Tosatti" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Owen Chamberlain" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Ninety Nines" AND tn.title = "Frauenverband" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Brian David Josephson" AND tn.title = "Ehrenbürger in Frankreich" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Franzose" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Geboren 1778" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gestorben 1819" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Frau" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Melvin Schwartz" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Johann I Bernoulli" AND tn.title = "Gestorben 1748" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Alfred Hans Zoller" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Zugtier" AND tn.title = "Anspannung" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Gibbs-Thomson-Effekt" AND tn.title = "William Thomson" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Didi (Fußballspieler, 1928)" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Mindel" AND tn.title = "Fluss in Bayern" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Neuropsychologie" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "José Sarney" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ökumene" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Eucharistie" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gelbes Meer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Lyrikpreis" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Erstverleihung 1993" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Föderationssubjekt der Russischen Föderation" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Oblast Nischni Nowgorod" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Jorge Amado" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Patscherkofel" AND tn.title = "Berg in Tirol" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Föderationssubjekt der Russischen Föderation" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Oblast Belgorod" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Kurlande" AND tn.title = "Deutsche Königswahl" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Otto von Kotzebue" AND tn.title = "Träger des Ordens des Heiligen Wladimir" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Hypertrophie" AND tn.title = "Bodybuilding" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Geschwister-Scholl-Preis" AND tn.title = "Erstverleihung 1980" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Stiftung in Frankfurt am Main" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Transplantationsmedizin" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gegründet 1984" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Kneiphof" AND tn.title = "Flussinsel" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Qualitative Sozialforschung" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Soziologische Forschungsrichtung" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Wissenschaftliche Methode" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Auswahlverfahren" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Damien-Dutton Award" AND tn.title = "Mikrobiologiepreis" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Infotainment" AND tn.title = "Medienkritik" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ort im Rajon Krasnosnamensk" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Jagdschloss Letzlingen" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Nico Dostal" AND tn.title = "Ehrenringträger des Landes Salzburg" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gebäudeteil" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schloss Ulriksdal" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Urban VI." AND tn.title = "Bischof von Bari" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Winterpalast" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Peter Gingold" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Vorsitzender der SPD Hessen" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Träger des Großen Bundesverdienstkreuzes mit Stern und Schulterband" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Träger des Hessischen Verdienstordens" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Deutscher" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Geboren 1919" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gestorben 1996" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Mann" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schloss Stutensee" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Inge Merkel" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Michel Aflaq" AND tn.title = "Person der Panbewegungen" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ziviler Flugzeugtyp" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Einmotoriges Flugzeug mit Kolbenmotor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Erstflug 1923" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Arthur Wellesley, 2. Duke of Wellington" AND tn.title = "Arthur Wellesley" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Charles Wellesley" AND tn.title = "Arthur Wellesley" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Yawl" AND tn.title = "Yawl" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schloss Ehrenburg" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Europäischer Menschenrechtspreis" AND tn.title = "Erstverleihung 1980" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Friedrich Wilhelm Rembert von Berg" AND tn.title = "Träger des Ordens des Heiligen Wladimir" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Veranstaltungstyp" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Likör" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Pernod Ricard" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Kinderkardiologie" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Sandwich" AND tn.title = "John Montagu" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "William Cowsill" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Tischtennisweltmeisterschaft 1951" AND tn.title = "Tischtenniswettbewerb in Österreich" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Familienmitglied des Hauses Stuart" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Britischer Adliger" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ehepartner einer berühmten Person" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Engländer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Geboren 1637" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gestorben 1671" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Frau" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schloss Bieberstein (Hessen)" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "David II. (Schottland)" AND tn.title = "Gestorben 1371" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Campanile" AND tn.title = "Kirchturm" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Catherine Pakenham" AND tn.title = "Arthur Wellesley" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Karl I. (Portugal)" AND tn.title = "Ritter des Nassauischen Hausordens vom Goldenen Löwen" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Person in den Italienischen Kriegen" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Geboren 1468" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gestorben 1536" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Mann" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Rüstung" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Römische Militärausrüstung" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Kostümkunde des Altertums" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Computermodell" AND tn.title = "Angewandte_Informatik" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "William Frederick, 2. Duke of Gloucester and Edinburgh" AND tn.title = "William Henry" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Leônidas da Silva" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Ferdinand Buisson" AND tn.title = "Mitglied des Parti républicain" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Georg Breusing (Schiff)" AND tn.title = "Museum in Emden" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Otto Mühl" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gravimetrie" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Galileo Galilei als Namensgeber" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Erich Selbmann" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Frauenorden" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "An der Schmücke" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ort im Kyffhäuserkreis" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ersterwähnung 1362" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gemeindeauflösung 2019" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Tömmelsdorf" AND tn.title = "Ersterwähnung 1378" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Lemnitz" AND tn.title = "Ersterwähnung 1378" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Eßbach" AND tn.title = "Ersterwähnung 1378" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Paska" AND tn.title = "Ersterwähnung 1378" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schloss Spremberg" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Loyola de Palacio" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schöndorf (bei Schleiz)" AND tn.title = "Ersterwähnung 1378" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Linda bei Neustadt an der Orla" AND tn.title = "Ersterwähnung 1378" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Washington Monument" AND tn.title = "Denkmal in Washington" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Avebury" AND tn.title = "Stonehenge" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ort an der Ruwer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ort im Hunsrück" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ersterwähnung 634" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ortsname keltischer Herkunft" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Heinrich-Böll-Preis" AND tn.title = "Erstverleihung 1980" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Gernot Wersig" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schloss Sarcenat" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Haidenaab" AND tn.title = "Fluss in Bayern" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Fichtelnaab" AND tn.title = "Fluss in Bayern" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Victor Boin" AND tn.title = "Sportjournalist" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ort im Kanton Solothurn" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Schweizer Gemeinde" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ort an der Aare" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Glauber Rocha" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Similaun" AND tn.title = "Berg in Tirol" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Similaun" AND tn.title = "Berg in Südtirol" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Kloster Haydau" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Literarische Gesellschaft" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Bildung und Forschung in Weimar" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gegründet 1864" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "William Shakespeare als Namensgeber" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Riesenbuche bei Altmugl" AND tn.title = "Naturdenkmal im  Landkreis Tirschenreuth" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "A.out" AND tn.title = "Binärformat für ausführbare Programme" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schloss Neuenbürg (Enzkreis)" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Troika" AND tn.title = "Anspannung" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Elektronenoptik" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Spektroskopie" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Bossa Nova" AND tn.title = "Brasilianischer Tanz" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schwaderloh" AND tn.title = "Kemmental" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "A. M. Cassandre" AND tn.title = "Grafiker des Art déco" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Resonator" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gerät" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Akustik" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Nachrichtentechnik" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Wellen" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Bauwerk in Konstanz" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gotisches Bauwerk im Landkreis Konstanz" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Bodenspeicher" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Veranstaltungsstätte im Landkreis Konstanz" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Erbaut in den 1380er Jahren" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Computer von Apple" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Heimcomputer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Einplatinencomputer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Peipussee" AND tn.title = "See in Estland" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "João Goulart" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schloss Altshausen" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Trommel" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Katholische Ostkirche" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Bulgarische Wiedergeburt" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Joseph Barbera" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Held der sozialistischen Arbeit" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Träger des Leninordens" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Träger des Leninpreises" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Träger des Stalinpreises" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Volkskünstler der RSFSR" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Träger des russischen Ordens der Ehre" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ehrenbürger von Burgas" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Sowjetbürger" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Russe" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Geboren 1913" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gestorben 2007" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Mann" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Absolvent des Moskauer Konservatoriums" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Fleischerzeugnis" AND tn.title = "Fleischerzeugnis" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Heinz Maegerlein" AND tn.title = "Sportjournalist" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Zé do Rock" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Wikipedia:Formatvorlage Oper" AND tn.title = "Opéra comique" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Wikipedia:Formatvorlage Oper" AND tn.title = "Musik JJJJ" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Ernst Huberty" AND tn.title = "Sportjournalist" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Wim Thoelke" AND tn.title = "Sportjournalist" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "DGB-Jugend" AND tn.title = "Politischer Jugendverband" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Kniebeugen" AND tn.title = "Bodybuilding" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Beziehungsarbeit" AND tn.title = "Arbeitsfelder" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Louis Auguste Le Tonnelier de Breteuil" AND tn.title = "Gesandter in Kurköln" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Jürgen Echternach" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Germanist" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Bibliothekar" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Mitglied der Bayerischen Akademie der Wissenschaften" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Deutscher" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Geboren 1782" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gestorben 1828" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Mann" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Hauptgürtelasteroid zwischen 100 und 200 km Durchmesser" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Möbelbau" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Lou Rawls" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Keiō-Universität" AND tn.title = "Private Hochschule in Japan" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Autor" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Roman, Epik" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Kriminalliteratur" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Kanadier" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Geboren 1922" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gestorben 2005" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Frau" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Machado de Assis" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Christentum in Kappadokien" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Grazer Murinsel" AND tn.title = "Flussinsel" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Dōshisha-Universität" AND tn.title = "Private Hochschule in Japan" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Schloss Hohenbaden" AND tn.title = "Schloss in Europa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Liste deutscher Toponyme" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ort in Deutschland" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Mehrsprachigkeit" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Abgegangenes Bauwerk in Köln" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ursulakirche" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Zerstört in den 1850er Jahren" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Heinz Putzhammer" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Wildgang" AND tn.title = "Anspannung" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Habib Bourguiba" AND tn.title = "Ritter des Nassauischen Hausordens vom Goldenen Löwen" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Politikwissenschaftliches Forschungsinstitut" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Stiftung in Frankfurt am Main" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Friedensforschung" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Stiftung des öffentlichen Rechts" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gegründet 1970" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Forschungseinrichtung in Frankfurt am Main" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Carlos Drummond de Andrade" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Deutscher" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Geboren 1930" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gestorben 2008" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Mann" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Nuklease" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Proteingruppe" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Karmelit" AND tn.title = "Verkehrsbauwerk in  Haifa" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Herbert Baack" AND tn.title = "Gestorben 2006" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Gemeindeauflösung 1993" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Ersterwähnung 1285" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Unterhose" AND tn.title = "Unterwäsche" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Prüfwerkzeug" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Steinmetzwerkzeug" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "" AND tn.title = "Freimaurerisches Symbol" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1
+MATCH (fn:Artikel), (tn:Kategorie) WHERE fn.title = "Vinícius de Moraes" AND tn.title = "Brasilianer" CREATE (fn)-[r1:TEIL_VON_KATEGORIE]->(tn) CREATE (tn)-[r2:BEINHALTET]->(fn) return r1

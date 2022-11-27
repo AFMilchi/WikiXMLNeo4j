@@ -50,9 +50,10 @@ class DataProcessor():
                     if kind == 'Artikel':
                         self.writeNode(title, id)
                     elif kind == 'Kategorie':
-                        categoriesList = self.extractCategories(inhalt)
-                        self.writeAdj(
-                            id, 'TEIL_VON_KATEGORIE', categoriesList)
+                        if 'Kategorie:' not in title:
+                            categoriesList = self.extractCategories(inhalt)
+                            self.writeAdj(
+                                title, 'TEIL_VON_KATEGORIE', categoriesList)
                 if totalCount % 100000 == 0:
                     print(f'Verarbeitete Artikel: {totalCount}')
 
@@ -75,8 +76,10 @@ class DataProcessor():
         categorieList = []
         for elem in re.finditer(categorieSearchString, inhalt):
             buffer = elem.group()
-            # print(elem.group())
-            categorieList.append(buffer[buffer.find(':')+1:-1])
+            cat = buffer[buffer.find(':')+1:-1]
+            categorieList.append(cat)
+            if 'Kategorie:' in cat:
+                print(buffer)
         return categorieList
 
     def writeNode(self, title, id):
@@ -90,12 +93,14 @@ class DataProcessor():
         attributes = {'title': title, 'id': id}
         self.connector.createNode(nodeType, attributes)
 
-    def writeAdj(self, id, adjType, toNodeList):
+    def writeAdj(self, fromNodeTitle, adjType, toNodeList):
         for toNode in toNodeList:
-            self.connector.createAdj(id, toNode, adjType)
+            # self.connector.createAdj(fromNodeTitle, toNode, adjType)
+            self.connector.createCategorieAdjtoCsv(
+                fromNodeTitle, toNode, adjType)
 
 
 if __name__ == '__main__':
     processor = DataProcessor()
-    processor.traverseData('Artikel')
-    # processor.traverseData('Kategorie')
+    # processor.traverseData('Artikel')
+    processor.traverseData('Kategorie')
