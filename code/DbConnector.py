@@ -55,7 +55,7 @@ class DbConnector():
 
     def createCategorieAdjtoCsv(self, fromNodeTitle, toNodeTitle, adjType):
         with open('../csvData/categories.csv', 'a') as file:
-            file.write(f'{fromNodeTitle},{toNodeTitle}\n')
+            file.write(f'{fromNodeTitle}|{toNodeTitle}\n')
 
 
 if __name__ == '__main__':

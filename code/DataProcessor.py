@@ -64,12 +64,6 @@ class DataProcessor():
             # hilft Garbadge Collector
             elem.clear()
 
-    def collectNodes(self):
-        pass
-
-    def collectAdj(self):
-        pass
-
     def extractCategories(self, inhalt):
         categorieSearchString = '\[\[Kategorie:[\w*-,\s]*[\],|]'
         # Entfernt direkt Start und Endsymbohle und befüllt Liste
@@ -98,6 +92,9 @@ class DataProcessor():
             # self.connector.createAdj(fromNodeTitle, toNode, adjType)
             self.connector.createCategorieAdjtoCsv(
                 fromNodeTitle, toNode, adjType)
+
+    def extractInnerLinks(self, inhalt):
+        pass
 
 
 if __name__ == '__main__':
