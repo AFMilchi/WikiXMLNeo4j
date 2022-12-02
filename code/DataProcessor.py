@@ -18,6 +18,7 @@ class DataProcessor():
             if event == 'start':
                 if tagName == 'page':
                     title = ''
+                    inhalt = ''
                     id = -1
                     redirect = ''
                     inrevision = False
@@ -52,8 +53,14 @@ class DataProcessor():
                     elif kind == 'Kategorie':
                         if 'Kategorie:' not in title:
                             categoriesList = self.extractCategories(inhalt)
-                            self.writeAdj(
-                                title, 'TEIL_VON_KATEGORIE', categoriesList)
+                            if 'Autoren' in title:
+                                self.writeAdjToCsv(
+                                    title, 'TEIL_VON_KATEGORIE', categoriesList)
+                    elif kind == 'Verlinkung':
+                        if 'Kategorie:' not in title:
+                            linkList = self.extractInnerLinks(inhalt)
+                            self.writeAdjToCsv(title, 'VERLINKT_AUF', linkList)
+
                 if totalCount % 100000 == 0:
                     print(f'Verarbeitete Artikel: {totalCount}')
 
@@ -65,15 +72,13 @@ class DataProcessor():
             elem.clear()
 
     def extractCategories(self, inhalt):
-        categorieSearchString = '\[\[Kategorie:[\w*-,\s]*[\],|]'
+        categorieSearchString = '\[\[Kategorie:.*[\],|]'
         # Entfernt direkt Start und Endsymbohle und befüllt Liste
         categorieList = []
         for elem in re.finditer(categorieSearchString, inhalt):
             buffer = elem.group()
-            cat = buffer[buffer.find(':')+1:-1]
+            cat = buffer[buffer.find(':')+1:].strip('[]').split('|')[0]
             categorieList.append(cat)
-            if 'Kategorie:' in cat:
-                print(buffer)
         return categorieList
 
     def writeNode(self, title, id):
@@ -87,17 +92,30 @@ class DataProcessor():
         attributes = {'title': title, 'id': id}
         self.connector.createNode(nodeType, attributes)
 
-    def writeAdj(self, fromNodeTitle, adjType, toNodeList):
+    def writeAdjToCsv(self, fromNodeTitle, adjType, toNodeList):
         for toNode in toNodeList:
-            # self.connector.createAdj(fromNodeTitle, toNode, adjType)
-            self.connector.createCategorieAdjtoCsv(
+            self.connector.createAdjtoCsv(
                 fromNodeTitle, toNode, adjType)
 
+    def writeAdj(self, fromNodeTitle, adjType, toNodeList):
+        for toNode in toNodeList:
+            self.connector.createAdj(fromNodeTitle, toNode, adjType)
+
     def extractInnerLinks(self, inhalt):
-        pass
+        linkSearchString = '\[\[.*?\]?\]'
+        linkList = []
+        specialLinks = ['Kategorie:', 'en:',
+                        'File:', 'Datei:', 'Bild:', 'Benutzer:']
+        for elem in re.finditer(linkSearchString, inhalt):
+            buffer = elem.group()
+            toNode = buffer.strip('[]').split('|')[0]
+            if not any(word in toNode for word in specialLinks):
+                linkList.append(toNode)
+        return linkList
 
 
 if __name__ == '__main__':
     processor = DataProcessor()
     # processor.traverseData('Artikel')
     processor.traverseData('Kategorie')
+    # processor.traverseData('Verlinkung')

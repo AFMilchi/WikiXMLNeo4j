@@ -53,8 +53,8 @@ class DbConnector():
         self.sendCommand(statement)
         # print(statement)
 
-    def createCategorieAdjtoCsv(self, fromNodeTitle, toNodeTitle, adjType):
-        with open('../csvData/categories.csv', 'a') as file:
+    def createAdjtoCsv(self, fromNodeTitle, toNodeTitle, adjType):
+        with open(f'../csvData/{adjType}.csv', 'a') as file:
             file.write(f'{fromNodeTitle}|{toNodeTitle}\n')
 
 
