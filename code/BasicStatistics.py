@@ -16,6 +16,7 @@ class BasicStatistics():
         self.articleCount = 0
         self.redirectCount = 0
         self.templateCount = 0
+        self.categorieCount = 0
         self.titel = None
         self.startTime = 0
 
@@ -64,14 +65,17 @@ class BasicStatistics():
                     self.redirectCount += 1
                     # writer
                 else:
-                    self.articleCount += 1
+                    if title is not None and 'Kategorie' in title:
+                        self.categorieCount += 1
+                    else:
+                        self.articleCount += 1
                     # writer
                 if self.totalCount % 100000 == 0:
                     print(f'Verarbeitete Artikel: {self.totalCount}')
 
-                if self.totalCount > 1000000000:
-                    print('safty break')
-                    break
+                # if self.totalCount > 1000000000:
+                #    print('safty break')
+                #    break
 
             # hilft Garbadge Collector
             elem.clear()
@@ -80,7 +84,7 @@ class BasicStatistics():
         print(self.totalCount)
         print('Endergebnisse:       ')
         print(
-            f'totalCount:{self.totalCount} templateCount:{self.templateCount} articleCount:{self.articleCount} redirectCount:{self.redirectCount}')
+            f'totalCount:{self.totalCount} templateCount:{self.templateCount} articleCount:{self.articleCount} redirectCount:{self.redirectCount} categorieCount:{self.categorieCount}')
         print(f'Dauer: {elapsedTime}')
 
 

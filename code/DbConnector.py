@@ -1,4 +1,5 @@
 from neo4j import GraphDatabase
+from Utils import Utils
 
 
 class DbConnector():
@@ -11,12 +12,18 @@ class DbConnector():
         self.session = self.dbConnection.session()
 
     def createNode(self, nodeType, attributes):
-        statement = f'CREATE (n:{nodeType}{{{self.convertDicString(attributes)}}})'
+        statement = f'CREATE (n:{nodeType}{{{self.convertDicString(attributes)}}}) return n'
         # print(statement)
-        self.sendCommand(statement)
+        if '' == attributes['title']:
+            Utils.log('Ungültige Attributwerte: '+statement)
+        else:
+            self.sendCommand(statement)
 
     def sendCommand(self, command):
-        self.session.run(command)
+        returnValue = self.session.run(command)
+        # Wenn es keinen Returnwert gibt, wurde der Knoten / Die Kanten nicht erstellt
+        if returnValue.single() is None:
+            Utils.log(command)
 
     def convertDicString(self, dic):
         '''Konvertiert ein Dictonarie in die
@@ -27,21 +34,28 @@ class DbConnector():
         # Stringmanipulation enfernt ", " am Ende
         return dicString[:-2]
 
-    def createAdj(self, fromNode, toNode, adjType):
+    def createAdj(self, fromNodeTitle, toNodeTitle, adjType):
         '''Bei Typ Kategorie wird eine Bidirektionale beziehung Hergstellt. 
         Bei Artikeln welche auf Artikel verlinken nur Unidirektionale verbindungen'''
         reverseAdj = ''
+        toNodeType = ''
         if adjType == 'TEIL_VON_KATEGORIE':
             toNodeType = 'Kategorie'
-            reverseAdj = 'CREATE (tn)-[r2:BEINHALTET]->(fn)'
+            reverseAdj = 'CREATE (tn)-[r2:BEINHALTET]->(fn) '
         elif adjType == 'VERLINKT_AUF_ARTIKEL':
             toNodeType = 'Artikel'
-        statement = f'MATCH (fn:Artikel), (tn:{toNodeType})' + \
-            f'WHERE fn.title = "{fromNode}" AND tn.title = "{toNode}"' + \
-            f'CREATE (fn)-[r1:{adjType}]->(tn)' + \
-            reverseAdj
-        print(statement)
+
+        statement = f'MATCH (fn:Artikel), (tn:{toNodeType}) ' + \
+            f'WHERE fn.title = "{fromNodeTitle}" AND tn.title = "{toNodeTitle}" ' + \
+            f'CREATE (fn)-[r1:{adjType}]->(tn) ' + \
+            reverseAdj + \
+            f'return r1'
         self.sendCommand(statement)
+        # print(statement)
+
+    def createAdjtoCsv(self, fromNodeTitle, toNodeTitle, adjType):
+        with open(f'../csvData/{adjType}.csv', 'a') as file:
+            file.write(f'{fromNodeTitle}|{toNodeTitle}\n')
 
 
 if __name__ == '__main__':

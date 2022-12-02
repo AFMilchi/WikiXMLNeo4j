@@ -18,6 +18,7 @@ class DataProcessor():
             if event == 'start':
                 if tagName == 'page':
                     title = ''
+                    inhalt = ''
                     id = -1
                     redirect = ''
                     inrevision = False
@@ -33,7 +34,7 @@ class DataProcessor():
                 elif tagName == 'ns' and elem.text is not None:
                     ns = int(elem.text)
                 elif tagName == 'text':
-                    inhalt = elem.text
+                    inhalt = str(elem.text)
 
             elif tagName == 'page':
                 # Statement findet closing Pagetags wie <\page>
@@ -50,31 +51,34 @@ class DataProcessor():
                     if kind == 'Artikel':
                         self.writeNode(title, id)
                     elif kind == 'Kategorie':
-                        categoriesList = self.extractCategories(inhalt)
-                        self.writeAdj(title, 'Kategorie', categoriesList)
+                        if 'Kategorie:' not in title:
+                            categoriesList = self.extractCategories(inhalt)
+                            if 'Autoren' in title:
+                                self.writeAdjToCsv(
+                                    title, 'TEIL_VON_KATEGORIE', categoriesList)
+                    elif kind == 'Verlinkung':
+                        if 'Kategorie:' not in title:
+                            linkList = self.extractInnerLinks(inhalt)
+                            self.writeAdjToCsv(title, 'VERLINKT_AUF', linkList)
+
                 if totalCount % 100000 == 0:
                     print(f'Verarbeitete Artikel: {totalCount}')
 
-                if totalCount > 10:
-                    print('safty break')
-                    break
+                # if totalCount >= 0:
+                #    print('safty break')
+                #    break
 
             # hilft Garbadge Collector
             elem.clear()
 
-    def collectNodes(self):
-        pass
-
-    def collectAdj(self):
-        pass
-
     def extractCategories(self, inhalt):
-        categorieSearchString = '\[\[Kategorie:[\w*-,\s]*[\],|]'
+        categorieSearchString = '\[\[Kategorie:.*[\],|]'
         # Entfernt direkt Start und Endsymbohle und befüllt Liste
         categorieList = []
         for elem in re.finditer(categorieSearchString, inhalt):
-            buffer = str(elem)
-            categorieList.append(buffer[buffer.find(':')+1:-3])
+            buffer = elem.group()
+            cat = buffer[buffer.find(':')+1:].strip('[]').split('|')[0]
+            categorieList.append(cat)
         return categorieList
 
     def writeNode(self, title, id):
@@ -88,12 +92,30 @@ class DataProcessor():
         attributes = {'title': title, 'id': id}
         self.connector.createNode(nodeType, attributes)
 
-    def writeAdj(self, title, adjType, toNodeList):
+    def writeAdjToCsv(self, fromNodeTitle, adjType, toNodeList):
         for toNode in toNodeList:
-            self.connector.createAdj(title, toNode, adjType)
+            self.connector.createAdjtoCsv(
+                fromNodeTitle, toNode, adjType)
+
+    def writeAdj(self, fromNodeTitle, adjType, toNodeList):
+        for toNode in toNodeList:
+            self.connector.createAdj(fromNodeTitle, toNode, adjType)
+
+    def extractInnerLinks(self, inhalt):
+        linkSearchString = '\[\[.*?\]?\]'
+        linkList = []
+        specialLinks = ['Kategorie:', 'en:',
+                        'File:', 'Datei:', 'Bild:', 'Benutzer:']
+        for elem in re.finditer(linkSearchString, inhalt):
+            buffer = elem.group()
+            toNode = buffer.strip('[]').split('|')[0]
+            if not any(word in toNode for word in specialLinks):
+                linkList.append(toNode)
+        return linkList
 
 
 if __name__ == '__main__':
     processor = DataProcessor()
     # processor.traverseData('Artikel')
     processor.traverseData('Kategorie')
+    # processor.traverseData('Verlinkung')
