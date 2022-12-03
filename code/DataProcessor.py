@@ -53,9 +53,8 @@ class DataProcessor():
                     elif kind == 'Kategorie':
                         if 'Kategorie:' not in title:
                             categoriesList = self.extractCategories(inhalt)
-                            if 'Autoren' in title:
-                                self.writeAdjToCsv(
-                                    title, 'TEIL_VON_KATEGORIE', categoriesList)
+                            self.writeAdjToCsv(
+                                title, 'TEIL_VON_KATEGORIE', categoriesList)
                     elif kind == 'Verlinkung':
                         if 'Kategorie:' not in title:
                             linkList = self.extractInnerLinks(inhalt)
