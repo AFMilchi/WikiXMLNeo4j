@@ -11,23 +11,41 @@ class WikiHandler(xml.sax.ContentHandler):
         self.current = ''
         self.connector = dbc.DbConnector()
         self.type = type
+        self.ns = 0
+        self.redirect = ''
+        self.inrevision = False
+        self.count = 0
 
     # Gecallt bei Öffnenden Tags
     def startElement(self, tag, attr):
         self.current = tag
         if self.current == 'page':
             self.title = ''
+            self.ns = 0
+            self.redirect = ''
+            self.inrevision = False
             self.text = ''
 
     def characters(self, content):
         if self.current == 'title':
-            self.title += content
+            self.title = content.replace('"', "'")
         elif self.current == 'text':
             self.text += content
+        elif self.current == 'redirect':
+            self.redirect += content
+        elif self.current == 'ns' and content is not None:
+            self.ns = int(content)
 
     def endElement(self, tag):
         if tag == 'page':
-            if self.title != '':
+            self.count += 1
+            if self.count % 100000 == 0:
+                print(self.count)
+            if self.ns == 10:
+                pass
+            if self.redirect:
+                pass
+            elif self.title != '':
                 if self.type == 'Kategorie':
                     if 'Kategorie:' not in self.title:
                         categoriesList = self.extractCategories(self.text)
@@ -44,12 +62,14 @@ class WikiHandler(xml.sax.ContentHandler):
         self.current = ''
 
     def extractCategories(self, inhalt):
-        categorieSearchString = '\[\[Kategorie:.*[\],|]'
+        categorieSearchString = '\[\[Kategorie:.*?\]?]'
         # Entfernt direkt Start und Endsymbohle und befüllt Liste
         categorieList = []
         for elem in re.finditer(categorieSearchString, inhalt):
             buffer = elem.group()
-            cat = buffer[buffer.find(':')+1:].strip('[]').split('|')[0]
+            cat = buffer[buffer.find(
+                ':')+1:].strip('[]').split('|')[0].strip('][').split('<')[0]
+            cat = cat.replace('"', "'")
             categorieList.append(cat)
         return categorieList
 
@@ -62,10 +82,10 @@ class WikiHandler(xml.sax.ContentHandler):
         linkSearchString = '\[\[.*?\]?\]'
         linkList = []
         specialLinks = ['Kategorie:', 'en:',
-                        'File:', 'Datei:', 'Bild:', 'Benutzer:']
+                        'File:', 'Datei:', 'Bild:', 'Benutzer:', 'Image:', 'doi:']
         for elem in re.finditer(linkSearchString, inhalt):
             buffer = elem.group()
-            toNode = buffer.strip('[]').split('|')[0]
+            toNode = buffer.strip('[]').split('|')[0].strip('][').split('<')[0]
             if not any(word in toNode for word in specialLinks):
                 linkList.append(toNode)
         return linkList

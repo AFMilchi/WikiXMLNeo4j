@@ -77,6 +77,7 @@ class DataProcessor():
         for elem in re.finditer(categorieSearchString, inhalt):
             buffer = elem.group()
             cat = buffer[buffer.find(':')+1:].strip('[]').split('|')[0]
+            cat = cat.replace('"', "'")
             categorieList.append(cat)
         return categorieList
 
@@ -109,6 +110,7 @@ class DataProcessor():
             buffer = elem.group()
             toNode = buffer.strip('[]').split('|')[0]
             if not any(word in toNode for word in specialLinks):
+                toNode = toNode.replace('"', "'")
                 linkList.append(toNode)
         return linkList
 
