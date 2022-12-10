@@ -86,6 +86,7 @@ class WikiHandler(xml.sax.ContentHandler):
         for elem in re.finditer(linkSearchString, inhalt):
             buffer = elem.group()
             toNode = buffer.strip('[]').split('|')[0].strip('][').split('<')[0]
+            toNode = toNode.replace('"', "'")
             if not any(word in toNode for word in specialLinks):
                 linkList.append(toNode)
         return linkList
