@@ -8,6 +8,7 @@ class WikiHandler(xml.sax.ContentHandler):
     def __init__(self, type):
         self.text = ''
         self.title = ''
+        self.id = -1
         self.current = ''
         self.connector = dbc.DbConnector()
         self.type = type
