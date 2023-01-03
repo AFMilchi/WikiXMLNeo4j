@@ -1,8 +1,9 @@
 import DbConnector as dbc
 import xml.sax
+import WikiHandler
 
 
-class DebugWikiHandler(xml.sax.ContentHandler):
+class DebugWikiHandler(WikiHandler.WikiHandler):
 
     def __init__(self, searchedArtikel):
         self.text = ''

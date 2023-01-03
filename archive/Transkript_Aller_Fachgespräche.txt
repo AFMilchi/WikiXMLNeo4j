@@ -1,0 +1,327 @@
+Experteninterview 1
+
+Interviewpartner: Experte 1, Stephan
+
+Datum: 15.12.2022 um 11:00
+
+Ort: Videotelefonat
+
+I=Interviewer, B=Befragter
+
+I: Dann habe ich jetzt die Aufnahme gestartet. Dann bedanke ich mich nochmal und fange an. Fragenblock 1 zur Person und Organisation ist das erstmal nur, damit man dich als Experten im Rahmen meiner Arbeit Einschätzen kann. Desswegen würde ich erstmal gerne wissen, wie alt du bist, in welcher Position du arbeitest, wie lange du darin schon bist, was dein aktuelles Kerngeschäft ist und was deine Berührungspunkte mit Wissensmanagement sind. 00:42 
+
+B: Also, ich bin 57 Jahre alt und seit 15 Jahren bei der BWI GmbH, eigentlich von Anfang an. Und hab damals für den UHD (User Help Desk) wo ich heute bin, also Service Desk ist das ja eigentlich. Das trifft ja den UHD und den Auskunfts und Vermittlungsdienst beide haben was mit Auskünften usw. zu tun und Wissensmanagement. Und damals hab ich im Produktion Support angefangen und hatte die Aufgabe ein Konzept zu schreiben fürs Wissensmanagement für den UHD. Und dieses Konzept, der Workflow also letzen Endes Autorenschaft, Redaktion und der gleichen und Diversifizierung von Wissen ist im Prinzip in Workflow in Maximo eingeflossen. Weil im Herkulesvertrag der zu Grunde liegt der BWI  ganz Ursprünglich der Vertrag von 1000 von Ordnern und da gabs unter anderem zum UHD und zu dem Inzidentsystem und der Teil Inzident  ebend ein integriertes Wissensmanagement haben soll also sprich die Tickets gehen auf und dann kommt über die Zusammenfassung schon gleich passende Wissensrecords, so war die Idee. 02:03 
+
+Und dafür braucht es ein konzept und das muss eben auch umgesetzt werden. Entweder über ein Tool, was wir heute bekommen über, wir bekommen ja ein neues ITSM System USU. Und damals war aber beschlossen worden, dass Maximo das Tool wird, weil die IBM das zugeliefert hat und dann haben wir das da integriert. Also da mit den Entwicklern zusammen und das existiert im Prinzip genau so heute noch. Wissensdatensätze werden in Maximo - dann hat sich rausgestellt, dass die Suche nicht so richtig funktioniert, die Volltextsuche und weil ich damals bei der Einstellung dachte ich suche ein System auf einer Messe und kriege keines vorgesetzt, da bin ich auf USU gekommen. Hatte das meinem Chef auch vorgestellt. Dann haben wir mit USU gesprochen und haben den Teil der SearchEngine damals dazugekauft und die sucht jetzt in Maximo seit 15 Jahren im Prinzip. 03:07 
+
+Jetzt bin ich etwas abgeschwiffen, was wolltest du noch, alter, was ich so mache.
+
+I: Genau, das haben wir auch gut durch, was waren so deine berührungspunkte mit Wissensmanagement, auch vor der BWI vielleicht? 03:17 
+
+B: Ja vor der BWI, das ist auch der Grund, ich war vorher bei Siemens. Bin eigentlich IT-Techniker seit über 30 Jahren, hab 10 Jahre Außendienst gemacht, Großrechner und Hostsysteme und bin dann irgendwann in die Schiene Clientsysteme bei Siemens gekommen und hab hier im Westen, Ruhrgebiet bis Köln für die Clientbetreuung gearbeitet.
+
+Ist Köln für die Kleinen Betreuung aber wir hatten Dienstleister die das da gemacht haben was war noch eben Vorläufer früher noch mit 1000 von Disketten eingelaufen und großes Chaos als Clients eingeführt worden weil Subdienstleisten das Wissen kam nicht richtig an, dan wurden alte Diskettensätze verwendet, mit den entsprechenden Nebeneffekten. Und da bin ich dann dazu gekommen entsprechend Anleitungen zu schreiben für die Region hier und das hatte dann auch Bundesweit anklang gefunden dann im Client Service, so bin ich da bekannt geworden und dann gabs einen Vorläufer von, sowas wie Sharepoint, das hieß Livelink, dann hab ich später die Artikel da reingestellt und dadurch war ich dann bei Siemens bekannt an der Stelle und bin dann zum UHD hier gekommen. 04:39 
+
+Genau und so Berührungspunkte Knowledge Management war erstmal das, das Konzept erstellen, dann dafür Sorgen, dass die ganzen zuliefernden Einheiten auch Wissensdatensätze für uns Schreiben, weil das muss daher kommen. Die haben ja bestimmte Vorstellungen wie bestimmte Dinge gelöst werden sollen, soll ja kein Trial and Error im UHD sein. Sondern verifizierte Lösungen. Desswegen sind wir da auch angewiesen, aber da ist leider Wille dann nicht so groß. Leider ist Bewiki so ein Nebenprodukt was bei uns vorbei geht. 05:36 
+
+Das habe ich gemacht und weil Wissensmanagement auch etwas mit Collaboration zu tun hat, bin ich auch Sharepoint-Site-Admin geworden, hab damals dann Sharepoint für den Service Desk eingeführt, die Seiten aufgebaut der gleichen und das mache ich jetzt im Grunde genommen jetzt seit 15 Jahren. Die Migration in den nächsten 4 Jahren auf USU wird jetzt auf mich zu kommen, das was ich damals schon machen wollte. USU hat wirklich ein sehr schönes Incidentmanagementesystem auch mit einem Top Wissensmanagement da drinnen und mit Fragebäumen auch. Was wir in Maximo heute, das gibts zwar, das haben wir damals auch angefordertet. Aber das ist nicht zumutbar gewesen haben wir gesagt. Haben wir eine Zeit lang versucht, aber ging nicht. Das ist ja der idealfall, dass man quasio so einen Turm hat und wird dann durch abfragen dahin geleitet, ähnlich vielleicht wie bei Chatbots, das Thema kommt jetzt bei uns auch im UHD, dass demnächst User auch die Möglichkeit haben sich per Chat an den UHD zu wenden und bekommen dann auf Grund ihrer Antwortet-Fragen passende Lösungen geliefert. Was auch damit zusammenhängt, das diese Systeme passend befüttert werden müssen. Das ist halt auch immer Spannend und großer redaktioneller Aufwand.
+
+Ansonsten mach ich Sharepoint, hab die Migration jetzt mitgemacht und betreue und begleite das weiterhin als Site-Admin das für den Service Desk. 07:14 
+
+I: Sehr schön, wir sind auch schon voll in die anderen Themen reingerutscht, das ist gar kein Problem, ist auch extra so semistrukturiert, weil mir ist des wichtigste den Gesprächspartner Reden lassen. Hab jetzt schon ganz viel gehört, was ich sonst als Frage gestellt hätte. Über die Rolle und Wichtigkeit haben wir jetzt schon ein bisschen geredet. Bei dir gehts vornehmlich um den Betrieb des UHDs, richtig? 07:36 
+
+B: Also das in aller erster Linie das Maximo-Wissensmanagment für den Betrieb UHD für den Zielbetrieb, klar. Wir haben so ca. 4000-5000 Wissenrecords, aktive im moment. Und ansonsten Sharepoint, kann man sagen ist eher für unsere Orginisation und Strukturierung der gleichen. Das Wissen, das die Leute auch für tägliche Arbeit brauchen. Das ist auf unseren Sharepointseiten abgelegt. 08:12 
+
+I: Vielleicht die allgemeine Frage, welche Faktoren findest du, das ein Wissensmanagment in der Firma klappt, oder was sind so die größten Stolpersteine die man haben kann. *redacted*08:30 
+
+B: Da ist schon genau so ein Satz drin. Wir haben ja ein Projekt gehabt in der BWI, wo was sich zum Ziel gesetzt hat Wissensmanagement für die BWI einzuführen. Und das ist in meinen Augen schon zu weit gefasst. Das war deine Frage auch schon. Wie wichtig ist ein Wissensmanagement in einer Firma? Das kann man so garnicht sagen finde ich, weil, das hast du ja schon rausgehört. Wir nutzen einen kleinen Teil WM, Maximo-WM. Das ist sehr spezifisch für den UHD, dann haben wir z.B. Icon, das ist für alle Mitarbeiter WM letzen Endes, das wird auch befüttert. Da gibts ne Redaktion, da gibts Autoren. Also man muss es glaub ich immer auf die Teilbereiche Fokusiert sehen, wo man es speziell braucht. Und das Projekt das wir bei der BWI hatten, das war auch eingekauft mit Beratern und die haben dann irgendwann eingesehen, es wird nicht gelingen so ein riesen, Eierlegende Wollmilchsau die man auch dem UHD hinsetzt. Die Finden da auch ihre speziellen Sachen, neben den Anderen. Und letzten Endes ist dabei ja rausgekommen, dass die Suchmaschine in Icon so verbessert wird, dass man darüber alles findet wo die ja jetzt gerade hingehen. 09:56  Das man auf ICON schon so eine zentrale Einsteigerseite ist, aber dann kommt man an die spezifischen Dinge, die man braucht. So ein bisschen wie Google, man kann eingeben was man Sucht und kriegt auch was. Und auch recht gut glaube ich, wenn man, hängt auch von den eigenen Suchbegriffen ab. Also ein WM, um auf die Frage zurückzukommen, ist super wichtig, aber es ist halt nicht EIN WM in einer Firma. Also die Kaufleute oder HR haben halt spezifische Dinge, die die brauchen, jeder für seine Arbeit halt. 10:36 
+
+I: Sehr spannende Antwort, also du beziehst das Wissensmanagement immer auf den Spezialfall 10:50 *redacted* 11:03 
+
+B: Das ist ja immer mit universellen Lösungen so, die kann niemals so gut sein im speziellem Fall wie die spezielle Lösung. Das muss dann ja alles abdecken. Ein bisschen wie das Beispiel das du am Anfang gebracht hast. Die UHD Leute haben nicht so tiefes Wissen, ja klar. Die UHD Leute sind die Generalisten die von allem ein bisschen was Wissen. So dass es vernünftig im einfachsten Fall mal richtig zuordnen können und richtig Routen, oder dann auch in gewissen Fällen in die richtige Tiefe gehen können. Wir haben da Vorgaben, dass WIRs (Wissensrecords) die im UHD angewendet werden, dass das so innerhalb von 10 Minuten abhandelbar sein soll, alles andere weiter geroutet werden soll, weil der UHD nicht dafür da ist. Weil sonst unsere Erreichbarkeit nicht hinkriegen. 11:55 
+
+I: Perfekt, gleich zu meinem dritten Block, du hast schon drüber gesprochen. Software die wir einsetzten ist in dem Fall Maximo plus USU Suchmaschine fürs WM. Würdest du gerne andere Software dafür Einsetzten und vorallem auch warum, also was könnte besser sein. 12:29 
+
+B: Vorallem USU, das ist erstmal eine Firma, die halt im Bereich WM aber auch ITSM Systeme Softwaresysteme Software herstellt. Wir haben ja in der BWI, gab ja eine Ausschreibung für das ITSM System, das für den ITL Prozess genutzt werden soll. Und da hat eben IBM nicht mehr gewonnen, also Maximo an der Stelle, weil das ja auch an gewisser Stelle, weil das Ding ist ja damals extra gebaut worden. IBM hatte ja von MRO eigentlich ein Assetmanagementsystem. Das haben die umprogrammiert und die in Systemlandschaft integriert. 13:21 
+
+Die Ausschreibung ist nicht mehr gewonnen worden. Es ist USU geworden, wobei USU auch, und zwar der Anteil Assetmanagement, früher schon bei *redakted* im Einsatz war. 13:33 
+
+Und das ist dann erstmal unser ITSM System das wir dann bekommen. *redakted* nennt sich ja das Projekt. Und dann wird Maximo abgelöst von USU, USU ist dann unser Troubleticketsystem. Und hatte damals auch schon und das wirds wohl auch wieder haben, integriertes Wissensmanagement. Ich habs mir damals auf der Cebit halt angeschaut. War zu verschiedenen Herstellern gegangen und das machte einfach damals schon den besten Eindruck. Von der Intuitivität und so weiter. Und das wird noch spannend in den nächsten 4 Jahren, die ganzen Wissensrecords müssen dann rüber. 4-5 tausend Stück. Im schlimmsten Fall ist das dann abtippen und eintippen und so weiter. 14:28 
+
+I: Welchen Stellenwert würdest du der Software im WM dann zurechnen eigentlich? 14:34 
+
+B: Ja, also die SW (Software) ist wichtig, aber was noch viel wichtiger ist, ist wo kommen die Daten her. Quasi der Autoren und Redaktionsprozess. Der ist noch viel wichtiger und komplizierter in einer Firma einzuführen. Das hab ich damals gemerkt, weil es gab überall Widerstände. Klar, Second Level hat gesagt, da haben wir so direkt nichts von. Da muss man aber erkennen eine Firma sitzt auch in einem Boot. Diese Erkenntnis ist auch mittlerweile da. Das ist auch damals dann eskaliert bis es immer höher gehängt wurde, bis ich Unterstützung bekommen habe. Das war vielleicht auch etwas - Wir haben das vom Service Desk damals eingeführt, weil da das riesen Interesse bestand bzw. die Wichtigkeit hoch war. Es gab damals auch kein Prozessmanagement, dass da darüberhängt. Das haben wir heute. 15:30 
+
+Was also abseits vom UHD das Prozessmanagement für den Incidentprozess saß früher im UHD. Und das war in sofern schlecht, von der Durchsetzungskraft. Da wurde dann oft gesagt ihr seid nur eine Einheit wie wir, warum könnt ihr Forderungen an uns stellen. Und dass ist heute besser, es gibt ein Prozessmanagement, wo alle Prozesse drunter hängen. Und seit dem funktioniert auch das zuliefern des Wissens. 15:58 
+
+Und wie gesagt BeWiki ist so eine Sache, klar das WM hat in Maximo gewissen Mankos, ist sehr stark auf die WIRs fokussiert. Aber wir haben quasi ein Parallelwissen im Second Level durch das BeWiki. Das funktioniert im UHD nicht. Die können nicht Ewigkeiten da rumsuchen. Die müssen da Schlagworte eingeben, die haben ja in dem Moment den User am Telefon direkt. Der sagt den was, die müssen die Schlagworte analysieren und eintippen und bekommen dann hoffentlich die passende Lösung. 16:36 
+
+I: Das wär auch direkt der nächste Punkt gewesen. Wer schreibt diese WIRs? 16:45 
+
+B: Es gibt einige wenige im UHD die selber WIRs schreiben - der Bestellprozess SRM ist dem UHD zugeordnet. Oder so ein paar weniger die das Handling im UHD betreffen. Aber alles andere wird und soll im Second Level geschrieben werden. Das ist auch inzwischen fast ausschließlich so. Und wir bekommen die bereitgestellt. Es gibt dann 17:13  *redakted* 17:25  Wir prüfen dann noch im UHD, sind die WIRs auch machbar im UHD. Ja, die müssen eigentlich aus dem Second Level kommen, da sitzen ja die Fachabteilungen. Die kennen sich ja mit den Techniken aus und wissen auch wie sie es gelöst haben wollen. Bringt ja nix, man kann ja auch googeln auch nach Problemen, aber es gibt manchmal verschiedene Wege nach Rom und was bringt es mir, wenn der UHD Mitarbeiter mir sagt über den oder den Weg bekommt man das hin, aber beim nächsten Update der zentral kommt wird das wieder überschrieben. 18:21 
+
+Desswegen muss das verifiziertes Wissen aus den Fachabteilungen sein. Das ist die Arbeit die ich mit meinem Kollegen auch, wir machen das zu zweit mittlerweile, haben da zu Argumentieren, dass das notwendig ist uns das zur Verfügung zu stellen. Das hat auch sofort eine Auswirkung eigentlich. Weil alles was wir nicht Lösen können, leiten wir weiter. Die Sofortlösungsquote steigt, wenn uns gutes Wissen zur Verfügung gestellt wird und auch gut geschrieben ist. 18:58 
+
+I: In welcher Form bekommt ihr das Wissen, oder die Wissensrecords? Wie ist da so der Aufbau? 19:11 
+
+B: Kannst sagen, Symptom - Ursache - Lösung. Einmal oben hast du einen Titel, dann ist der in einer Klassifikation zugeordnet. *redakted* 19:29 
+
+Dann das wichtigste da dran ist eigentlich das Sympthom. Was ist das Problem was der Kunde hat, das soll da beschrieben sein. Das sind ja in der Regel immer wieder die gleichen Probleme die Auftauchen. Dann die Ursache, wenn man eine kennt. Weil die Ursache gibt ja schon hinweis auf die Lösung. Und dann kommt schon die Lösungsbeschreibung. Das ist das Wesentliche in den Wissensdatensätzen. Das ist nicht so supertoll in Maximo realisiert. Aber da steht halt Text und das hängt vom Author ab, wie gut er das beschreibt. Wie kurz und knapp und verständlich, aber was ich ja schon sagte. Wenn das im UHD machbar sein soll gucken da auch die fachlichen Teamleiter noch drüber ob das verständlich ist. Teilweise wurden die in der Vergangenheit auch bei uns geschrieben, weil die Kollegen das Wissen hatten, aber die WIRs nicht da waren oder kamen. *redacted* 20:43 
+
+Die Klassifikation ist maßgeblich, also wo die WIRs ihrer Produktownerschaft zugeordnet sind. Daran sieht man aus welchem Bereich die WIRs kommen und da versuchen wir auch regelmäßig aufzuräumen, weil es ist unschön wenn diese aus dem UHD kommen.
+
+I: Dann greif ich mal direkt vor. Glaubst du das die Standardisierung und aufbau der Wissensrecords dazu beiträgt, dass der Secondlevel auch bereit ist diese WIRs zu schreiben und sie dadurch auch besser verständlich werden? Oder ist das evtl. eher ein Hindernis? 21:21 
+
+B: Das weiß ich nicht ob die das als Hindernis empfinden. Ich persönlich finde das gut und sinnvoll weil das schnell erfassbar ist. Du siehst schnell, was ist Sache. Darüber sucht ja auch die USU Suchmaschine anhand der Problematik die gerade vorliegt. Und dann kommen die passenden Wissensdatensätze. Dadurch wird vor allem von der Suchmaschine bei Symptomen gefunden oder im Titel. Und dann kommt halt Ursache, gut die ist ganz interessant, aber vor allen Dingen die Lösung dann. Ich sag mal wenn jemand sowas da in Prosa und nicht klar strukturiert schreiben würde, u.U wäre das schwer zu identifizieren. Das muss ja quasi im UHD mit dem User am Telefon sofort erfassbar sein. 22:28 
+
+I: Das passt dann gleich zum 5\. Frageblock dann, und zwar die Struktur von Artikel, also innerhalb des WIRs haben wir gerade schon geredet. Wie sind diese untereinander Strukturiert die Artikel. Also z.B. sind sie durch ihr Klassifizierung als Baum strukturiert. Gibt es aber auch noch andere Strukturen untereinander? 23:07 
+
+B: Da gibt es manchmal Verweise in WIRs, also was in der Lösungsbeschreibung steht ist ja immer sehr von der Problematik abhäng. Das sind teilweise technische, manchmal auch organisatorische Dinge oder was ist zu tun. Dann ist evtl. eine bestimmte Abteilung zu kontaktieren, oder es gibt Rufnummern, Ansprechpartner. Oder auch "Wenn es das nicht ist, dann bitte WIR soundso versuche". Was so ein bisschen das Thema Fragebaum wäre. Die haben aber jetzt untereinander jetzt keine Verbindung. Die hängen über ihre Klassifkation irgendwo im Klassifikationsbaum. Das ist einfach nur wichtig *redacted* das ist dann damit zugeordnet an die Fachabteilung die fachlich zuständig ist, vom Knowledge Manager her. Aber untereinander gibt es da keine Verbindungen. Aber was man sehen kann, ich muss gleich mal kucken. Man konnte früher sagen man hat einen Begriff und dann konnte man auf das Begriffsnetz, über die USU Suchmaschine, gehen. Und dann hast du im zentralem Punkt diesen Begriff nach dem man gesucht hat und dann gezeigt mit welcher Entfernung da andere Begriffe dran hängen. Aber das ist etwas was die USU Suchmaschine autark aufbaut. 24:54 *redacted* 25:20 
+
+I: Dann vom Arbeitsablauf her, der UHD Mitwarbeiter. Wie findet der seine WIRs, die er gerade benötigt? Nutzt der die Suche? Den Baum? 25:46 
+
+B: Der würde ja niemals über die Klassifikation sich dem Problem nähern. Gehen würde es schon. Wir haben ja für alles Arbeitsanweisungen, auch für den Incidentprozess und Arbeiten im UHD und Second Level. Gerade im UHD ist das wichtig. Daher haben die eine Vorgaben, wie die zu Arbeiten haben, so werden die auch geschult. Wir haben ja auch eine relativ hohe Fluktuation im UHD. Und da ist es im Prinzip so, die bekommen ihren Anruf. Der kommt dann schon über die HCP Anlage vor-klassifiziert rein. Dann kuckt der UHD Mitarbeiter noch "passt das zu dem was der meldet" und schreibt dann eine Zusammenfassung in den Inzident rein. Die Klassifikation bestätigt er dann oder wählt sie neu aus. Dann hat der in Maximo ein rotes Buch. Damit springt er in die USU Suchmaschine und die sucht mit der Zusammenfassung und mit der Klassifikation. 26:54 
+
+Dann kann der das noch modifizieren. Die Zusammenfassung wird in die Volltextsuche geklatscht und der kann das dann noch modifizieren. Kann auch mal die Klassifikation weghauen. So ein WIR kann ja auch einer etwas falschen Klassifikation zugeordnet sein, oder zu zwei bereichen gleichzeitig passen. Der kann dummerweise vom Prozess auch immer nur eine Klassifizierung haben. Deswegen lässt man die lieber beim ersten versuch weg. Das jetzt einer nach der Klassifizierung sucht ist relativ sinnlos, weil es, wichtig sind die passenden Schlagworte und Volltextsuche an der Stelle. Man hat bei, 6 Tausend waren es zuletzt, Wissensrecords. Da hat man keine Chance ohne Suchfunktion etwas zu finden. Wir haben im UHD ja verschiedene Skillgruppen. Also Leute die ganz spezielle Sachen eigentlich immer machen. Dann gerade Passwortresets ist ja so ein Ding, das ist ja immer wieder das gleiche, das passiert jeden Tag tausendfach. Da haben die Kollegen die das machen, die haben dann einige Favoriten angelegt, oder manche haben früher Post-Its sich an die Bildschirme geklebt mit den WIRs-Nummern, weil sie eigentlich das Wissen immer schon im Kopf haben. Wobei wir das eigtl. nicht möchten. Das kann sich ja auch mal ändern. Da kann plötzlich ein neuer Weg drin stehen im WIR, aber der Kollege geht weiter stumpf so vor. 28:44 
+
+*redacted*
+
+I: Dann noch mein letzer Block, das WM des WMs hab ich ihn genannten. Wie managed ihr denn das Wissen des Wissens, z.B. wie man das Tool bedient oder wie das redaktionell betreut wird. Also eigentlich das Wissen was du hast als Person, wird selbst auch nochmal gemanaged? 29:07 
+
+B: Also es gibt eine Arbeitsanweisung Knowledge Management. Die ist aber nicht mehr in meiner Verantwortung, die liegt jetzt beim Prozessmanagement. Da gibts jetzt fürs WM, das ist ja dem ITL Problemprozes zugeordnet, und die Kollegen haben die Handlungsanweisung, die ich auch irgendwann mal geschrieben haben, da gibt es dann auch Darstellung wie der Prozessablauf gerade auch in Maximo ist. Ansonsten beruht das schon stark auf meinem Wissen von mir und meinem Kollegen. 29:46 
+
+I: Wie ist das mit den Inhalten von WIRs? Gibts da Dokumente für den Second Level? 29:54 
+
+B: Da gibts natürlich noch den berüchtigten WIR#1, das ist also als Template zu verstehen. Da steht in dem WIR selbst drin wie man einen WIR zu schreiben hat und der wird von uns auch aktuell gehalten. Also was genau jetzt ein Symptom ist, wie man das formulieren sollte.
+
+I: Ich schau noch kurz ob wir geschlossene Fragen haben, die du nicht eh schon beantwortet hast. Aber tatsächlich haben wir schon alle schon im freitext beantwortet. Ich stoppen dann jetzt an der Stelle die Aufnahmen. 30:18 
+
+_____________________________________________________
+
+Experteninterview 2
+
+Interviewpartner: Experte 2, Tim
+
+Datum: 16.12.2022 um 10:00
+
+Ort: Videotelefonat
+
+I=Interviewer, B=Befragter
+
+I: Aufnahme läuft wieder. Dann fangen wir einfach mal an. Erster Fragenblock geht zur Person und Organisation. Ich hätte gerne, dass du einmal erzählst wie alt du bist, in welcher Position du aktuell arbeitest und wie lange du das schon machst. 00:23 
+
+B: 48 Jahre, bin seit 4 Jahren etwa in der BWI GmbH, Juni 2018\. Und arbeite als Lead Service Architekt und im Bereich der Service Neu- und Weiterentwicklung als beratender Anteil für die Solution Architekten. Vormals 20 Jahre bei Ericson gewesen. Da angefangen als Quereinsteiger in der IT, dann hochgearbeitet und hier gewechselt in die Service Architektur. In der Architektur angefangen *redacted* im Bereich Sina. 01:05 
+
+Und dann gewechselt Intern in die jetzige Position als quasi-Inhouse Berater.
+
+I: Danke, was hast du für einen akademischen Hintergrund? 01:15 
+
+B: Diplom Chemiker. Ich hab in der Krebsforschung gearbeitet. Ganz anderer Bereich und dann eben der Quereinstieg in die IT. 01:36 
+
+I: Und der letzte Punkt ist, wo hast du denn schon alles Erfahrungen mit dem Thema WM gemacht? Jetzt vielleicht einmal als Überbegriff, aber vielleicht auch als Bediener und Autor oder Ähnliches. 01:49 
+
+B: Also in der Uni hab ich es nicht gehört. Ich hab die Uni 98 abgeschlossen. Ich bin mit dem WM Thema in Berührung gekommen bei meinem alten Arbeitgeber. Bei sowohl der Unternehmensweiten Einführung als gemeinsames Unternehmenes-WM. Das sich dort gegeben hat als, um der Fluktuation der Mitarbeiter und der internen Fluktuation des Stellenhoppings entgegenzuarbeiten das Wissen verloren geht, wurde das zentral vom Unternehmen gefördert und vorgegeben, aber schlecht realisiert. Komme ich später zu. Und wir haben intern in der Abteilung ein WM aufgebaut, weil wir eine Schatten-IT betrieben haben und brauchten irgendein Medium um diese Information nachhaltig ablegen zu können, als strukturierte Daten. Komme ich später noch zu warum das gut oder schlecht war.02:37
+
+I: Perfekt, das sind auch genau die Punkte die ich ansprechen wollte. Deswegen nochmal allgemein zum WM, du hast es schon ein bisschen erzählt. Worin siehst du die Rolle des WM und glaubst du, dass es EIN WM für das Unternehmen gibt, oder siehst du du mehrere Rollen und Aufgaben? 02:53 
+
+B: WM ist meiner Meinung nach und aus den Erfahrungen die ich gehabt habe. Sollte es auf mehreren Ebenen sein. Das eine ist Derjenige, der das Wissen hat. Also der Konsument und gleichzeitig auch der Geber, also ganz unten in der Kette. Da drüber würde ich Denjenigen sehen, der Anleitend dazu führt, das diese Tools die bereitgestellt werden nicht missbraucht werden, der quasi Strukturen Vorgibt, und Rahmenwerke. Das man das Wissen strukturieren kann, oder wie auch immer man das Wissen abspeichern will. Man kann jetzt auch unstrukturiert über Suchmaschinenabruf arbeiten. Der Oberste wäre die Unternehmensstruktur, die sagt ich nehme, ich investiere in mein WM meiner Mitarbeiter nicht nur durch Schulungsmaßnahmen, sonder auch das interne Austauschen. Sollten dann dort quasi das Budget bereit halten. Nicht das er jetzt sagt "Du musst 10h WM machen" aber wenn man die 10h braucht weil man so viel Expertise hat die man ausspeichern will, muss eben auch der finanzielle Rahmen da sein. 04:00  *redacted* 04:05 
+
+I: Da kommen wir auch schon an die passende Stelle, wenn wir die Frage mal umdrehen, was sind so die typischen Stolperfallen gewesen, oder die du glaubst die es gibt und vielleicht auch welche die du selber miterlebt hast. 04:19 
+
+B: Genau, das eine ist die Finanzierung. Es muss ein Budget bereit stehen, dass man es machen kann. Das ist einhergehend mit der Motivation. Man kann Mitarbeiter auf der untersten Ebene schnell Motivieren ihr Wissen auszutauschen, aber wenn man ihnen nicht die Zeit lässt dafür, sie sondern durch die Gänge hetzt, man wenige Chance hat gute Informationen zu kriegen. Ich hab dann am Ende des Tages gesehen, die Lowperformer haben sich hingesetzt und sich quasi dahinter versteckt und als Arbeit das Klassifiziert. 04:50 
+
+Das zweite ist das Tooling. Wir hatten eine Microsoft, Art Sharepoint Lösung. Das hat dazu geführt, dass die Informationen sehr statisch, sehr mühsam einzuarbeiten waren. Fast nicht zu finden waren und nach der Migration DMS zu Sharepoint einfach kaputt war. Ich rede da von Umlauten, Trennungen, Bild und Text, es war also nicht das richtige Tool um Wissensmanagement zu machen um notfalls das Wissen dann auch in anderen Tools darzustellen. Es war also eine zu sehr Verknüpfung von Formatierungen, proprietären Umgebungen, und den eigentlichen Daten die man da speichert. Also zu starr. Das ist das zweite.05:34 
+
+Und das dritte ist Leute zu motivieren. Hängt mit beiden Sachen zusammen. Wenn das Tool scheiße ist, wills keiner machen. Wenn die Leute sagen du musst aber arbeiten, dann arbeiten sie halt eher. Die Motivationsgrundlage bei den Kunden und gleichzeitig, also die die das Wissen konsumieren und die das Wissen bereitstellen, zu schaffen ist teilweise schwer. Das bedarf quasi Vorturnen von dem Management. 06:02 
+
+I: Du hast auch schon schön umgeleitet zu meinem dritten Block, da geht es nämlich um die technische Unterstützung. Welchen Stellenwert würdest du dieser zusprechen fürs WM? 06:16 
+
+B: Ja, recht hoch. Aus zwei Gründen. Erstens wegen der Nutzbarmachung, also auch der Usability. Wenn du ein Nutzer vor ein Tool stellst und sagst hier ist ein SAP, du musst 15 Flächen aufklappen um etwas reinzutippen und dann wieder 15 Flächen wieder zuklappen. Dann wird sich auch der motivierteste Mitarbeiter abwenden, wird sagen, mach doch dein Zeug alleine. Das muss quick sein, schnell möglich sein Daten auszuspeichern und Daten zu finden. Das In und Out sind die wichtigsten Punkte an einem Tool. Und das Tool meiner Meihnung nach als Motivationstreiber im WM ist der zentrale dreh und Angelpunkt. 06:51 
+
+I: Tools gibts jetzt viele verschiede, du hast jetzt hauptsächlich von DMS-Artigen und einer Wikisoftware geredet. Wo siehst du da Vorteile/Nachteile und womit hast du hauptsächlich gearbeitet. 07:14 
+
+B: Ich hab vormals in meinem alten Leben, bei meinem alten Arbeitgeber mit DokuWiki gearbeitet. Primär mit Wikis wegen dem flachen Rechte und Rollen Konzept dahinter. Hat aber natürlich auch Mängel, wenn man höher Eingestufte Daten haben will. Sharepoint ist für mich eine Datenablage für höher strukturierte Daten, Daten die auch in einem Revisionsprozess sein müssen. Heißt für mich setzt ich die grenze zwischen "Was kommt in ein Wiki" und "Was kommt in eine Datenbank oder Ablagesystem wie Sharepoint". Sharepoint sehe ich wie ein Filesystem wo ich Daten reinpacke, die ich Release, wo ich ein Releasemanagement machen muss, wo ich auch ein Dokumentenflow habe. Dokumente die quasi reviewed werden bevor sie raus gehen. Und da lege ich auch Daten ab die groß sind. 08:11 
+
+In Wiki lege ich auch flüchtige Daten ab, im Gegensatz zu den statischen DMS. Da leg ich auch sowas wie Tipps und Tricks. Sachen die sich auch nach einer Zeit einfach wieder verdünnisieren. Ich nutze das BeWiki auch um den Bereich der Task und Arbeitspakete zu verlinken ins Jira. Also ich versuche jedes Tool so zu nutzen, dass es den maximalen Mehrwert bietet. Sharepoint für Dokumente, das BeWiki für Flüchtige Informationen oder auch Sprungpunkte, also quasi "Wie finde ich was" und Verlinkungen. Und Jira für die eigentlichen Aufgaben. Und das Gesamtkonzept ist dann mein WM. 08:53 
+
+I: Auch interessant, das alles zusammen ist für dich das WM. Also auch eine DMS Ablage mit technischen Manuals gehört dazu. 09:09 
+
+B: *rephrased* Klar, auch beim Solution Entwickeln gehst du da rein, holst dir einen LAN-Plan, den WAN-Plan, dann hol ich mir Tipps und Tricks von dem Service aus dem BeWiki. *\rephrased* und schaue geht das, geht das nicht, was sind die Grundbedingungen und dann gehe ich in Jira rein und schaue ob ich offene Tasks dazu finde im Sinne "wir sind schon dabei etwas dazu umzusetzen". Also mein Wissen speist sich aus allen den Gebieten was ich zum Arbeiten brauchen. 
+
+Und jetzt dann kommt die große Frage, wie kann ich mehrere Wissenssilos abfragen? Ich brauche eine geile Suchmaschine und das hat tatsächlich damals Ericson als Schatten-IT, mitlerweile offizielle IT. Die haben sich eine Suchmaschien auf OpenSource Basis die alles abfrägt. Von Incidenz Tickets, Problem Tickets, Wissensrecords, Reports, grad bei Ericson waren es viele technische Changes als Software und Hardwareentwicklung und alle internen Webseiten. Und das ist einfach glaub ich generell notwendig, eine globale Suchmaschine die wirklich auch alles abfragt. 10:11 
+
+Wir hatten sowas früher im Sharepointvorläufer, da konnte man auch viele Sachen finden die man vielleicht nicht finden sollte, weil Leute unvorsichtig waren mit Rechte und Rollen vorgaben. Dafür gibts ja das Wiki, wo man quasi die nicht-unter VS (Verschlussache) Fallende Dokumente oder Informationen ablegen können. Man hätte da aber vorallem Verlinken können "Es gibt da diese Dokumente", nach dem Need-To-Know Prinzip, frag den und den. Das gibts im Sharepoint nicht. Da gibts Zugang, oder nicht-Zugang. 10:44 
+
+I: Sehr spannend. Im UHD gabs damals ähnliche Probleme. Da wurde WM in Maximo gemacht, aber es musste die USU Suchmaschine dazu gekauft werden, weil  die Datensätze sonst nicht durchsuchbar waren. 11:00 
+
+B: *redacted* Das ist auch noch die große unbekannte inwieweit USU dann wirklich alles ablösen kann. Vorallem wenns dann um Datenmigrationen geht, das wird dann die große Bereitstellungstelle. Und wenn da dann das Wissen fehlt, das führt dann dazu, zu Wissensduplikation. Wenn ich kein Zugriff drauf haben, dann dupliziere ich das Wissen. Was dann wieder losgelöst ist und führt zu, loose Ends, nenne ich es mal. Weil ich irgendwas nur einem begrenzten Kreis zu Verfügung Stellen kann, dupliziere und dokumentiere es im BeWiki um es allen bekannt zu geben, und dann Pflegt das keiner Mehr. Da sollte man halt am besten Verlinken anstatt zwei mal schreiben, sonst muss man zwei mal Pflegen. Das heißt WM geht auch einher mit der Datenplege. Nicht immer nur Konsumieren und mal was reinschreiben, sondern eben auch Pflegen. Das ist sehr hoher Aufwand. Die sieht man am Anfang nicht. Man sieht nur 500 neue Communitys, 500 neue Mitarbeiter die mitmachen wollen. Aber wie will man die Daten Pflegen? Das hätte man sich vorher überlegen sollen. 12:19 
+
+I: Wer ist denn Verantwortlich dafür, dass Wissen ins WM reinkommt, wer ist Verantwortlich dafür, dass es strukturiert wird und wer Pflegt das am Ende? 12:37 
+
+B: Die Antwort ist aus unterschiedlichen Blickwinkeln. Die Geschäftsführung wird sagen, das müssen die Fachabteilungen machen. Die sind ja dafür Verantwortlich das Wissen zu schaffen und zu Pflegen. Quasi in interne Schulung da reinzugehen. Wenn man unten ist und nach oben kuckt, sagt man das muss die Geschäftsführung vorgeben weil die das Budget dafür hat. Sowohl für die Einführung des Tools, die beim CIO liegen. Als auch für die Finanzierung die beim CIO liegen, der sagen muss ich stelle da Geld zur Verfügung. "Ich sehe das auch als strategische Information und Ziel". Es muss eine Geschäftsstrategie festgelegt werden, dass wir das machen wollen und wie das gemacht wird. Es gibt auf der CIO eine Liste der Tools, da ist BeWiki schon drin. *redacted* 13:29 
+
+*rephrased* Da muss dann auch als Risiko zum beispiel der Renteneintritt von Mitarbeitern und natürliche Fluktuation stehen mit WM als eine der Möglichkeiten zur Schadensminimierung. Weil die Leute die gehen das Wissen mitnehmen. *\rephrased*14:01 
+
+Das WM einzufüren ist nicht nur ein strategischer, geschäftserhaltender Prozess. Das seh ich bei der Geschäftsführung, genau das zu erkennen. 14:09 
+
+I:  *redacted* 14:28  Was hällt den die Leute davon ab, das Wissen weiter zu geben? Es fest zu halten? Warum machen die das nicht? 14:38 
+
+B: Es gibt zwei typen von Kollegen und Kolleginnen, der eine Typ sagt "ich mach das nicht, weil das ist MEIN Wissen und damit meine Daseinsberechtigung auf meiner bisherigen Position ist. Heißt, als Argument "Da ich so ein Experte bin, bin ich auf der Position und keiner kann mich ersetzten". Das ist eine sehr subjektive Sicht und auch nicht sehr schlau. Wenn man die mal reflektiert stellt man fest, da dieser Mitarbeiter sich damit als unersetzbar qualifiziert ist sie nicht nur ein Geschäftsrisiko durch spontanen Ausfall. Es gab vor ein paar Jahren mal einen Kollegen der ist sehr plötzlich gestorben, der hat das Datenbankpasswort mit ins Grab genommen. Dann wurden die Datenbanken neu aufgesetzt, das war ein riesiger finanzieller Impact und auch für den Kunden ein Inpact, weil dann die Datenbank nicht verfügbar war.
+
+Zweiter Punkt ist, die Mitarbeiter sehen auch nicht, dass sie in den Urlaub gehen können. Dann gibt es so Mitarbeiter, das habe ich in meiner alten Firma gehabt, die in den Burnout gehen, weil sie sich quasi selbst in so einer Todesspirale sehen, weil sie ihr Wissen, dass sie ja nicht abgeben. Und damit auch ihre Aufgaben nicht abgeben können und damit sehen "Ich kann nie in den Urlaub gehen" 15:56 
+
+*redacted*
+
+Und der zweite Typ Mensch, der hat das begriffen oder ist nie in diese Stolperfalle gekommen. Und ist sehr aktiv am Wissen teilen, weil er vielleicht egoistisch ist, ich auch, im Sinne "Wenn ich es drei Leuten erklären, können sich diese 3 mit mir die Arbeit Teilen. Dann habe ich weniger Arbeit". Und ich habe vielleicht sogar Zeit für eine andere Aufgabe, oder über den Tellerrand zu kucken. Das heißt, das Wissen eine bestimmte Aufgabe abzuarbeiten, wenn man das Teilt, kann man nur gewinnen. Man kann ich den Urlaub gehen, ohne das der Firma was passiert, man kann sich tatsächlich auch in anderen Bereichen mal umschauen, man kann wechseln ohne dass etwas zusammenbricht. Das ist eben der andere Typ. Ich hoffen das wir die Mehrheit der Mitarbeiter auf der 2\. Seite haben. Aber die sagen "Wenn ich es anderen erkläre, können mir auch andere helfen". Damit kann ich mich auch weiterentwickeln. 17:18 
+
+I: *redacted* Es ist ja nicht nur das Tool, sondern eben auch die Struktur wie man da Wissen ablegt, du hast vorhin drüber geredet. So ein Dokument ist relativ starr strukturiert. Würdest du sagen das hält einen eher davon ab sein Wissen zu dokumentieren, oder hilft es eher dabei? So im Vergleich zu einem Wikiartikel. 17:53 
+
+B: Super Frage, Antwort ist, es gibt bereits eine Umsetzung von einem Kollegen. Der hat das so strukturiert, dass du das Wissen einfach in BeWiki reinhauen kannst. Und wenn du auf einen Knopf drückst, kommt ein Dokument genau so raus wie ein technisches Support Manual. Alle Textblöcke sind an den richtigen Stellen und mit Firmenvorgaben. Den Outputfilter hat er sich so programmiert. Das ist richtig cool und das funktioniert auch. Du kannst richtig schöne Dokumente machen und du kannst sie auch dynamisch machen. 18:29 
+
+Eben weil ich glaube so ein simpler Wikieintrag ist eine geringer Hemmschwelle sein Wissen aufzuschreiben. Wir haben aber trotzdem Vorgaben, formale Dokumente ja zu erstellen. Das ganze ist dann nicht einmal geschrieben und abgelegt, sonder immer flexibel und perfekt. Und es ist damit viel schneller Updatebar. Du hast zwar immernoch einen Releasezyklus, weil das ja einer überprüfen muss bei Standarddokumente. Aber man hat eben sehr viel weniger hürden. Weil du kannst es immer exportieren wenn du es brauchst und hast immer die frischste Version. 19:07 
+
+I: Mit dem Kollegen muss ich auch mal reden. *redacted* 19:53 
+
+Wie strukturiert der Kollege dann das Wissen in den Artikel und wie würdest du sagen, dass Wissen am besten Strukturiert wird. Streng formalisiert oder lieber sehr frei? 20:15 
+
+B: Das Problem ist, wenn du keine Anleitung hast, dann machst du das so wie ein Word Dokument. Du baust dir eine Menüstruktur zusammen, die extrem Tief geht. 7,8 Ebenen hab ich locker schon gesehen. Und die legen immer nur eine Seite an. Das ist dämlich geschwinde gesagt. Aber man macht halt was man kennt. Du brauchst Anleitung an dem Tool, ein Tool ist nur so gut wie es erklärt wird und nutzbar ist. Und gewisse Ideen sollte man mitgeben. 20:51 
+
+Ich vergleich das immer mit den GeoCity Webseiten, die umsonst waren und jeder konnte sich austoben. Es war lila Text auf gelb blinkendem Untergrund. Der Hirntodt war vorprogammiert. Warum? Leute haben mit dem bestehenden Tools etwas gebastelt. Das diese Information extrem schwer zugänglich war, oder auch graue Schrift auf weißem Hintergrund nicht einer Usability entspricht, das ist den quasi nicht bewusst gewesen. Woher auch. 21:17 
+
+Wenn man da Vorgaben kriegt, ist es im Mittel viel besser. Das geht sowohl in den strukturierten Anteilen, als auch die unstrukturierten Anteilen. Ich hab ja gerade erzählt, ich nutze das Jira auch. Jira enthält auch Wissen. Nämlich Probleme und wie wir sie gelöst haben und in welchem Zeitraum. Informationen die auch brauche. Diese Information will ich nicht in eine Wikiseite reinhauen. Sondern ich packe sie in das Tool, was das richtige ist dafür. Nämlich ein Arbeitspaket-Abarbeitungstool Jira. Aber ich will es unbedingt verlinken und das Wissen was da drin ist damit auch zugänglich machen. Das muss man möglich machen. Heißt eine Strukturierung hängt immer davon ab, welche Daten man hat und welches Ziel man damit verfolgen möchte. Wenn ich Arbeitspakete habe, Tasks habe, dann nutze ich Jira. Das liegt quasi unstrukturiert vor, die Zuordnung erfolgt nur über die Jira-ID. Aber sonst sinds Datensätze irgendwo, da bin ich total Tool-Agnostisch. Aber ich möchte die Daten selber reinziehen und findbar machen. 22:22 
+
+Strukturen selber ist immer fraglich. Unstrukturierte Daten und strukturierte Daten hängt immer davon ab wie ich sie erschließen kann. 
+
+Ich könnte jetzt sagen, ein Mitarbeiter hat eine Tolle Idee, geht auf eine Webseite oder Tool, schaut "gibt es das schon?", sucht danach mit Hashtags, findet nichts. Legt einen Artikel, der wird irgendwo abgelegt und fertig. Und wenn der nächste eine Problem hat, findet er das. Er braucht keine Startseite die überladen ist oder keine vorgegebenen Stukturen, Bäume, links rechts oben unten. Sondern er würde einfach eine Suchmaschine finden. Wie im Amazon Logisitklager. Da wo Platz ist, komm was rein. Und die Intelligenz liegt in der Suche in der "Wie finde ich es am schnellsten" 23:08 
+
+Das damit zusammen "Wie will ich mein Wissen strukturieren?", hängt davon ab mit welchen Tools will ich das machen und ist das dann zukunftsfähig. Hab ich einmal unstrukturiert angefangen, kann ich später dann zu strukturierten Umgebungen wechseln? Antwort ist Ja! Man würde dann die Suchbäume abarbeiten und statisch ablegen nach Kriterien die man definiert. Kann ich aus strukturierten Daten unstrukturierte machen? Klar, Bombe drauf werfen und man nimmt die Bruchstücke. Nur fraglich was das einem bringt. Aber aus einem strukturiertem Rahmen in einen anderen strukturiertem Rahmen zu wechseln ist massive schwierig. Weil man Prosatexte hat, die am Stück sind, Leute wie einen Aufsatz schreiben, was runtergetippt haben und immer eine Seite anfangen und runterbasteln. Und ich kann eben immer nur den ganzen Block nutzen. 24:04 
+
+I: Damit hast du auch gleich meine geschlossene Frage abgehackt. Du siehst auch das viele Leute extrem lange Kategoriebäume bauen. Und das in viele Unterpages runter und nur einen Artikel dann unten anhängen. 24:20 
+
+B: Genau und wenn ich jetzt einen neuen Artikel schreiben will muss ich 8 Ebenen springen bis ich weiß wohin damit. Und erst wenn es den Kategorie Baum noch gar nicht gibt, dann muss ich den ja selbst erst bauen. 24:29 
+
+Es gibt aber auch auf jeder BeWikiseite Hashtags Funktionen. Du kannst Hashtags vergeben und kannst die damit besser findbar machen. Nur sind die Hashtags nicht Vorgeben. Du findest dann "Sina" großgeschrieben, kleingeschrieben, Bindestrich "L2" oder Unterstrich "L2" und und. Das ist dann tatsächlich etwas komplizierter sich das Wissen zu erarbeiten. Da wäre eine Suchmaschine die mit Unschärfen Arbeitet einfach Top. die würde dann auch in dem jetzigen Setup mit Sharepoint und BeWiki und USU und Jira arbeiten. Wenn sie alle Datenquellen erschließen könnte, würde sie vielleicht sogar die Frage beantworten "brauche ich ein strukturiertes oder unstrukurierstes Tool? Brauch ich eines? Brauch ich mehrer?" damit erschlagen das ich sage "ich nehme alle". Warum? Jedes hat seine Vorzüge. Aber ich kann Jira komplett durchsuchen, Sharepoint, Bewiki, ich hab einen Suchlauf und Indizierung der in der Nacht läuft und fertig. 25:30 
+
+So eine Suchmaschine wäre das große Pflaster ohne eine Entscheidung zu treffen, die man in 2-3 Jahren bereut. 
+
+I: Ist die Strukturierung dann nur für den Menschen ohne nicht auch eher für die Maschine da? 25:48 
+
+B: Ein Mensch will darin ja gar nichts mehr Suchen. Dafür gibts dann die Suchmaschine und die muss die Sachen eben finden. Ich will auch keine Bäume mehr durchklicken um am Ende festzustellen, dass ich dann doch in die Irre geführt worden bin. Weil derjenige der den Baum mal zusammengeklickt hat, hat das mit einer ganz anderen Intention gemacht. Und das intuitive Suchen, das kann eben nur eine Suchmaschine, siehe Googel, der Algorithmus machst. 26:12 
+
+I: Dann gehen wir mal über den letzen Frageblock, du hast ihn eigentlich schon fast erschlagen. Wiki der Wiki habe ich ihn genannt. Was ist denn mit dem Wissen über das Wissensmanagement und die Tools? 26:23 
+
+B: Ganz großer Punkt. Wie baue ich am Besten Artikel auf, wie formatiert man Tabellen, und das allgemeine Wissen über das WM selbst sollte auch irgendwo angelegt sein.
+
+Dafür gibts jetzt relativ neu ein BeWiki Handbuch. Das wurde eine Zeitlang auch beworben. Und wird auch von *redacted* gepflegt. Da gehts genau darum. Das BeWiki Handbuch gibt euch Hilfen im Umgang mit Artkeln. "Unser Ziel ist es das BeWiki Handbuch kontinuierlich weiterzuentwickeln um euch das Erstellen, Ändern und Benutzen einfach und standardisiert mit hoher Benutzerfreundlichkeit zu ermöglichen"
+
+Das haben sie schon aufgenommen. Das ist genau das was ich eben meinte mit Vorgaben machen für die Mitarbeiter. Da sind dann auch Templates und Vorlagen drin für bestimmte Arten von Artikeln. Das erhöht einfach die Suchbarkeit und auch die Qualität der einzelnen Artikel. 27:25 
+
+I: Ich hab dann gar keine Fragen mehr dazu, du hast ja schon klar gestellt wie wichtig du genau das findest und welchen Einfluss das hat. Das ist dann auch die Stelle wo ich die Aufnahme Stoppe. 27:39 
+
+_____________________________________________________
+
+Experteninterview 3
+
+Interviewpartner: Experte 3, Andi
+
+Datum: 16.12.2022 um 14:00
+
+Ort: Videotelefonat
+
+I=Interviewer, B=Befragter
+
+I: Aufnahme läuft, das ganze ist semistrukturiert und wir schauen einfach mal wo es hingeht. Deswegen fangen wir einfach an mit zur Person und Organisation. Kannst du dich einmal Vorstellen, sagst wie alt du bist, wie lange du im Unternehmen bist, was du vielleicht vorher gemacht hast und was deine Berührungspunkte mit WM bisher waren. 00:21 
+
+B: Ok, *redacted*, 37 Jahre alt. Seit 2 Jahren bei der BWI GmbH als Senior Service Architekt im Bereich DSA/ITSM, hauptsächlich im Themagebiet Platformausschreibung und hab die ganze Thematik, das Vergabeverfahren begleitet und mitgemacht, fachlich. Und jetzt haben wir unser Tool ausgewählt und es geht darum es einzuführen und da gibt es viel was an Informationen zum einem dem gesammten Unternehmen zur Verfügung gestellt werden muss, aber auch uns selber, uns selber strukturieren, Meetings mitschreiben. Das wir da einen Ort haben für. Und da bin ich jetzt weiter Servicearchtiekt für den Service ITSM Platform. 01:52 
+
+Was hab ich bisher gemacht? Was hab ich Berührungspunkte? Ich bin gelernter Fachinformatiker Anwendungsentwikclung, ehemaliger Datenbankprogrammierer. Damals 2006 glaube ich, 2003-2006\. Und hab damals mit PLSQL Lagerwirtschaft Produktionssystem im internationalen Automobilkonzern mitentwickelt und solche Sachen gemacht. Danach war ich in einer Marktforschungsabteilung, Marketingbereich von der Firma und hab dort unter Anderem IT, Datenbanken gemacht, gefüllt mit Marketinginformationen und Wettbewerbsanalysen machen konnten. Und dann ist es immer mehr Marktforschung geworden, bin dann in die IT gewechselt von dem selbem Unternehmen und war so 1-2 Wochen im Jahr im Ausland, 36 Standorte, fachliche Leitung von denen und hab dort damals halt in Excel Portfolio Koordinierung gemacht, gekuckt, dass wenn ich an Standorten war, dass ich die Zentrale vertreten hab und wenn ich in der Zentrale die Standorte vertreten hab und gekuckt, das nicht alle gleichzeitig da auf die ITler losgehen. 03:34
+
+Deswegen so ein bisschen als Bottleneck so dazwischen, von wegen Steuern, Koordinieren, dass das alles klappt, regelmäßiger Austausch Vorort ob das auch alles so passt. Der Schmarn hat mir Spaß gemacht, so muss ich sagen. Das heißt ich hatte nur ne Ausbildung, machte das alles aus dem Bauch raus, Mitarbeiter einstellen und solche Gespräche. Und dann hab ich gesagt, gut ich will das auch Studieren und hab eben meinen Bachelor in Wirtschaftsinformatik angefangen und 2016 meinen Master abgeschlossen. 04:18 
+
+Währenddessen war ich weiterhin im Unternehmen, dann in der Abteilung Governance. Da gings halt drum, dass die IT-Governance da ist, wie sollen die Abteilungen zusammenarbeiten, den Umschwung, dass jetzt disziplinarische Führungskräfte fachlich nichts mehr zu sagen haben und nur noch Peoplemanagement machen. Und es halt jetzt fachliche Experte, fachliche Führung gibt. 05:02 *redacted* 05:11 
+
+Ja, auf jeden Fall hab ich dann Studium fertig gemacht. Währenddessen war ich 5 Monate in China, hab da ein Praktikum gemacht und dann bin ich vom CIO Richtung China geschickt worden, um dort das Live gehen vom chinesischem First-Level Support zu begleiten und den Rollout von dort, von der neuen ITSM Lösung. War danach dann 1 Jahr in Polen, hab da ein IT-Service Center aufgebaut. Ganz viele Bewerbungsgespräche gemacht. War IT-Manager Vorort. Und dann andere Projekte, größere im Unternehmen gemacht und dann gesagt ich will eigentlich gar kein Projektleiter machen, und in dann rüber in ein Sabbatical und bin danach zur BWI gekommen. 06:31 
+
+Die Frage die du noch gehabt hast, warum und was ich denn mit diesen Sachen schon zu tun hatte oder zu tun habe. Das Thema Wissen hat mich zu einem begleitet, weil ich ja in einer Marktforschungsabteilung war, weil damals hatte man ja auch schon Content Management Systeme, so Intranet mäßig, was dann dafür gesorgt hat, dass wir da Artikel geschalten haben und dann insbesondere Sachen wo uns Informationen zur Verfügung gestellt wurde musste man dann Artikel veröffentlichen und schreiben. Die anderen Themen waren dann während meines Studiums, meine Masterarbeit, wo ich dann auch mit dem Thema WM starke Berührungspunkte hatte. 07:27 
+
+I: Perfekt, danke. Dann starten wir gleich mal ins allgemeine WM rein. In welcher Rolle siehst du das WM im Unternehmen und vor allem wie du es differenzierst. Und was sind so die Gründe warum es klappt oder eben nicht. 07:51 
+
+B: Man muss da immer perspektivisch an die Dinge rangehen. Mittlerweile hat man nicht mehr das Thema, dass das Wissen nicht zur Verfügung steht. Sonder das man an einen Punkt kommt wo man Wissensoverflow hat. Also zu viel Wissen, wenn man sich wirklich alles ankucken würden. Das Thema was ich sehe, Wissen ist ein elementares Gut, dass benötigt wird um zu steuern. Und zwar zu steuern, wie sich ein Unternehmen ausrichtet, welche Werte sie vertreten und so weiter. 08:43  *rephrased* Da kommen dann irgendwelche Bekanntgabe-Emails, entschuldige, aber das ließt doch keiner */rephrased* Keiner hat die Zeit das zu tun, es gibt keine klare Story von vorherein, von wegen du sollst das und das machen mit diesen oder jenen Möglichkeiten. Es ist extrem anstrengend und schwierig zum richtigem Zeitpunkt die Informationen zu bekommen die du brauchst. 09:09 
+
+Weil theoretisch müsstest du - ich bin ja im Projektgeschäft, deswegen bekomme ich recht wenig mit, was eigentlich sonst in der Linie oder Alltag der Firma passiert. Es müsste regelmäßig Abteilungscalls geben, wo man die Highlights präsentiert bekommt von wegen "Das sind die neusten Artikel, das Betrifft dich so und so, du musst noch das und das machen". Das verstehe ich unter Peoplemanagement, dass du deine Mitarbeiter enabelst und befähigst. Manche machen das sehr gut, in der ersten Abteilung als ich zur BWI gekommen bin war das so. Da war es nicht so, einer aus dem Team muss Protokoll schreiben und dann hat der Vorgesetzte nur BlaBla gemacht und man musste man hoffen, dass dann alles mitgegangen ist. Neine, das wurde alles im BeWiki vom Vorgesetzten vorgeklickt, gesagt das sind die Schwerpunkte wo ihr draufkucken könnt, jeder hat gleich mit reinkucken können, Links angelicken können, selbst noch Input mit reingeben können. Dann gab es da zwei Leute, die sich dann auf bestimmte Sachen fokussiert haben. Der eine hat dann recht gerne ICON Artikel gelesen und hat uns gesagt "das und das ist noch wichtig", wenn Bekanntgaben gekommen sind, hat er sie sich durchgelesen und gesagt "der Absatz ist für dich relevant, für dich wichtig". Aus diesem großem Informationsflutgewurschtel gekommen und gesagt "Ok, das sind die Sachen die du brauchst". 10:49 
+
+Das Problem bei Wissen ist nicht nur die Dichte und die Größe und der Umfang, sonder es ist bei manchen Personen fehlt, beziehungsweise die Informationen sind nicht so aufbearbeitet, dass man sie Phrasen kann, das man schnell durch gehen kann, sagen kann "ok, das sind die Highlights, die Schlagworte". Sie werden nicht in der Intention geschrieben, so man muss innerhalb von 30 Sekunden in so ein riesen Block von Text Kerninformationen rauslesen können. Indem sie fett sind, dunkel blau sind, keine Ahnung was und der Text der zwar interessant ist wenn man ins Detail gehen möchte, dann sollte der aufklappbar sein, oder leichtes hellgrau, das man ihn nicht sofort sieht. Da gibt es extrem viele Möglichkeiten wie man über Farbgestaltung, über den Aufbau, über wie du die Information die du bereitstellen möchtest - Leute dazu bekommst, Sachen schneller zu verstehen. Und da fehlt es meiner Meinung nach an verschiedensten Stellen. 12:18 
+
+Aber da liegt das eher an der Unwissenheit. *redacted and rephrased* Dann musste ich meine Abschlussarbeit nach der Ausbildung schreiben, schön technisch, richtige Programiererarbeit.  */rephrased* 13:50  Hat richtig spaß gemacht, mit Linux, einfach rumbasteln und spielen. So, und dann kam das blöde: Wir mussten eine Arbeit schreiben. Ich hab bis dahin nie eine Arbeit geschrieben, keine Ahnung. So wirklich die Unterstützung, was gehört da rein, wie baut man das auf. Also wenn du von der normalen Ausbildung kommst, hast du ja auch gemacht, und dann kommt da auf einmal einer an und sagt "Hast in der Ausarbeitung ne 2 bekommen, weil du hast die die die Punkte nicht beachtet und das ist eigentlich Standard" Ich dachte nur, "Was? Wie? Das war Standard?". Das ist mein Aha-Punkt gewesen, ich gehe davon aus, dass wenn man Leuten ganz kleine Sachen einfach sagt, ohne das man es böse meint, dann hilft es ihnen. Dann passierts halt, dass man Sachen mehrfach hört. 14:53 
+
+I: Da würde ich sehr gerne einhaken, wie bringt man denn genau das Wissen den Leute näher? Wie sie ein Wiki betreuen, wie sie ihre Artikel strukturieren und so weiter. Sagst ja selbst, die Wissen das ja eigentlich. Die sind als Programmierer angestellt und müssen jetzt plötzlich einen Artikel schreiben. 15:12 
+
+B: Ganz einfach. Indem man ordentliches Governance hat und Strukturierung in Richtung Veränderungsmanagement hat. Und dann sagt - Grundsätzlich ist das so und so aufgebaut, wenn du ein neues Protokoll schreiben möchtest, dann findest du immer da standardmäßig einen Knopf. Der heißt "Protokoll erstellen" wenn du da drauf gehst, dann ist das Protokoll mit einem Template schon so und so aufgebaut. *redacted* Dann kannst du da mit dem Tool Greenshot durchgehen, deine 1,2,3 ranschreiben, und so dokumentieren. Wenn du das alles auf eine Infoseite packst, und zu den einzelnen Punkten kurz runterschreibst was das ist. 16:16 
+
+Wenn du dann ein Protokoll anlegst und da oben ist dann die Verlinkung "Wie gehe ich damit um", dann hast du schonmal die Erklärung zu dem technischem. Das ist am besten auch direkt in dem Tool selbst dokumentierst, dass du verwendest. Sonst hast du einen Medienbruch, eher Wissenssilo Bruchstücke wieder. 16:24 
+
+*redacted* 16:38 Zum Beispiel Protokolle, was mich immer extrem geärgert hat war, es werden irgendwelche Protokolle im Word, im Excel im keine Ahnung was wo geschrieben. Dann macht man irgendwo eine Entscheidung, schreibt die in ein Protokoll rein "Wir entscheiden jetzt das XY genutzt wird". Das geht verloren. Es wird nicht genutzt. Drei vier Leute erinnern sich natürlich dran, aber es gibt keine einfache Sicht darauf, Sachen easy zu sehen. Wenn man es aber so konfiguriert und den Leuten sagt "hey, nutzt immer das standard Template, sorgt dafür, dass ihr euer Meeting mit eurem Team labelt" Dann gibts die Möglichkeit da eine Auswertung zu machen und man sieht sofort, wenn du auf eine Teamseite gehst, was sind die offenen Themen die noch bearbeitet werden müssen. Es gibt einen Entscheidungslog, den kann man aufklappen, dann sieht man was für Entscheidungen getroffen worden, was sind die Architekturentscheidungen. Man kann über die Suche dann Sachen finden. Deswegen sage ich, weg von Powerpoint, weg von Excel und Word, hin zu Confluence wo interaktiv Sachen so gestaltet werden können, das es immer eine Single-Point-of-Truths gibt, den man anderen Bereichen nur noch anzeigt oder verlinkt. Wenn du dann etwas änderst, wirds auch gleich wo anders mitgeändert. Das ist erstmal das technische. 18:25 
+
+Aber dann musst du die Leute auch darin auch Schulen und ihnen sagen wie das funktioniert. Hilft nicht wenn du dir die Sachen dann überlegst, aber es nutzt keiner weil es keiner weiß. *redacted* 19:13 
+
+Das ist das lehren und technische. Was ich jetzt auch noch gesagt habe ist das gestalterische. Also wie strukturierst du Informationen so, dass sie leicht verständlich und verdaulich sind. Keine Ahnung, braucht man eine Marketingschulung. Das kriegt man in wenigen kurzen Schritten zusammen. Man muss es aber richtig transportieren. Wir hatten in der Uni das Thema UI/UX, wie viele Farben sollte man verwenden, wie funktioniert das Gehirn und so weiter. Wie man Leute und Entscheidungen lenken kann. 20:22 
+
+*redacted* 22:09 
+
+Dann kommt auch das Thema mit Opt-In-Opt-Out Problemen. Wenn die Leute noch aktiv klicken müssen - Das ist dieses Steuern von Leuten und Informationen. Ähnlich ist das mit dem Aufbereiten vom Texten. Da gibts die Möglichkeit, dass du Sachen leichter lesbar machst, indem du z.B. Sachen fett markierst. Indem du sparsam mit Farben bist und vielleicht wie wenn du eine Email schreibst oben einmal kurz und knapp sagst was sind die Kernsachen. Dann habe ich eine Zeit lange immer geschiffene Linien gemacht und gesagt "für die interessierten noch Extratext". Und oben nur das kurze, was wichtig ist. 22:59 
+
+Das ist aber etwas, was man eher einmal allgemein Schulen sollte.
+
+I: Was würdest du dann sagen ist die beste Form Wissen aufzuschreiben? Eher frei und unstrukturiert, oder eine formales Dokument?  23:19 
+
+B: Am besten lieber erstmal Stichpunktarbeit einfach hinschreiben. Weil die Leute auch stichpunktartig arbeiten. Wir müssen z.B. verschiedene Designs und Konzepte schreiben, oder Dokumente um Liefereinheiten abzuarbeiten und fertig zu bekommen. Das grundsätzlich zu Zeigen, was die Knackpunkte sind oder in Bildern. Bilder sind besser als tausend Wörter. Ich versuch immer alles zu visualisieren. Früher war das alles in Powerpoint, heute auch direkt in Confluence, weil ich es da interaktiv gestallten kann. 24:14 
+
+Es ist immer besser das zu zeigen, denn da bekommt man mehr ein Gefühl, man vergisst keine Sache. Man muss dann halt immer noch einen finden der gewisse Sachen aufschreibt, warum wir gewisse Sachen machen. Das total anstrengend. 24:27 
+
+I: Wenn wir mal zu der Struktur kommen zwischen den Wissenstücke nenne ich es mal. Wie wichtig und am besten Aufgebaut siehst du die Struktur zwischen diesen z.B. Artikeln. Ich seh da bei uns häufig ein langes Drill-Down links runter, aber der UHD z.B. hat bis auf Klassifizierungsbäumen, da hängen die quasi frei in der Luft und nur mit der Suchmaschine findbar. 24:52 
+
+B: Drill-Down oder viel Strukturierung brauchst du gar nicht. Du brauchst deine Knackpunkte, wo du themenspezifische Sachen findest. Bei uns ist es so, wir haben Value-Streams, wir haben Meetings, wir haben Arbeitspakete, wir haben Teams und Releases. Wenn du alleine überlegst, das sind bei uns 50-60 Teams, alleine mit 100+ Arbeitspakete und und und. Da hast du dann vielleicht ein Arbeitspaket unter dem Release "POC", abarbeiten muss das aber ein ganz anderes Team. 25:36 
+
+Diese Drill-Down Struktur ist da halt hinderlich. Lieber einen Sammler, da find ich alle Arbeitspakete, alle Teams, alle Releases und dann jeweils auf den jeweiligen Steckbriefen die Informationen mit allem was ich zum arbeiten brauche.
+
+Das kann ich dir auch gerne mal zeigen, aber das Thema ist das, es ist alle so interaktiv verlinkt, dass wenn du in dein Team reingehst hast du erstmal alle Kurzinformationen für externe. "Was ist grob das Ziel von dem Team, was sind die Ergebnisse die geliefert werden, was ist es nicht, wer sind die Mitglieder". Das sind aber auch so Sachen, die sind normalerweise alle zusammengeklappt, weil das brauchst du nicht immer, du kennst deine Teammitglieder. 26:26  
+
+Du willst ja nur kurz deine Info "Was ist drauf" und drunter sind deine Reports und Auswertungen und Verlinkungen in andere Bereiche. Wenn man z.B. ich bin Team POC-Design, von diesen 100tern Arbeitspaketen interessieren mich genau zwei. Und dann kann ich aufklappen und sehen genau diese zwei Arbeitspakete mit Kerninformationen. Da gibt es ja noch Pageproperties mit Metainformationen. 26:56 
+
+I: Gehen die Leute dann über die Sammlerpages, oder wie finden sie genau die Artikel die sie geraden lesen wollen, weil sie zu irgendeinem bestimmten Thema etwas wissen wollen? Oder wie findest du solche Artikel? 27:08 
+
+B: Das ist das Thema, da haben wir auch diskutiert jetzt grad auf der Weihnachtsfeier von wegen "Ja wo finde ich den die Informationen? Ja das ist ja was ganz anderes und keine Ahnung". Da denk ich mir immer "Leute, nehmt euch die Zeit und lest durch was denn da ist". Wenns jetzt der POC ist, von wegen es muss unbedingt getestet werden ob die Durchlaufzeiten funktionieren. Nein! Das ist nicht Ziel und Zweck und hätte die Person einmal draufgekuckt auf den Steckbrief, wo auch zusammengefasst drinsteht - In drei Zeilen steht drin "Was ist der POC, was ist Ziel und Zweck?" 27:54 
+
+**remark: Telefonat wurde unterbrochen** 
+
+I: Wieder da? 28:25 
+
+B: Ja, genau. Wo war ich. Dann ist das Thema das, wo die Leute die sind das noch nicht gewohnt das zu nutzen zum Teil. Die haben da erstmal bedenken. Und dann, wenn sie mal wirklich hingekuckt hätten und wenn das Veränderungsmanagement da auch mal wirkliche Inhalte pflegen würde, oder dafür sorgen würde, dass gewissen Inhalte reinkommen. Dann würden die sich leichter finden und leichter nutzen können. Das Thema das wir zusätzlich haben ist, du kannst ja eigentlich über die Suche gut Sachen finden. 29:10 
+
+Und wenn die Leute es gewohnt sind mit bestimmten Sachen zu Arbeiten, dann tun sie es. Und dann wirds immer leichter und wird immer mehr Gewohnheit. Wenn sie es nicht tun, wenn du es ihnen nicht zeigst, sie an die Hand nimmst und machst du vorzeigst, dann verlieren sie sich. 29:39 
+
+I: Wie wichtig findest du denn das Tool wie Confluence jetzt? Du gibst der Software bisher schon einen relativ hohen Stellenwert. 29:55 
+
+B: Joar, stimmt. Aber es gibt ja auch noch ICON. ICON lese ich nicht. Mache ich nicht, ganz ehrlich. *rephrased* Ich hatte erst wieder einen Link auf ein bestimmtes Tool gesucht und haben das gesucht. Nichts gefunden, da gabs einen neuen Link. */rephrased* 30:50 
+
+*redacted*  31:08 
+
+I: Das ICON ist ja selbst eigentlich auch ein Wissensmanagment Tool und Projekt. Vergisst man schnell, weil man da selten Wissen rauszieht. 31:15 
+
+B: Genau, und warum macht man das nicht? Weil unsere Externen da gar keine Zugriff drauf haben. Dementsprechend können wir da gar keine inhaltlichen, fachliche Sachen reinpacken. Deswegen ist das für mich ein bessere Facebook, und ich nutze Facebook nicht mehr. 31:29 
+
+I: Du würdest dann auch sagen das Zugang zu dem Tool und noch viel eher zu dem Wissen ja eigentlich eins der wichtigsten Sachen ist. 31:43 
+
+B: Richtig, also das wichtigste ist, dass jeder Zugang ist und das wichtigste ist, dass man Informationen nur einmal ablegt und nur einer die Hoheit darüber hat und sie pflegt. 32:03
+
+I: Ich bin schon auch ziemlich am Ende der Fragen, du hast die meisten schon versehentlich mit abgerissen. Eine habe ich noch offen. Wer ist denn aus deiner Sicht am Ende verantwortlich einerseits das Wissen in das Tool zu bringen und anderseits das das redaktionell anständig ist. 32:31 
+
+B: Redaktionell anständig. Gibts nicht. Es gibt die Notwendigkeit von den Fortgesetzten, oder die denjenigen die das Nutzen wollen, dass das ganze gelebt und vorgezeigt wird. Und gezeigt wird wieso und warum man gewisse Dinge macht und dann auch darauf eingehen zu sagen "Das ist mein Bare-Minimum" und aus diesen Gründen gibt es Makros, die ihr nicht bearbeiten dürft, aber sonst dürft ihr euch austoben. Hier auch wieder Wissen enablen, von wegen "Wie und Wieso?". Dann verstehen sie es auch33:20.
+
+Manchmal sind komische Sachen drin, die sind halt so. Und dann ist die Sache, die Leute sollen es einfach machen. Es ist einfach so, manche Leute, ich merks selber bei dem Thema das ich gerade hatte. Ich habe diese Teamstrukturen aufgebaut, gesagt es gibt Releases und so weiter. Und dann kam jetzt gerade eine Email, die gesagt hat, wir haben eine neues Service-Level Modell in der Version 0.6 vorbereitet, bitte Review machen, findet ihr auf der Teamseite unter Releases. Dann hat die Kollegin in ihrer Email auf ihre Teamseite gelinkt wo du nachkucken kannst, wann haben die ihre Meetings, was für Protokolle haben die und so weiter. 34:17 
+
+Die haben das ganz anders genutzt, aber ganz ehrlich, warum eigentlich nicht. Einfach zulassen das ganze. Alte Sachen einreißen wo notwendig, aber wenn du die Leute enabeldst, dann auch einfach mal machen lassen. 34:36 
+
+Und wer hat die Verantwortung über Informationen? Der der es reintut, bis sich wer anderes findet. Deswegen ist meiner Meinung nach auch immer das Thema: Du musst Informationen immer genau so wie du es mit deiner HW hast, mit deiner SW hast wie auch immer. Die haben einen Lebenszyklus, die haben eine Gültigkeit. Irgendwann sind sie Outdated. Und wenn sie nicht mehr gültig sind, müssen sie vergessen werden, verlernt werden. Und dementsprechend muss meiner Meinung nach für alles was jetzt höheren Wert hat, wie jetzt z.B. ein Steckbrief zu einem Arbeitspaket gibts einen Verantwortlichen, der sicherstellen muss, dass das korrekt ist da drin. Wenn das Arbeitspaket erledigt ist, dann sagt man, das war mal der Infostand, Backup-Altbestand. Muss nicht mehr aktualisiert werden. 35:41 
+
+I: Damit haben wir auch alles abgerissen was ich wissen wollte, an der Stelle beende ich mal die Aufnahme 35:44

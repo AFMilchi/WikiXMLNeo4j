@@ -2,7 +2,7 @@
 Read Me init.
 Diese Repo ist Teil der BA
 
-
+Weiterhin wird das Repo zur Archivierung von Daten, Texten und Bildern genutzt, welche nicht im Overleaf liegen.
 Packages:
 xxx
 

@@ -13,3 +13,11 @@ load csv from 'file:///VERLINKT_AUF.csv' as row FIELDTERMINATOR '|'
 match(f:Artikel{title:row[0]})
 match(t:Artikel{title:row[1]})
 create (f)-[r1:VERLINKT_AUF]->(t)
+
+
+:auto using periodic commit 10000
+load csv from 'file:///UNTERKATEGORIE_VON.csv' as row FIELDTERMINATOR '|'
+match(f:Artikel{title:row[0]})
+match(t:Artikel{title:row[1]})
+create (f)-[r1:HAT_OBERKATEGORIE]->(t)
+create (t)-[r2:BEINHALTET_UNTERKATEGORIE]->(f)
