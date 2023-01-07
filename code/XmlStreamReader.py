@@ -1,9 +1,5 @@
 import xml.etree.ElementTree as et
-import codecs
-import csv
-import time
 import os
-import fileinput
 
 
 class XmlStreamReader():

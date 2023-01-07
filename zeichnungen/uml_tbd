@@ -1,0 +1,14 @@
+x ArtikelTreeWikiHandler.py
+x BasicStatistics.py
+AdvStatistic.py
+x CatTreeWikiHandler.py
+x DataProcessor.py
+x DbConnector.py
+x   DebugWikiHandler.py
+x   DebugXml.py
+x FullWikiHandler.py
+main.py
+notizenDebug.txt
+x   Utils.py
+x   WikiHandler.py
+x   XmlStreamReader.py

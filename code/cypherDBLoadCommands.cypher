@@ -21,3 +21,12 @@ match(f:Artikel{title:row[0]})
 match(t:Artikel{title:row[1]})
 create (f)-[r1:HAT_OBERKATEGORIE]->(t)
 create (t)-[r2:BEINHALTET_UNTERKATEGORIE]->(f)
+
+
+
+
+call apoc.meta.stats() yield nodeCount, relCount as totalRelCount
+match(n:Artikel)
+with n, size((n)--()) as relCount, nodeCount, totalRelCount
+return avg(relCount) as averageRelCount, nodeCount, totalRelCount:wq
+

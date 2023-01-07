@@ -16922,3 +16922,16 @@ Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "12408299"}) return n
 Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "12408532"}) return n
 Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "12409609"}) return n
 Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "12410753"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "1157"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "1772"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "4777"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "6216"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "6775"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "10611"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "11486"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "12922"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "13862"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "14730"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "15838"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "16112"}) return n
+Ungültige Attributwerte: CREATE (n:Artikel{title: "", id: "16466"}) return n
