@@ -17,26 +17,6 @@ class DebugWikiHandler(WikiHandler.WikiHandler):
         self.searchedArtikel = searchedArtikel
         self.count = 0
 
-    # Gecallt bei Öffnenden Tags
-    def startElement(self, tag, attr):
-        self.current = tag
-        if self.current == 'page':
-            self.title = ''
-            self.ns = 0
-            self.redirect = ''
-            self.inrevision = False
-            self.text = ''
-
-    def characters(self, content):
-        if self.current == 'title':
-            self.title = content.replace('"', "'")
-        elif self.current == 'text':
-            self.text += content
-        elif self.current == 'redirect':
-            self.redirect += content
-        elif self.current == 'ns' and content is not None:
-            self.ns = int(content)
-
     def endElement(self, tag):
         if tag == 'page':
             self.count += 1

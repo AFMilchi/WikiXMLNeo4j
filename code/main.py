@@ -1,5 +1,7 @@
 from FullWikiHandler import FullWikiHandler
 from CatTreeWikiHandler import CatTreeWikiHandler
+from ArtikelTreeWikiHandler import ArtikelTreeWikiHandler
+from DataProcessor import DataProcessor
 import os
 import xml.sax
 
@@ -11,7 +13,10 @@ def main():
     # processData('Kategorie')
     # processFullData('Verlinkung')
     # processCatTreeData('Artikel')
-    processCatTreeData('Kategorie')
+    # processCatTreeData('Kategorie')
+    # processArtikleData('Artikel')
+    artikelProcessor = DataProcessor()
+    artikelProcessor.traverseData('Artikel')
 
 
 def processFullData(parseType):
@@ -27,6 +32,15 @@ def processCatTreeData(parseType):
     parser = xml.sax.make_parser()
     parser.setFeature(xml.sax.handler.feature_namespaces, 0)
     handler = CatTreeWikiHandler(parseType)
+    parser.setContentHandler(handler)
+    pathWikiXml = os.path.join(PATH_WIKI_XML, FILENAME_WIKI)
+    parser.parse(pathWikiXml)
+
+
+def processArtikleData(parseType):
+    parser = xml.sax.make_parser()
+    parser.setFeature(xml.sax.handler.feature_namespaces, 0)
+    handler = ArtikelTreeWikiHandler(parseType)
     parser.setContentHandler(handler)
     pathWikiXml = os.path.join(PATH_WIKI_XML, FILENAME_WIKI)
     parser.parse(pathWikiXml)

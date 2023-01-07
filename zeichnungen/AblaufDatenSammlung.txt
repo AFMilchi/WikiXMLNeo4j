@@ -1,0 +1,44 @@
+
+
+participant XML Wikipedia Dump
+participant Python Programm
+participant Neo4J Datenbank
+participant CSV Dateien
+activate Neo4J Datenbank
+activate Python Programm
+
+loop Bis EOF der XML
+Python Programm->XML Wikipedia Dump: Daten Sammeln
+
+XML Wikipedia Dump-->Python Programm:Rohinformationen
+
+activate Python Programm
+Python Programm->Python Programm:Informationen Extrahieren
+deactivate Python Programm
+
+Python Programm->Neo4J Datenbank:Knoten erzeugen
+activate Python Programm
+activate Neo4J Datenbank
+Neo4J Datenbank->Neo4J Datenbank:Knoten erzeugen
+Neo4J Datenbank-->Python Programm: Bestätigen
+deactivate Neo4J Datenbank
+
+
+deactivate Python Programm
+Python Programm->CSV Dateien:Kategorie-Beziehungen schreiben
+activate Python Programm
+Python Programm->CSV Dateien:Verlinkungs-Beziehungen schreiben
+deactivate Python Programm
+
+end
+
+Neo4J Datenbank->CSV Dateien: Import Kategorie-Beziehungen
+activate Neo4J Datenbank
+CSV Dateien-->Neo4J Datenbank:CSV Daten
+deactivate Neo4J Datenbank
+
+Neo4J Datenbank->CSV Dateien: Import Verlinkungs-Beziehungen
+activate Neo4J Datenbank
+CSV Dateien-->Neo4J Datenbank:CSV Daten
+deactivate Neo4J Datenbank
+
