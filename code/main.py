@@ -2,6 +2,7 @@ from FullWikiHandler import FullWikiHandler
 from CatTreeWikiHandler import CatTreeWikiHandler
 import os
 import xml.sax
+from AdvStatistics import AdvStatistic
 
 PATH_WIKI_XML = '../wikidump/'
 FILENAME_WIKI = 'dewiki-latest-pages-articles.xml'
@@ -11,7 +12,10 @@ def main():
     # processData('Kategorie')
     # processFullData('Verlinkung')
     # processCatTreeData('Artikel')
-    processCatTreeData('Kategorie')
+    # processCatTreeData('Kategorie')
+    advStatisticer = AdvStatistic()
+    advStatisticer.populateNamespaceDic()
+    advStatisticer.countNamespaces()
 
 
 def processFullData(parseType):

@@ -2,6 +2,7 @@ import xml.etree.ElementTree as et
 import codecs
 import csv
 import time
+import Utils
 import os
 import fileinput
 
@@ -21,6 +22,18 @@ class XmlStreamReader():
     def getNextArticle(self):
         for event, elem in et.iterparse(self.pathWikiXml, events=('start', 'end')):
             yield event, elem
+
+    def getNextSiteInfo(self):
+        for event, elem in et.iterparse(self.pathWikiXml, events=('start', 'end')):
+            tagName = Utils.Utils.stripTagName(elem)
+            if event == 'start' and tagName == 'page':
+                return 0
+            yield event, elem, tagName
+
+
+
+
+
 
     def getNextLine(self):
         with open(self.pathWikiXml, 'r') as file:
