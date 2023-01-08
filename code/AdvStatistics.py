@@ -2,10 +2,16 @@ import XmlStreamReader as xr
 import time
 import Utils
 import pprint
+import os
+import xml.sax
+from StatisticsWikiHandler import StatisticsWikiHandler
 from BasicStatistics import BasicStatistics
 
 
 class AdvStatistic(BasicStatistics):
+    PATH_WIKI_XML = '../wikidump/'
+    FILENAME_WIKI = 'dewiki-latest-pages-articles.xml'
+
     def __init__(self):
         super().__init__()
         self.ns = 0
@@ -19,6 +25,29 @@ class AdvStatistic(BasicStatistics):
                     self.nsNameDic[int(elem.attrib['key'])] = str(elem.text)
             for key in self.nsNameDic:
                 self.nsCountDic[key] = 0
+
+    def countImages(self):
+        parser = xml.sax.make_parser()
+        parser.setFeature(xml.sax.handler.feature_namespaces, 0)
+        handler = StatisticsWikiHandler(None)
+        parser.setContentHandler(handler)
+        pathWikiXml = os.path.join(self.PATH_WIKI_XML, self.FILENAME_WIKI)
+        parser.parse(pathWikiXml)
+        self.formatResults(handler.getResults())
+
+    def formatResults(self, args):
+        minImages, maxImages, imagesCount, artikelCount, sumTextLenght, minImageLengthRatio, maxImageLengthRatio, minRatioValues, maxRatioValues, maxImagesName = args
+
+        print(
+            f'''Minimal: {minImages}, Maximal {maxImages} Name: {maxImagesName}
+            AnzahlBilder: {imagesCount}
+            AnzahlArtikel: {artikelCount}
+            Durchschnitt: {imagesCount/artikelCount}
+            ________________________________
+            Durchschnittliche Artikellänge: {sumTextLenght/artikelCount}
+            Summe der Artikellänge: {sumTextLenght}
+            Kleinste Ratio: {minImageLengthRatio} Bei Länge {minRatioValues[0]} {minRatioValues[1]} Bilder, Name: {minRatioValues[2]}
+            Größte Ratio: {maxImageLengthRatio} Bei Länge {maxRatioValues[0]} {maxRatioValues[1]} Bilder, Name: {maxRatioValues[2]}''')
 
     def countNamespaces(self):
         startTime = time.time()

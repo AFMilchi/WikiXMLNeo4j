@@ -14,8 +14,9 @@ def main():
     # processCatTreeData('Artikel')
     # processCatTreeData('Kategorie')
     advStatisticer = AdvStatistic()
-    advStatisticer.populateNamespaceDic()
-    advStatisticer.countNamespaces()
+    # advStatisticer.populateNamespaceDic()
+    # advStatisticer.countNamespaces()
+    advStatisticer.countImages()
 
 
 def processFullData(parseType):
