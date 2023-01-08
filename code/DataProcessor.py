@@ -89,8 +89,8 @@ class DataProcessor():
             title = title[title.find(':')+1:]
         else:
             nodeType = 'Artikel'
-        attributes = {'title': title, 'id': id}
-        self.connector.createNode(nodeType, attributes)
+            attributes = {'title': title, 'id': id}
+            self.connector.createNode(nodeType, attributes)
 
     def writeAdjToCsv(self, fromNodeTitle, adjType, toNodeList):
         for toNode in toNodeList:

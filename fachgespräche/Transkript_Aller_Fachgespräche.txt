@@ -100,7 +100,7 @@ _____________________________________________________
 
 Experteninterview 2
 
-Interviewpartner: Experte 2, Tim
+Interviewpartner: Experte 2
 
 Datum: 16.12.2022 um 10:00
 
@@ -222,7 +222,7 @@ _____________________________________________________
 
 Experteninterview 3
 
-Interviewpartner: Experte 3, Andi
+Interviewpartner: Experte 3
 
 Datum: 16.12.2022 um 14:00
 
