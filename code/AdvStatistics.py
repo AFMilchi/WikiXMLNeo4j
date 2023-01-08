@@ -26,20 +26,42 @@ class AdvStatistic(BasicStatistics):
             for key in self.nsNameDic:
                 self.nsCountDic[key] = 0
 
-    def countImages(self):
+    def countInfoBoxes(self):
         parser = xml.sax.make_parser()
         parser.setFeature(xml.sax.handler.feature_namespaces, 0)
-        handler = StatisticsWikiHandler(None)
+        handler = StatisticsWikiHandler('Box')
         parser.setContentHandler(handler)
         pathWikiXml = os.path.join(self.PATH_WIKI_XML, self.FILENAME_WIKI)
         parser.parse(pathWikiXml)
-        self.formatResults(handler.getResults())
+        self.formatResultsBoxes(handler.getResultsBoxes())
 
-    def formatResults(self, args):
-        minImages, maxImages, imagesCount, artikelCount, sumTextLenght, minImageLengthRatio, maxImageLengthRatio, minRatioValues, maxRatioValues, maxImagesName = args
+    def formatResultsBoxes(self, args):
+        artikelCount, boxFirstLineCount, boxInlineCount, maxBoxInlineCount, maxBoxName, zeroBoxCount, totalBoxCount = args
 
         print(
-            f'''Minimal: {minImages}, Maximal {maxImages} Name: {maxImagesName}
+            f'''
+            AnzahlArtikel: {artikelCount}
+            Anzahl Artikel mit Infobox am Start: {boxFirstLineCount}
+            Anzahl Artikel mit Infobox im Text: {boxInlineCount}
+
+            Max Boxen Inline: {maxBoxInlineCount}, Name:{maxBoxName}
+            Anzahl Artikel komplett ohne Boxen: {zeroBoxCount}
+            Gesammtzahl an Boxen {totalBoxCount}''')
+
+    def countImages(self):
+        parser = xml.sax.make_parser()
+        parser.setFeature(xml.sax.handler.feature_namespaces, 0)
+        handler = StatisticsWikiHandler('Image')
+        parser.setContentHandler(handler)
+        pathWikiXml = os.path.join(self.PATH_WIKI_XML, self.FILENAME_WIKI)
+        parser.parse(pathWikiXml)
+        self.formatResultsImages(handler.getResultsImages())
+
+    def formatResultsImages(self, args):
+        minImages, maxImages, imagesCount, artikelCount, sumTextLenght, minImageLengthRatio, maxImageLengthRatio, minRatioValues, maxRatioValues, maxImagesName, zeroImageCount = args
+
+        print(
+            f'''Minimal: {minImages} Vorkomnisse: {zeroImageCount}, Maximal {maxImages} Name: {maxImagesName}
             AnzahlBilder: {imagesCount}
             AnzahlArtikel: {artikelCount}
             Durchschnitt: {imagesCount/artikelCount}

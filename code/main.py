@@ -16,7 +16,8 @@ def main():
     advStatisticer = AdvStatistic()
     # advStatisticer.populateNamespaceDic()
     # advStatisticer.countNamespaces()
-    advStatisticer.countImages()
+    # advStatisticer.countImages()
+    advStatisticer.countInfoBoxes()
 
 
 def processFullData(parseType):
