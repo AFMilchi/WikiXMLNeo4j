@@ -4,6 +4,7 @@ from ArtikelTreeWikiHandler import ArtikelTreeWikiHandler
 from DataProcessor import DataProcessor
 import os
 import xml.sax
+from AdvStatistics import AdvStatistic
 
 PATH_WIKI_XML = '../wikidump/'
 FILENAME_WIKI = 'dewiki-latest-pages-articles.xml'
@@ -14,9 +15,13 @@ def main():
     # processFullData('Verlinkung')
     # processCatTreeData('Artikel')
     # processCatTreeData('Kategorie')
-    # processArtikleData('Artikel')
-    artikelProcessor = DataProcessor()
-    artikelProcessor.traverseData('Artikel')
+
+    advStatisticer = AdvStatistic()
+    # advStatisticer.populateNamespaceDic()
+    # advStatisticer.countNamespaces()
+    # advStatisticer.countImages()
+    advStatisticer.countInfoBoxes()
+
 
 
 def processFullData(parseType):
