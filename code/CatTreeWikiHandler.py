@@ -36,10 +36,21 @@ class CatTreeWikiHandler(WikiHandler.WikiHandler):
             attributes = {'title': title, 'id': id}
             self.connector.createNode(nodeType, attributes)
 
+    def tailCategoriesFullText(self, inhalt):
+        lines = inhalt.splitlines()
+        newInhalt = ''
+        for line in reversed(lines):
+            if '[[Kategorie:' == str(line)[:12]:
+                newInhalt += str(line) + '\n'
+            else:
+                break
+        return newInhalt
+
     def extractCategories(self, inhalt):
         categorieSearchString = '\[\[Kategorie:.*?\]?]'
         # Entfernt direkt Start und Endsymbohle und befüllt Liste
         categorieList = []
+        inhalt = self.tailCategoriesFullText(inhalt)
         for elem in re.finditer(categorieSearchString, inhalt):
             buffer = elem.group()
             cat = buffer[buffer.find(
