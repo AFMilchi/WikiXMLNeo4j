@@ -26,8 +26,9 @@ return avg(relCount) as averageRelCount, nodeCount, totalRelCount
 #delete am besten mit
 :auto match ()-[r:HAT_OBERKATEGORIE]->() call {with r delete r} in transactions of 1000 rows;
 
-# create in memory graph Kategories
+# create in memory graph 
 call gds.graph.project('graph', 'Kategorie', {BEINHALTET_UNTERKATEGORIE:{orientation:'UNDIRECTED'}})
+call gds.graph.project('graph', 'Artikel', {VERLINKT_AUF:{orientation:'UNDIRECTED'}})
 # delete in memory graph
 call gds.graph.drop('graph')
 # Zyklen
@@ -93,3 +94,43 @@ return avg(len)
 # Bestimmung der Anzahl der Dreiecke im Graph
 call gds.triangleCount.stats('graph') 
 yield globalTriangleCount, nodeCount
+# Lokaler Clusterkoeffizient
+CALL gds.localClusteringCoefficient.stats('Graph')
+YIELD averageClusteringCoefficient, nodeCount
+# Durchschnittlicher Grad eines Knotens
+MATCH (n:Artikel)
+RETURN avg(apoc.node.degree.out(n));
+# generierung Random Graph
+CALL gds.beta.graph.generate("randGraph",  2878588, GEDEGREE: 32, {
+  relationshipDistribution: 'RANDOM',
+  orientation: 'UNDIRECTED'
+})
+yield nodes, relationships
+# Path Finding
+
+# All Shortes Paths
+CALL gds.alpha.allShortestPaths.stream('graph')
+with   distance as dis
+return avg(dis)
+# min max avg Anzahl Beziehungen
+call apoc.meta.stats() yield nodeCount, relCount as totalRelCount
+match(n:Artikel)
+with n, size((n)--()) as relCount, nodeCount, totalRelCount
+return avg(relCount), min(relCount), max(relCount), nodeCount, totalRelCount
+# min max avg Anzahl Kategorie Beziehungen
+call apoc.meta.stats() yield nodeCount, relCount as totalRelCount
+match(n:Artikel)
+with n, size((n)-[r:TEIL_VON_Kategorie]-()) as relCount, nodeCount, totalRelCount
+return avg(relCount), min(relCount), max(relCount), nodeCount, totalRelCount
+# Artikel mit den Meisten Verlinkungen
+call apoc.meta.stats() yield nodeCount, relCount as totalRelCount
+match(n:Artikel)
+with n, size((n)--()) as relCount, nodeCount, totalRelCount
+where relCount=238132
+return n
+# min max avg Anzahl Kategorie Beziehungen
+call apoc.meta.stats() yield nodeCount, relCount as totalRelCount
+match(n:Artikel)
+with n, size((n)-[r:TEIL_VON_Kategorie]-()) as relCount, nodeCount, totalRelCount
+where relCount = 123
+return n 
