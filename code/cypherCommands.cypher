@@ -110,8 +110,8 @@ yield nodes, relationships
 
 # All Shortes Paths
 CALL gds.alpha.allShortestPaths.stream('graph')
-with   distance as dis
-return avg(dis)
+yield   distance as dis
+return avg(dis), min(dis), max(dis)
 # min max avg Anzahl Beziehungen
 call apoc.meta.stats() yield nodeCount, relCount as totalRelCount
 match(n:Artikel)

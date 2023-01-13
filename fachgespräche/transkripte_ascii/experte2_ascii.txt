@@ -1,0 +1,115 @@
+Experteninterview 2
+Interviewpartner: Experte 2
+Datum: 16.12.2022 um 10:00
+Ort: Videotelefonat
+I=Interviewer, B=Befragter
+
+I: Aufnahme laeuft wieder. Dann fangen wir einfach mal an. Erster Fragenblock geht zur Person und Organisation. Ich haette gerne, dass du einmal erzaehlst wie alt du bist, in welcher Position du aktuell arbeitest und wie lange du das schon machst. 00:23 
+
+B: 48 Jahre, bin seit 4 Jahren etwa in der BWI GmbH, Juni 2018\. Und arbeite als Lead Service Architekt und im Bereich der Service Neu- und Weiterentwicklung als beratender Anteil fuer die Solution Architekten. Vormals 20 Jahre bei Ericson gewesen. Da angefangen als Quereinsteiger in der IT, dann hochgearbeitet und hier gewechselt in die Service Architektur. In der Architektur angefangen *redacted* im Bereich Sina. 01:05 
+
+Und dann gewechselt Intern in die jetzige Position als quasi-Inhouse Berater.
+
+I: Danke, was hast du fuer einen akademischen Hintergrund? 01:15 
+
+B: Diplom Chemiker. Ich hab in der Krebsforschung gearbeitet. Ganz anderer Bereich und dann eben der Quereinstieg in die IT. 01:36 
+
+I: Und der letzte Punkt ist, wo hast du denn schon alles Erfahrungen mit dem Thema WM gemacht? Jetzt vielleicht einmal als UEberbegriff, aber vielleicht auch als Bediener und Autor oder AEhnliches. 01:49 
+
+B: Also in der Uni hab ich es nicht gehoert. Ich hab die Uni 98 abgeschlossen. Ich bin mit dem WM Thema in Beruehrung gekommen bei meinem alten Arbeitgeber. Bei sowohl der Unternehmensweiten Einfuehrung als gemeinsames Unternehmenes-WM. Das sich dort gegeben hat als, um der Fluktuation der Mitarbeiter und der internen Fluktuation des Stellenhoppings entgegenzuarbeiten das Wissen verloren geht, wurde das zentral vom Unternehmen gefoerdert und vorgegeben, aber schlecht realisiert. Komme ich spaeter zu. Und wir haben intern in der Abteilung ein WM aufgebaut, weil wir eine Schatten-IT betrieben haben und brauchten irgendein Medium um diese Information nachhaltig ablegen zu koennen, als strukturierte Daten. Komme ich spaeter noch zu warum das gut oder schlecht war.02:37
+
+I: Perfekt, das sind auch genau die Punkte die ich ansprechen wollte. Deswegen nochmal allgemein zum WM, du hast es schon ein bisschen erzaehlt. Worin siehst du die Rolle des WM und glaubst du, dass es EIN WM fuer das Unternehmen gibt, oder siehst du du mehrere Rollen und Aufgaben? 02:53 
+
+B: WM ist meiner Meinung nach und aus den Erfahrungen die ich gehabt habe. Sollte es auf mehreren Ebenen sein. Das eine ist Derjenige, der das Wissen hat. Also der Konsument und gleichzeitig auch der Geber, also ganz unten in der Kette. Da drueber wuerde ich Denjenigen sehen, der Anleitend dazu fuehrt, das diese Tools die bereitgestellt werden nicht missbraucht werden, der quasi Strukturen Vorgibt, und Rahmenwerke. Das man das Wissen strukturieren kann, oder wie auch immer man das Wissen abspeichern will. Man kann jetzt auch unstrukturiert ueber Suchmaschinenabruf arbeiten. Der Oberste waere die Unternehmensstruktur, die sagt ich nehme, ich investiere in mein WM meiner Mitarbeiter nicht nur durch Schulungsmassnahmen, sonder auch das interne Austauschen. Sollten dann dort quasi das Budget bereit halten. Nicht das er jetzt sagt "Du musst 10h WM machen" aber wenn man die 10h braucht weil man so viel Expertise hat die man ausspeichern will, muss eben auch der finanzielle Rahmen da sein. 04:00  *redacted* 04:05 
+
+I: Da kommen wir auch schon an die passende Stelle, wenn wir die Frage mal umdrehen, was sind so die typischen Stolperfallen gewesen, oder die du glaubst die es gibt und vielleicht auch welche die du selber miterlebt hast. 04:19 
+
+B: Genau, das eine ist die Finanzierung. Es muss ein Budget bereit stehen, dass man es machen kann. Das ist einhergehend mit der Motivation. Man kann Mitarbeiter auf der untersten Ebene schnell Motivieren ihr Wissen auszutauschen, aber wenn man ihnen nicht die Zeit laesst dafuer, sie sondern durch die Gaenge hetzt, man wenige Chance hat gute Informationen zu kriegen. Ich hab dann am Ende des Tages gesehen, die Lowperformer haben sich hingesetzt und sich quasi dahinter versteckt und als Arbeit das Klassifiziert. 04:50 
+
+Das zweite ist das Tooling. Wir hatten eine Microsoft, Art Sharepoint Loesung. Das hat dazu gefuehrt, dass die Informationen sehr statisch, sehr muehsam einzuarbeiten waren. Fast nicht zu finden waren und nach der Migration DMS zu Sharepoint einfach kaputt war. Ich rede da von Umlauten, Trennungen, Bild und Text, es war also nicht das richtige Tool um Wissensmanagement zu machen um notfalls das Wissen dann auch in anderen Tools darzustellen. Es war also eine zu sehr Verknuepfung von Formatierungen, proprietaeren Umgebungen, und den eigentlichen Daten die man da speichert. Also zu starr. Das ist das zweite.05:34 
+
+Und das dritte ist Leute zu motivieren. Haengt mit beiden Sachen zusammen. Wenn das Tool scheisse ist, wills keiner machen. Wenn die Leute sagen du musst aber arbeiten, dann arbeiten sie halt eher. Die Motivationsgrundlage bei den Kunden und gleichzeitig, also die die das Wissen konsumieren und die das Wissen bereitstellen, zu schaffen ist teilweise schwer. Das bedarf quasi Vorturnen von dem Management. 06:02 
+
+I: Du hast auch schon schoen umgeleitet zu meinem dritten Block, da geht es naemlich um die technische Unterstuetzung. Welchen Stellenwert wuerdest du dieser zusprechen fuers WM? 06:16 
+
+B: Ja, recht hoch. Aus zwei Gruenden. Erstens wegen der Nutzbarmachung, also auch der Usability. Wenn du ein Nutzer vor ein Tool stellst und sagst hier ist ein SAP, du musst 15 Flaechen aufklappen um etwas reinzutippen und dann wieder 15 Flaechen wieder zuklappen. Dann wird sich auch der motivierteste Mitarbeiter abwenden, wird sagen, mach doch dein Zeug alleine. Das muss quick sein, schnell moeglich sein Daten auszuspeichern und Daten zu finden. Das In und Out sind die wichtigsten Punkte an einem Tool. Und das Tool meiner Meihnung nach als Motivationstreiber im WM ist der zentrale dreh und Angelpunkt. 06:51 
+
+I: Tools gibts jetzt viele verschiede, du hast jetzt hauptsaechlich von DMS-Artigen und einer Wikisoftware geredet. Wo siehst du da Vorteile/Nachteile und womit hast du hauptsaechlich gearbeitet. 07:14 
+
+B: Ich hab vormals in meinem alten Leben, bei meinem alten Arbeitgeber mit DokuWiki gearbeitet. Primaer mit Wikis wegen dem flachen Rechte und Rollen Konzept dahinter. Hat aber natuerlich auch Maengel, wenn man hoeher Eingestufte Daten haben will. Sharepoint ist fuer mich eine Datenablage fuer hoeher strukturierte Daten, Daten die auch in einem Revisionsprozess sein muessen. Heisst fuer mich setzt ich die grenze zwischen "Was kommt in ein Wiki" und "Was kommt in eine Datenbank oder Ablagesystem wie Sharepoint". Sharepoint sehe ich wie ein Filesystem wo ich Daten reinpacke, die ich Release, wo ich ein Releasemanagement machen muss, wo ich auch ein Dokumentenflow habe. Dokumente die quasi reviewed werden bevor sie raus gehen. Und da lege ich auch Daten ab die gross sind. 08:11 
+
+In Wiki lege ich auch fluechtige Daten ab, im Gegensatz zu den statischen DMS. Da leg ich auch sowas wie Tipps und Tricks. Sachen die sich auch nach einer Zeit einfach wieder verduennisieren. Ich nutze das BeWiki auch um den Bereich der Task und Arbeitspakete zu verlinken ins Jira. Also ich versuche jedes Tool so zu nutzen, dass es den maximalen Mehrwert bietet. Sharepoint fuer Dokumente, das BeWiki fuer Fluechtige Informationen oder auch Sprungpunkte, also quasi "Wie finde ich was" und Verlinkungen. Und Jira fuer die eigentlichen Aufgaben. Und das Gesamtkonzept ist dann mein WM. 08:53 
+
+I: Auch interessant, das alles zusammen ist fuer dich das WM. Also auch eine DMS Ablage mit technischen Manuals gehoert dazu. 09:09 
+
+B: *rephrased* Klar, auch beim Solution Entwickeln gehst du da rein, holst dir einen LAN-Plan, den WAN-Plan, dann hol ich mir Tipps und Tricks von dem Service aus dem BeWiki. *\rephrased* und schaue geht das, geht das nicht, was sind die Grundbedingungen und dann gehe ich in Jira rein und schaue ob ich offene Tasks dazu finde im Sinne "wir sind schon dabei etwas dazu umzusetzen". Also mein Wissen speist sich aus allen den Gebieten was ich zum Arbeiten brauchen. 
+
+Und jetzt dann kommt die grosse Frage, wie kann ich mehrere Wissenssilos abfragen? Ich brauche eine geile Suchmaschine und das hat tatsaechlich damals Ericson als Schatten-IT, mitlerweile offizielle IT. Die haben sich eine Suchmaschien auf OpenSource Basis die alles abfraegt. Von Incidenz Tickets, Problem Tickets, Wissensrecords, Reports, grad bei Ericson waren es viele technische Changes als Software und Hardwareentwicklung und alle internen Webseiten. Und das ist einfach glaub ich generell notwendig, eine globale Suchmaschine die wirklich auch alles abfragt. 10:11 
+
+Wir hatten sowas frueher im Sharepointvorlaeufer, da konnte man auch viele Sachen finden die man vielleicht nicht finden sollte, weil Leute unvorsichtig waren mit Rechte und Rollen vorgaben. Dafuer gibts ja das Wiki, wo man quasi die nicht-unter VS (Verschlussache) Fallende Dokumente oder Informationen ablegen koennen. Man haette da aber vorallem Verlinken koennen "Es gibt da diese Dokumente", nach dem Need-To-Know Prinzip, frag den und den. Das gibts im Sharepoint nicht. Da gibts Zugang, oder nicht-Zugang. 10:44 
+
+I: Sehr spannend. Im UHD gabs damals aehnliche Probleme. Da wurde WM in Maximo gemacht, aber es musste die USU Suchmaschine dazu gekauft werden, weil  die Datensaetze sonst nicht durchsuchbar waren. 11:00 
+
+B: *redacted* Das ist auch noch die grosse unbekannte inwieweit USU dann wirklich alles abloesen kann. Vorallem wenns dann um Datenmigrationen geht, das wird dann die grosse Bereitstellungstelle. Und wenn da dann das Wissen fehlt, das fuehrt dann dazu, zu Wissensduplikation. Wenn ich kein Zugriff drauf haben, dann dupliziere ich das Wissen. Was dann wieder losgeloest ist und fuehrt zu, loose Ends, nenne ich es mal. Weil ich irgendwas nur einem begrenzten Kreis zu Verfuegung Stellen kann, dupliziere und dokumentiere es im BeWiki um es allen bekannt zu geben, und dann Pflegt das keiner Mehr. Da sollte man halt am besten Verlinken anstatt zwei mal schreiben, sonst muss man zwei mal Pflegen. Das heisst WM geht auch einher mit der Datenplege. Nicht immer nur Konsumieren und mal was reinschreiben, sondern eben auch Pflegen. Das ist sehr hoher Aufwand. Die sieht man am Anfang nicht. Man sieht nur 500 neue Communitys, 500 neue Mitarbeiter die mitmachen wollen. Aber wie will man die Daten Pflegen? Das haette man sich vorher ueberlegen sollen. 12:19 
+
+I: Wer ist denn Verantwortlich dafuer, dass Wissen ins WM reinkommt, wer ist Verantwortlich dafuer, dass es strukturiert wird und wer Pflegt das am Ende? 12:37 
+
+B: Die Antwort ist aus unterschiedlichen Blickwinkeln. Die Geschaeftsfuehrung wird sagen, das muessen die Fachabteilungen machen. Die sind ja dafuer Verantwortlich das Wissen zu schaffen und zu Pflegen. Quasi in interne Schulung da reinzugehen. Wenn man unten ist und nach oben kuckt, sagt man das muss die Geschaeftsfuehrung vorgeben weil die das Budget dafuer hat. Sowohl fuer die Einfuehrung des Tools, die beim CIO liegen. Als auch fuer die Finanzierung die beim CIO liegen, der sagen muss ich stelle da Geld zur Verfuegung. "Ich sehe das auch als strategische Information und Ziel". Es muss eine Geschaeftsstrategie festgelegt werden, dass wir das machen wollen und wie das gemacht wird. Es gibt auf der CIO eine Liste der Tools, da ist BeWiki schon drin. *redacted* 13:29 
+
+*rephrased* Da muss dann auch als Risiko zum beispiel der Renteneintritt von Mitarbeitern und natuerliche Fluktuation stehen mit WM als eine der Moeglichkeiten zur Schadensminimierung. Weil die Leute die gehen das Wissen mitnehmen. *\rephrased*14:01 
+
+Das WM einzufueren ist nicht nur ein strategischer, geschaeftserhaltender Prozess. Das seh ich bei der Geschaeftsfuehrung, genau das zu erkennen. 14:09 
+
+I:  *redacted* 14:28  Was haellt den die Leute davon ab, das Wissen weiter zu geben? Es fest zu halten? Warum machen die das nicht? 14:38 
+
+B: Es gibt zwei typen von Kollegen und Kolleginnen, der eine Typ sagt "ich mach das nicht, weil das ist MEIN Wissen und damit meine Daseinsberechtigung auf meiner bisherigen Position ist. Heisst, als Argument "Da ich so ein Experte bin, bin ich auf der Position und keiner kann mich ersetzten". Das ist eine sehr subjektive Sicht und auch nicht sehr schlau. Wenn man die mal reflektiert stellt man fest, da dieser Mitarbeiter sich damit als unersetzbar qualifiziert ist sie nicht nur ein Geschaeftsrisiko durch spontanen Ausfall. Es gab vor ein paar Jahren mal einen Kollegen der ist sehr ploetzlich gestorben, der hat das Datenbankpasswort mit ins Grab genommen. Dann wurden die Datenbanken neu aufgesetzt, das war ein riesiger finanzieller Impact und auch fuer den Kunden ein Inpact, weil dann die Datenbank nicht verfuegbar war.
+
+Zweiter Punkt ist, die Mitarbeiter sehen auch nicht, dass sie in den Urlaub gehen koennen. Dann gibt es so Mitarbeiter, das habe ich in meiner alten Firma gehabt, die in den Burnout gehen, weil sie sich quasi selbst in so einer Todesspirale sehen, weil sie ihr Wissen, dass sie ja nicht abgeben. Und damit auch ihre Aufgaben nicht abgeben koennen und damit sehen "Ich kann nie in den Urlaub gehen" 15:56 
+
+*redacted*
+
+Und der zweite Typ Mensch, der hat das begriffen oder ist nie in diese Stolperfalle gekommen. Und ist sehr aktiv am Wissen teilen, weil er vielleicht egoistisch ist, ich auch, im Sinne "Wenn ich es drei Leuten erklaeren, koennen sich diese 3 mit mir die Arbeit Teilen. Dann habe ich weniger Arbeit". Und ich habe vielleicht sogar Zeit fuer eine andere Aufgabe, oder ueber den Tellerrand zu kucken. Das heisst, das Wissen eine bestimmte Aufgabe abzuarbeiten, wenn man das Teilt, kann man nur gewinnen. Man kann ich den Urlaub gehen, ohne das der Firma was passiert, man kann sich tatsaechlich auch in anderen Bereichen mal umschauen, man kann wechseln ohne dass etwas zusammenbricht. Das ist eben der andere Typ. Ich hoffen das wir die Mehrheit der Mitarbeiter auf der 2\. Seite haben. Aber die sagen "Wenn ich es anderen erklaere, koennen mir auch andere helfen". Damit kann ich mich auch weiterentwickeln. 17:18 
+
+I: *redacted* Es ist ja nicht nur das Tool, sondern eben auch die Struktur wie man da Wissen ablegt, du hast vorhin drueber geredet. So ein Dokument ist relativ starr strukturiert. Wuerdest du sagen das haelt einen eher davon ab sein Wissen zu dokumentieren, oder hilft es eher dabei? So im Vergleich zu einem Wikiartikel. 17:53 
+
+B: Super Frage, Antwort ist, es gibt bereits eine Umsetzung von einem Kollegen. Der hat das so strukturiert, dass du das Wissen einfach in BeWiki reinhauen kannst. Und wenn du auf einen Knopf drueckst, kommt ein Dokument genau so raus wie ein technisches Support Manual. Alle Textbloecke sind an den richtigen Stellen und mit Firmenvorgaben. Den Outputfilter hat er sich so programmiert. Das ist richtig cool und das funktioniert auch. Du kannst richtig schoene Dokumente machen und du kannst sie auch dynamisch machen. 18:29 
+
+Eben weil ich glaube so ein simpler Wikieintrag ist eine geringer Hemmschwelle sein Wissen aufzuschreiben. Wir haben aber trotzdem Vorgaben, formale Dokumente ja zu erstellen. Das ganze ist dann nicht einmal geschrieben und abgelegt, sonder immer flexibel und perfekt. Und es ist damit viel schneller Updatebar. Du hast zwar immernoch einen Releasezyklus, weil das ja einer ueberpruefen muss bei Standarddokumente. Aber man hat eben sehr viel weniger huerden. Weil du kannst es immer exportieren wenn du es brauchst und hast immer die frischste Version. 19:07 
+
+I: Mit dem Kollegen muss ich auch mal reden. *redacted* 19:53 
+
+Wie strukturiert der Kollege dann das Wissen in den Artikel und wie wuerdest du sagen, dass Wissen am besten Strukturiert wird. Streng formalisiert oder lieber sehr frei? 20:15 
+
+B: Das Problem ist, wenn du keine Anleitung hast, dann machst du das so wie ein Word Dokument. Du baust dir eine Menuestruktur zusammen, die extrem Tief geht. 7,8 Ebenen hab ich locker schon gesehen. Und die legen immer nur eine Seite an. Das ist daemlich geschwinde gesagt. Aber man macht halt was man kennt. Du brauchst Anleitung an dem Tool, ein Tool ist nur so gut wie es erklaert wird und nutzbar ist. Und gewisse Ideen sollte man mitgeben. 20:51 
+
+Ich vergleich das immer mit den GeoCity Webseiten, die umsonst waren und jeder konnte sich austoben. Es war lila Text auf gelb blinkendem Untergrund. Der Hirntodt war vorprogammiert. Warum? Leute haben mit dem bestehenden Tools etwas gebastelt. Das diese Information extrem schwer zugaenglich war, oder auch graue Schrift auf weissem Hintergrund nicht einer Usability entspricht, das ist den quasi nicht bewusst gewesen. Woher auch. 21:17 
+
+Wenn man da Vorgaben kriegt, ist es im Mittel viel besser. Das geht sowohl in den strukturierten Anteilen, als auch die unstrukturierten Anteilen. Ich hab ja gerade erzaehlt, ich nutze das Jira auch. Jira enthaelt auch Wissen. Naemlich Probleme und wie wir sie geloest haben und in welchem Zeitraum. Informationen die auch brauche. Diese Information will ich nicht in eine Wikiseite reinhauen. Sondern ich packe sie in das Tool, was das richtige ist dafuer. Naemlich ein Arbeitspaket-Abarbeitungstool Jira. Aber ich will es unbedingt verlinken und das Wissen was da drin ist damit auch zugaenglich machen. Das muss man moeglich machen. Heisst eine Strukturierung haengt immer davon ab, welche Daten man hat und welches Ziel man damit verfolgen moechte. Wenn ich Arbeitspakete habe, Tasks habe, dann nutze ich Jira. Das liegt quasi unstrukturiert vor, die Zuordnung erfolgt nur ueber die Jira-ID. Aber sonst sinds Datensaetze irgendwo, da bin ich total Tool-Agnostisch. Aber ich moechte die Daten selber reinziehen und findbar machen. 22:22 
+
+Strukturen selber ist immer fraglich. Unstrukturierte Daten und strukturierte Daten haengt immer davon ab wie ich sie erschliessen kann. 
+
+Ich koennte jetzt sagen, ein Mitarbeiter hat eine Tolle Idee, geht auf eine Webseite oder Tool, schaut "gibt es das schon?", sucht danach mit Hashtags, findet nichts. Legt einen Artikel, der wird irgendwo abgelegt und fertig. Und wenn der naechste eine Problem hat, findet er das. Er braucht keine Startseite die ueberladen ist oder keine vorgegebenen Stukturen, Baeume, links rechts oben unten. Sondern er wuerde einfach eine Suchmaschine finden. Wie im Amazon Logisitklager. Da wo Platz ist, komm was rein. Und die Intelligenz liegt in der Suche in der "Wie finde ich es am schnellsten" 23:08 
+
+Das damit zusammen "Wie will ich mein Wissen strukturieren?", haengt davon ab mit welchen Tools will ich das machen und ist das dann zukunftsfaehig. Hab ich einmal unstrukturiert angefangen, kann ich spaeter dann zu strukturierten Umgebungen wechseln? Antwort ist Ja! Man wuerde dann die Suchbaeume abarbeiten und statisch ablegen nach Kriterien die man definiert. Kann ich aus strukturierten Daten unstrukturierte machen? Klar, Bombe drauf werfen und man nimmt die Bruchstuecke. Nur fraglich was das einem bringt. Aber aus einem strukturiertem Rahmen in einen anderen strukturiertem Rahmen zu wechseln ist massive schwierig. Weil man Prosatexte hat, die am Stueck sind, Leute wie einen Aufsatz schreiben, was runtergetippt haben und immer eine Seite anfangen und runterbasteln. Und ich kann eben immer nur den ganzen Block nutzen. 24:04 
+
+I: Damit hast du auch gleich meine geschlossene Frage abgehackt. Du siehst auch das viele Leute extrem lange Kategoriebaeume bauen. Und das in viele Unterpages runter und nur einen Artikel dann unten anhaengen. 24:20 
+
+B: Genau und wenn ich jetzt einen neuen Artikel schreiben will muss ich 8 Ebenen springen bis ich weiss wohin damit. Und erst wenn es den Kategorie Baum noch gar nicht gibt, dann muss ich den ja selbst erst bauen. 24:29 
+
+Es gibt aber auch auf jeder BeWikiseite Hashtags Funktionen. Du kannst Hashtags vergeben und kannst die damit besser findbar machen. Nur sind die Hashtags nicht Vorgeben. Du findest dann "Sina" grossgeschrieben, kleingeschrieben, Bindestrich "L2" oder Unterstrich "L2" und und. Das ist dann tatsaechlich etwas komplizierter sich das Wissen zu erarbeiten. Da waere eine Suchmaschine die mit Unschaerfen Arbeitet einfach Top. die wuerde dann auch in dem jetzigen Setup mit Sharepoint und BeWiki und USU und Jira arbeiten. Wenn sie alle Datenquellen erschliessen koennte, wuerde sie vielleicht sogar die Frage beantworten "brauche ich ein strukturiertes oder unstrukurierstes Tool? Brauch ich eines? Brauch ich mehrer?" damit erschlagen das ich sage "ich nehme alle". Warum? Jedes hat seine Vorzuege. Aber ich kann Jira komplett durchsuchen, Sharepoint, Bewiki, ich hab einen Suchlauf und Indizierung der in der Nacht laeuft und fertig. 25:30 
+
+So eine Suchmaschine waere das grosse Pflaster ohne eine Entscheidung zu treffen, die man in 2-3 Jahren bereut. 
+
+I: Ist die Strukturierung dann nur fuer den Menschen ohne nicht auch eher fuer die Maschine da? 25:48 
+
+B: Ein Mensch will darin ja gar nichts mehr Suchen. Dafuer gibts dann die Suchmaschine und die muss die Sachen eben finden. Ich will auch keine Baeume mehr durchklicken um am Ende festzustellen, dass ich dann doch in die Irre gefuehrt worden bin. Weil derjenige der den Baum mal zusammengeklickt hat, hat das mit einer ganz anderen Intention gemacht. Und das intuitive Suchen, das kann eben nur eine Suchmaschine, siehe Googel, der Algorithmus machst. 26:12 
+
+I: Dann gehen wir mal ueber den letzen Frageblock, du hast ihn eigentlich schon fast erschlagen. Wiki der Wiki habe ich ihn genannt. Was ist denn mit dem Wissen ueber das Wissensmanagement und die Tools? 26:23 
+
+B: Ganz grosser Punkt. Wie baue ich am Besten Artikel auf, wie formatiert man Tabellen, und das allgemeine Wissen ueber das WM selbst sollte auch irgendwo angelegt sein.
+
+Dafuer gibts jetzt relativ neu ein BeWiki Handbuch. Das wurde eine Zeitlang auch beworben. Und wird auch von *redacted* gepflegt. Da gehts genau darum. Das BeWiki Handbuch gibt euch Hilfen im Umgang mit Artkeln. "Unser Ziel ist es das BeWiki Handbuch kontinuierlich weiterzuentwickeln um euch das Erstellen, AEndern und Benutzen einfach und standardisiert mit hoher Benutzerfreundlichkeit zu ermoeglichen"
+
+Das haben sie schon aufgenommen. Das ist genau das was ich eben meinte mit Vorgaben machen fuer die Mitarbeiter. Da sind dann auch Templates und Vorlagen drin fuer bestimmte Arten von Artikeln. Das erhoeht einfach die Suchbarkeit und auch die Qualitaet der einzelnen Artikel. 27:25 
+
+I: Ich hab dann gar keine Fragen mehr dazu, du hast ja schon klar gestellt wie wichtig du genau das findest und welchen Einfluss das hat. Das ist dann auch die Stelle wo ich die Aufnahme Stoppe. 27:39 
