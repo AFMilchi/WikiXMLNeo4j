@@ -1,0 +1,46 @@
+﻿Code-Baum,Id,default,Total
+Allgemeines Wissensmanagements,catid:10,58,58
+Einsatzszenarien,cid:7,8,8
+Erfolgsfaktoren,cid:10,14,14
+Hemmnisse,cid:27,3,3
+Rollen im Wissensmanagement,cid:25,17,17
+Stolpersteine,cid:9,16,16
+Experte,catid:11,26,26
+Berührungspunkte mit WM,cid:4,12,12
+Erfahrungen neben WM,cid:3,14,14
+Kategorisierung,catid:5,15,15
+Positiv lockere Kategorisierung,cid:23,7,7
+Positiv strenge Kategorisierung,cid:22,8,8
+Meta Wissensmanagement,catid:6,13,13
+Notwendig für,cid:15,9,9
+Wird gemanaged in,cid:33,4,4
+Neu,catid:8,30,30
+Freier Zugriff,cid:37,4,4
+Pflege von Wissen,cid:38,6,6
+Schlagwörter,cid:36,3,3
+Suchmaschine,cid:24,13,13
+Wissensduplikate,cid:31,4,4
+Richtlinien und Vorgaben,catid:7,11,11
+Positive Aspekte Richtlinien und Vorgaben,cid:14,8,8
+Wer macht Vorgaben,cid:26,3,3
+Software,catid:2,44,44
+Anforderung,cid:13,8,8
+Arten von SW,cid:1,9,9
+Einsatzbereich der SW,cid:8,1,1
+Negativer Aspekt,cid:2,2,2
+Positiv DMS,cid:29,2,2
+Positiv ITSM,cid:32,2,2
+Positiv Jira,cid:30,2,2
+Positiv Wiki,cid:6,18,18
+Struktur im Artikel,catid:3,37,37
+Bilder,cid:35,3,3
+Positiv freie Struktur ,cid:20,7,7
+Positiv strenge Struktur,cid:21,11,11
+Positiv Vorlagen,cid:19,12,12
+Zusammenfassungen,cid:34,4,4
+Struktur zwischen Artikeln,catid:4,41,41
+Positiv Portalseiten,cid:12,7,7
+Positiv starke Strukturierung,cid:17,2,2
+Positiv wenig Struktur,cid:18,10,10
+Positive  Verlinkungen,cid:16,11,11
+Suchen und Finden,cid:11,11,11

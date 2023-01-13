@@ -1,0 +1,131 @@
+Experteninterview 4
+Interviewpartner: Experte 4
+Datum: 19.12.2022 um 15:00
+Ort: Vororttreffen Muenchen
+I=Interviewer, B=Befragter
+
+I: So, die Aufnahme ist gestartet. Ich hab das ganze ein bisschen in Bloecke organisiert, das ist ein semistrukturiertes Interview. Deswegen, ich will dich hauptsaechlich reden lassen, gar nicht viel vorgeben. Fangen wir an mit Block 1, zur Person und Organisation.
+
+Ich wuerd gerne Wissen wie alt du bist, was deine derzeitige Position ist, wie lange du schon im Unternehmen bist und was du bisher gemacht hast, auch deine Vorerfahrungen und zum Schluss noch, was sind deine Beruehrungspunkte mit Wissensmanagement gewesen. 00:39 
+
+B: Okay, ich bin 29 Jahre alt. Bin derzeit im Server- und Applikationsumfeld taetig. Und hab da und den vorherigen Abteilungen die internen Sharepointapplikationen und Webseiten betreut und unsere BeWiki-Struktur mit aufgesetzt in der vorherigen Abteilung und betreue die jetzt.
+
+I: Vielleicht ein bisschen zu deinem Background noch? 01:12 
+
+B: Ich hab mal eine Ausbildung zum Fachberater Integrierte Systeme gemacht, vor etwa 11 Jahren. Und hab auch einen Abschluss in Wirtschaftsinformatik an der FOM Muenchen gemacht. 01:35 
+
+I: Was waren so bisher deine Beruehrungspunkte mit WM? 01:38 
+
+B: Ja, die Administration von den WM Tools so ein bisschen. Dabei auch sowohl als Autor und auch Konsument von dem Wissen. In der Uni oder so haben wir das ganze nicht wirklich behandelt. 01:54 
+
+I: Kommen wir mal zum zweiten Block, so die theoretischen Dimensionen von WM. Vielleicht mal eher auf einer globalen Sicht. Wo siehst du die Rollen und Wichtigkeit von WM im Unternehmen. Warum braucht man das ueberhaupt? 02:10 
+
+B: Man braucht das sehr sehr dringend. Das WM ist wichtig aus dem einfachem Grund, du stellst gefuehlt taeglich neue Leute ein bei uns, die auf den aktuellen Wissenstand zu bringen waere ohne ein WM nahezu nicht machbar. Die brauchen etwas, einen Ort wo sie nachschlagen koennen, wo sie nachlesen koennen. Und das nicht nur beim ersten mal, sondern halt auch beim 3., 4., 5., mal und die brauchen dann spaeter auch einen Ort um ihr Wissen weiter zu geben. Passiert jetzt ja auch gerade oft, das Leute in Rente gehen und ihr Wissen geht dadurch verloren. Mit einem ausreichend gutem WM bleibt das Wissen immer innerhalb eines Unternehmens verfuegbar. Und kann fuer die nachfolgende Generation weiter genutzt werden. 02:55 
+
+I: Was wuerdest du sowohl aus der Theorie, aber auch aus der Praxis sagen, was so typische Stolpersteine sind, vielleicht auch welche die du live mitbekommen hast, wo man im WM drueber stolpern kann? 03:06 
+
+B: Also ganz problematisch ist, wenn schon Wissen vorausgesetzt wird, von den Leuten die diese Artikel schreiben. Bei uns werden die auch WIRs genannt - Wissensrecords. Und gerade bei den Voraussetzungen fuer diese Artikel geht halt durch das nicht Wissen des anderen, befindet man sich nicht auf einer Ebene, sondern geht davon aus, dass der Konsument schon viel mehr weiss. Und dann versteht der den Artikel nicht, oder das Wissen das transferiert werden soll geht dann verloren weil die Ebene nicht stimmt auf der die Kommunikation ueber das WM stattfinden soll. 04:03 
+
+I: Was wuerdest du sagen, was kann ich dagegen machen?04:08 
+
+B: Standards setzten. Du schreibst rein, gehen wir mal von einem Beispiel aus, Serveradministration. Du schreibst rein "Was macht die Applikation, wo steht sie. Welche weiteren Apps sind damit verknuepft". Du faengt halt bei Adam und Eva an bevor du wirklich deine Applikation beschreibst. Und natuerlich musst du das auslagern auf eine Allgemeinere Seite und verlinken. Du willst es ja nicht jedes mal neu schreiben und Wissen duplizieren. 04:53 
+
+Das Adam und Eva waere am besten wenn es verlinkt waere und man von da auch auf verschiedene andere weiterfuehrende Artikel kommt. Gerade beim Suchen ist es ja auch so, man weiss eventuell ja gar nicht wonach man Sucht bei bestimmten Fehlerbildern, sondern man benoetigt von einem Wissen eine Weiterleitung zu anderem Wissen dass einem dann vielleicht mehr Helfen kann. 05:15 
+
+I: Was kennst du noch fuer Stolpersteine wenn ich sage "Wie kriege ich denn das Wissen in mein WM rein?". Was haelt vielleicht auch Mitarbeiter davon ab, aktiv daran teilzunehmen? 05:25 
+
+B: Ich sag mal ein ganz grosses Thema sind Rollen und Rechte, du musst dir erst die Rechte beschaffen fuer das Tool. Die hast du ja nicht meistens aus dem Bauch raus. Gerade bei uns in der Firma ist das gerne mal sehr aufwendig. 05:38   *redacted* 05:44 
+
+Dann ist es noch so, ich sag mal dieser Wille das Wissen auch weiterzugeben muss vorhanden sein von der Mitarbeitern. Wenn du es ihnen Vorschreibst ist das schwierig. Dann kommt nicht wirklich alles rein. Diese intrinsische Motivation wird benoetigt, dass die das auch wirklich wollen. Sonst sind die Artikel vielleicht da, aber die Qualitaet ist einfach schlecht. Und dann ists immer noch der Aufwand. Ich meine alle haben viel zu tun, das Wissen aufzuschreiben ist dann immer noch so ein extra Punkt wo, ich sag mal, wo die Zeit fuer Fehlen kann, wenn sie nicht extra vom Chef so freigegeben werden kann, oder man anderweitig entlastet wird. 06:38 
+
+Und dann haben wir natuerlich noch das andere Problem, die Huerde das anzufangen, weil viele Artikel die man sich ankuckt sind sehr sehr umfangreich und gross. Dann wir vergessen, dass die gewachsen sind ueber die Zeit und alle denken dann sie muessen quasi genau so einen grossen Artikel hinschreiben, das braucht dann unendlich Zeit und die nehmen sie sich natuerlich nicht. Ist quasi ein Teufelskreis. 07:01 
+
+I: Perfekt, kommen wir gleich zum dritten Block, Software. Welchen Stellenwert wuerdest du der unterstuetzenden Software geben und vor allem warum? 07:14 
+
+B: Wir haben ja jetzt hauptsaechlich ueber Confluence von Attlasian geredet. Ich glaube die Software ist sehr sehr wichtig. Wir koennen das ja ganz gut vergleichen, wir haben Sharpoint und eben Confluence. Und z.B. Sharepoint ist mega aufwendig im Vergleich zu Confluence. Im Sharepoint wird deswegen auch weniger WM betrieben. Wir haben das frueher gemacht, ich sag mal 2015 bis 2018 war unser Grossteil vom WM im Sharepoint abgebildet, wieder in einer Art Wiki. Viel zu Aufwendig, viel zu verschachtelt, damit kamen die Leute auch nicht klar. Deswegen wurde auch Confluence eingefuehrt, was das ganze sehr sehr vereinfacht. Das ist viel bedienungsfreundlicher. Mit nur 3 Klicks erstellt man einen neuen Artikel und kann den einfach runterschreiben ohne das gross was ist. Ich wuerde das auch als eine simple Art Wikisoftware beschreiben. 08:07 
+
+I: Du wuerdest also sagen eine Wikisoftware ist viel einladender teilzunehmen also so ein DMS oder? 08:16 
+
+B: Absolut, absolut. Es ist viel einfacher aufgebaut, man findet sich besser zurecht. Die Suchfunktion von Confluence ist auch sehr gut. Man direkt nach Stichwoertern im Volltext suchen, im Sharepoint ist das nicht moeglich, da musst du schon ungefaehr Wissen, wie die Dokumente heissen, dass du danach Suchen kannst. Wenn man seine Artikel im Confluence erstellt, kann man auch wunderschoen Schlagwoerter erstellen, also zu seinem Artikel dann Hashtags vergeben, womit die Suche dann vereinfacht wird. Wobei das nicht das einzige ist. Z.B. man sucht nach Troubleshooting und bekommen dann alle Artikel angezeigt von allen Abteilungen die ihr Troubleshooting beschrieben haben, oder eine Art beschrieben haben. 09:15 
+
+Wir haben das Confluence ja nach Abteilungen strukturiert und das macht die Suche dann einfacher, weil man die Suchbereiche dann einschraenken kann. 09:32 
+
+I: Dann wuerdest du sagen, dass die Struktur zwischen Abteilungen aufzuteilen macht Sinn? 09:42 
+
+B: Total, weil jede Abteilung spezifische Probleme loest oder Fragestellungen bearbeitet und diese untereinander Verknuepft sind. Es existieren aber auch abteilungsuebergreifend Wissen, man kann aber auch meistens auf das Wissen von anderen zugreifen, das geht ja meistens. Aber wir haben auch sowas wie Leute die gesperrte Bereiche haben, das finde ich eher schlecht, weil das Wissen auch dort vorhanden ist, was anderen Abteilungen nutzen kann im Fehlerfall, aber das ist leider aus politischen und Sicherheitsgruenden nicht moeglich gewesen. 10:16 
+
+*redactet* 10:34 
+
+I: Dann kommen wir mal zum Block, ich hab ihn Prozessebene genannt. Wer ist denn verantwortlich dafuer ueberhaupt Wissen festzuhalten? Auf persoenlicher, aber auch aus unternehmerischen Sicht. 10:50 
+
+B: Ich wuerde sagen auf Abteilungsebene ist jedes Individium selbst verantwortlich das Wissen aufzuschreiben, dass es vielleicht nur einzigartig hat. Das wir natuerlich gesteuert von den Abteilungsleitern und das staffelt sich dann immer weiter hoch bis zur Unternehmensfuehrung. Es braucht sicher auch eine eigene Abteilung die sich nur mit dem WM innerhalb der Firma beschaeftigt und die das aussteuert und Vorgaben erstellt, ich sag mal Wuensche aeussert wie das sein soll. Wuensche ist vielleicht ein schwieriges Wort, aber man kann das nicht wirklich so fest Vorgeben, deswegen sinds eher Wuensche wie etwas aufgebaut werden soll. 11:46 
+
+Grad bei uns ist es auch ein Problem, dass wir eine schlechte Demographie haben. Viele gehen jetzt dann in Rente und es kommen zwar genug junge Menschen nach, aber die haben dann das Wissen nicht. Deswegen hat meine Firma von Governance Seite aus auch vorgeschrieben, dass eben alle WM betreiben sollen nenne ich es mal. Und dadurch ist das WM auch eines der Unternehmensziele geworden. Es wird auch von oben runterdiktiert, dass den Mitarbeitern genuegend Platz und Zeit gelassen werden muss, damit diese ihr Wissen auch nach Confluence bringen. Und halt auch in ausreichender Qualitaet fortzuschreiben. Die Qualitaet ist auch immer abhaengig von den einzelnen Abteilungen. Wenn man sich die verschiedenen Abteilungen anschaut, sieht man auch komplett unterschiedliche Methoden wie Wissen dokumentiert wird. Da ist es in der Hand der Abteilungsleiter auch mal untereinander zu schauen "Was machen die einzelnen gut? Was machen sie schlecht? Was kann man vielleicht auch uebernehmen?" 13:08 
+
+Oder aber eine eigne Rolle dazu zu schaffen, eine Art Taskforce zu schaffen. Genau das haben wir erst versucht. Die schaut sich an was haben wir wo an Informationen, und die stuelpen den Abteilungen dann eine Form ueber, wie man sowas strukturieren kann. Und das macht es den einzelnen Mitarbeitern auch einfacher Artikel zu schreiben, weil sie genau wissen was rein muss, was an welche Stelle muss, wie ein Artikel aufgebaut sein muss.
+
+Die Vorgaben die wir da erhalten bringt die Leute vor Allem auch dazu ihr Wissen einfach mal aufzuschreiben und zugaenglich zu machen. Mehr als wenn, ich sag jetzt mal, die Leute alleine gelassen werden, ohne Vorgaben, einfach weil sie sich in ihrem Raum dann sicherer Fuehlen und die Confidence bekommen. 14:16 
+
+I: Perfekt, in welcher Form wird denn das Wissen denn am besten konserviert? 14:27 
+
+B: Am aller besten mit Text + Bildern. Moeglichst viele verschiedene Medien, was halt auch immer angebracht ist fuer das Wissen. Wenn ich eine Wegbeschreibung habe, will ich am liebsten eine Karte wo etwas eingezeichnet ist, wenn es ein Prozess ist haette ich gerne eine Prozeskette aufgegliedert die einzelnen Schritte. Ich wuerde sagen es kommt immer auf das Thema an. 14:53 
+
+I: Wenn ich die Frage mal auf unstrukturierte Daten beziehe? Ich meine Bilder und Text sind jetzt sehr strukturierte Daten. 14:59 
+
+B: Man sollte es halt am besten gleich in eine strukturierte Form bringen. In der IT sind wir ja eher sehr strukturiert unterwegs. Mit Unstrukturiertheit kommt man immer schwer klar. Sowas wie Audio und Video ist halt einfach nicht gut greifbar. Man braucht dann Kopfhoerer, man braucht mehr Zeit, man muss es komplett anschauen. So ein Text durchsucht man mal schnell mit seinen Augen, oder auch maschinell. Video und Audio kannst du nicht wirklich durchsuchen. 15:51 
+
+Wir haben aber trotzdem Meetings und Konferenzen, das ist ja auch ein grosser Wissenstransfer innerhalb einer Abteilung oder abteilungsuebergreifend. Je nach dem welche Leute teilnehmen. Und dieses Wissen muss ja auch greifbar gemacht werden fuer Mitarbeiter die gar nicht dabei waren, aber dennoch an dem Thema interessiert sind, also muessen Protokolle gefuehrt werden. Das macht dann natuerlich auch Sinn, diese Protokolle als Wissen auch wieder an die Stelle zu legen, wo auch das WM greift. Das man wieder bei einer einfachen Suche auch Protokolle finden kann, wenn man gerade ein Problem hat. Gerade bei uns in der Abteilung werden da woechtlich aktuelle Themen gesprochen, die findet man sonst nirgendwo, ausser vielleicht im Ticketsystem. *redacted* 16:45 
+
+Ansonsten sind halt die Informationen nicht greifbar. Oder auch Emails, Emails kann man auch ueberhaupt nicht gut durchsuchen. Outlook bietet sich da nicht gut an fuer. Deswegen muessen Meetings auch immer protokolliert werden, in einer Form, dass man sie auch gut durchsuchen kann. Auch das andere Leute das verstehen. Es bringt nichts ein Protokolleintrag aus zwei Woertern hinzuschreiben, sondern es muss auch wirklich der Inhalt drin sind, damit das auch ein dritter lesen kann und versteht was geschehen ist. 17:23 
+
+I: Kommen wir mal zum Block Strukturierung von Artikeln, bzw. von Artikeln untereinander. Wie siehst du denn die Strukturierung von Artikeln untereinander. 17:37 
+
+B: Ich denke da an die Baumstruktur in der BeWiki, es geht alles von verschiedenen Roots aus und verzweigt sich dann. Ich find das auch gerade Sinnvoll, weil gerade faengt man an sich in ein Oberthema einzulesen, dann denkt man sich, was ist denn mit XY und dann musst du nicht lange suchen, sondern findest direkt den passenden Artikel dazu. Oder du weisst du bist in einem bestimmtem Tool *redacted* 18:06  und da suchst du dann explizit nach Updates und dann findest du direkt unter dem Tool den Punkt Updates. Und das vereinfacht die Suche extrem, wenn man nicht das Suchfeld benutzt, weil man vielleicht gar nicht weiss, wonach man sucht. Sondern es nur grob weiss. Am besten hast du da eine Startseite und die wichtigsten Dinger sind einfach schon verlinket. Und dann hast du auf der linken Seite deine ganzen unterpunkte und du weisst genau was du klicken musst, dass du zu dem Punkt kommt wo du hinmoechtest. 18:42 
+
+I: Das war jetzt aus Lesersicht, da findest du das gut. Wie ist das vielleicht aus der Erstellersicht? 18:50 
+
+B: Ja gut, wenn du nicht genau weisst wo du etwas hinschieben musst. Wenn du z.B. ein Thema was vielleicht einfach zwei Themen betrifft *rephrased* einfach zwei Tools und du beschreibst die Schnittstelle dazuwischen */rephrased* Dann musst du dir immer Gedanken machen "Ja wohin passts jetzt?" Du kannst sie immer noch untereinander verlinken. Aber das sich Gedanken machen ist ja wieder eine kleine Hemmschwelle anstatt das ich einfach loschreiben. Wenn du nicht weisst wohin damit. 19:31 
+
+I: Perfekt, das war jetzt zur Struktur zwischen den Artikeln, was wuerdest du sagen sollte so ein Artikel selbst Strukturiert sein? Ist das was streng Formales? Was sehr Freies? 19:39 
+
+B: Ne, Frei auf jeden Fall nicht. Weil Frei ist schon wieder eine Hemmschwelle, gerade in Confluence kann man ja auch eine Struktur vorgeben. Da machst du deine Felder "UEberschrift, Felder, Text" und kannst das wunderschoen Strukturieren und kannst verschiedene Templates anziehen fuer verschiedene Artikelarten. Und das ist auf jeden Fall sehr sehr wichtig. Vor Allem dieses vorher zusammenklicken von nem ordentlichen Layout ist super viel Arbeit, die einem dadurch abgenommen werden kann. Und deswegen senkt das mehr die Hemmschwelle, als es Probleme bereitet. 20:28 
+
+I: Vielleicht nochmal eine offene Frage in der Hinsicht, du hast viel beschrieben wie die Struktur aktuell bei euch ist. Wuerdest du dir noch was anderes wuenschen, wie es besser gemacht werden koennte. 20:45 
+
+B: Meine Wunschwelt? Wir haben relativ viele Verlinkungen drinnen, aber die Verlinkung sollte auch bleiben, wenn der Artikel sich umbenennt. Du hast einen Artikel X, der verlinkt auf Y. Jetzt wird Y umbenannt, damit funktioniert der Link nicht mehr. Das ist aktuell noch nicht moeglich. 21:17 *redacted* 21:25 
+
+I: Das ist jetzt was rein technisches, aber du meintest gerade hier habt viele Verlinkungen wo Artikel zusammenhaengen. 21:40 
+
+B: Ja, es gibt viel von Artikeln, die einfach zusammenhaengen. Durch die Verlinkungen sparen wir uns ja enorm viel Arbeit, viel Aufwand, viel Zeit, Speicherplatz und die Redundanz, dass wir das Wissen an verschiedenen Stellen haben. Das muessen wir dann nicht mehr doppelt Pflegen. Das ist aber nur moeglich wenn alles zusammenhaengt und die Verlinkungsstruktur auch ordentlich benutzen koennen und das technisch nicht zerbricht. 22:34 
+
+I: Vielleicht letze Frage zur Struktur. Wie findest du beeinflusst die Struktur das Finden und Suchen von Wissen? Vom Menschen, aber auch ner Maschine. 22:47 
+
+B: Du meinst innerhalb von Artikel oder zwischen den Artikeln? 22:51 
+
+I: Jetzt auf innerhalb eines Artikel bezogen. 22:53 
+
+B: Wenn du innerhalb vom Artikel immer die selbe Struktur hast, findest du Sachen sehr viel viel viel viel schneller. Das war mit Absicht so viele "viel". Weil dann weisst du sofort wo du hinschauen musst. Du kennst die Einleitung, den Quatsch der oben steht, aber du suchst eine bestimmte Stelle und springst einfach direkt dahin. Dein Gehirn ist da auch einfach recht Fix, das kann sich das merken innerhalb von Artikeln und wendet das gleich auf neue an. Deswegen ist die gleichbleibende Struktur fuer den Menschen sehr wichtig. 23:24 
+
+Ich glaube aber auch fuer die Maschine macht es das einfacher, weiss nicht wie das genau arbeitet, wenn du da immer eine gleichbleibende Struktur hast, ist es viel einfacher einen Algorithmus zu entwickeln, als wenn du da Wildwuchs haettest 23:50 
+
+I: Perfekt, du hast es schon kurz angesprochen. Wir brauchen ja Wissen ueber das WM. Wie macht man das am besten? Wo managed man genau das Wissen?
+
+B: Ohne eine Art Metawiki, wie soll der einzelne Mitarbeiter wissen wie er seine Artikel aufbaut wie alles Strukturiert werden muss. In einer Metawiki stellt man am besten alles fest. UEber Strukturen, ueber Inhalte, ueber einfach alles was man Wissen muss um seinen Abteilungsbereich ordentlich aufzubauen, so dass er den anderen gleich. Sodas man effektiv und effizient in deinem Bereich bist. Diese Metaartikel sind dann auch gleich das WM ueber das WM selbst der ganzen Firma. 24:50 
+
+I: Dann zum Abschluss hab ich noch eher geschlossene Fragen. Ich schau auch ob du die nicht eh schon beantwortet hast. Wir haben ja schon ueber die Drill-Down kategorisierung geredet. Die fandest du jetzt auch Wissenskonsument als sehr sinnvoll, aber als Ersteller sehr hinderlich. 25:06 
+
+B: Ja genau 25:10 
+
+I: Ausserdem hast du gesagt, die Standardisierung der Artikelstruktur macht es fuer die Mitarbeiter einfacherer mal schnell Wissen anzulegen? 25:18 
+
+B: Ja, auf jeden fall. 25:21 
+
+I: Und eine Wikisoftware wie es in Confluence aufgebaut ist, bringt Mitarbeiter auch eher dazu am WM Teilzunehmen. 25:36 
+
+B: Ja, vor Allem wenn ich an Sharepoint denke, wo man ja ehere formalisierte Artikel schreiben muss, beziehungsweise das sind ja vollwertige Dokumente. Richtig. Das ist ja ein DBMs, Dokumente muss man erst oeffnen, das ist immer ein groesseres Hindernis. Ein Artikel rotzt du einfach runter. Bei einem Dokument machst du dir viel mehr Gedanken, du brauchst Validierungsprozesse, Releaseprozesse, da brauchst du eine groessere Struktur dahinter. Das ist einfach wuchtig. 26:12 
+
+I: Aber hat so ein Dokument auch seinen Platz im WM? 26:18 
+
+B: Ja, ich wuerde sagen es hat seinen Platz, weil es halt, wir brauchen es. Wir haben BSI und ITIL-Vorgaben und da ist ganz klar festgelegt was ein Unternehmen braucht. Und diese Informationen die in diesen Dokumenten drin stehen, sind ja auch Wissen. Ich finde es ist kein Problem wenn du kurz und knapp deine Wissensartikel hast und dann gesagt wird "Ja, ausfuehrlicher findest du es im Dokument XY" 26:43 
+
+I: Alles klar, dann kommen wir mal zum Schluss, ich beende an der Stelle die Aufnahme. 26:52

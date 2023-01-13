@@ -14,14 +14,13 @@ def main():
     # processData('Kategorie')
     # processFullData('Verlinkung')
     # processCatTreeData('Artikel')
-    # processCatTreeData('Kategorie')
+    processCatTreeData('Kategorie')
 
-    advStatisticer = AdvStatistic()
+    # advStatisticer = AdvStatistic()
     # advStatisticer.populateNamespaceDic()
     # advStatisticer.countNamespaces()
     # advStatisticer.countImages()
-    advStatisticer.countInfoBoxes()
-
+    # advStatisticer.countInfoBoxes()
 
 
 def processFullData(parseType):
