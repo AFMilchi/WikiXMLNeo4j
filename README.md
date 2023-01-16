@@ -11,7 +11,7 @@ Der DbConnector erwartet eine Neo4j Instanz unter bolt://localhost:7687 mit U/P 
 
 Genutzt wird die main.py zum Starten. Wenn unterschiedliche Funktionalität benötigt werden, muss die main händisch angepasst werden.
 Weiterhin wird das Repo zur Archivierung von Daten, Texten und Bildern genutzt, welche nicht im Overleaf liegen.
-Es finden sich die Klassendiagramme, Transkripte der Klassendiagramme und die QualCoder Daten aus der qualitativen Auswertung.
+Es finden sich die Klassendiagramme, Transkripte der Fachgespräche und die QualCoder Daten aus der qualitativen Auswertung.
 
 Benötigte Packages:
 
