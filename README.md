@@ -15,10 +15,8 @@ Es finden sich die Klassendiagramme, Transkripte der Fachgespräche und die Qual
 
 Benötigte Packages:
 
-
-Datenbank:
-Neo4j - pip install neo4j
-bs4 - pip install bs4
+* Neo4j - pip install neo4j
+* bs4 - pip install bs4
 
 
 
