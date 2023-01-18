@@ -21,22 +21,26 @@ class XmlStreamReader():
         self.pathWikiXml = os.path.join(self.PATH_WIKI_XML, self.FILENAME_WIKI)
 
     def getNextArticle(self):
+        '''Generatorfunktion zum Einslesen des XML-Dumps alle Pages
+        yield: Tupel des Events und des Etree Elements
+        ytype: (String, Etree.Element)'''
         for event, elem in et.iterparse(self.pathWikiXml, events=('start', 'end')):
             yield event, elem
 
     def getNextSiteInfo(self):
+        '''Generatorfunktion zum Einslesen des XML-Dumps nur Siteinfo
+        yield: Tupel des Events und des Etree Elements und Tag Name
+        ytype: (String, Etree.Element, String)'''
         for event, elem in et.iterparse(self.pathWikiXml, events=('start', 'end')):
             tagName = Utils.Utils.stripTagName(elem)
             if event == 'start' and tagName == 'page':
                 return 0
             yield event, elem, tagName
 
-
-
-
-
-
     def getNextLine(self):
+        '''Generatorfunktion zum Zeilenweisen Einlesen des XML-Dumps
+        yield: Die aktuelle Zeile der XML
+        ytype: String'''
         with open(self.pathWikiXml, 'r') as file:
             for line in file:
                 yield line

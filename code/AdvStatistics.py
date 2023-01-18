@@ -9,16 +9,24 @@ from BasicStatistics import BasicStatistics
 
 
 class AdvStatistic(BasicStatistics):
+    '''Klasse zum Sammeln und Erstellen von Statistiken
+    Erweitert BasicStatistics
+    Parameters:
+        ns(int)
+        nsNameDic(Dict): Auflistung aller Namensräume
+        nsCountDic(Dict): Zählung aller Namensraumvorkommnisse'''
     PATH_WIKI_XML = '../wikidump/'
     FILENAME_WIKI = 'dewiki-latest-pages-articles.xml'
 
     def __init__(self):
+        '''Konstruktor'''
         super().__init__()
         self.ns = 0
         self.nsNameDic = dict()
         self.nsCountDic = dict()
 
     def populateNamespaceDic(self):
+        '''Ließt siteinfo ein und baut das Namensraumdictonary auf'''
         for event, elem, tagName in self.reader.getNextSiteInfo():
             if event == 'start':
                 if tagName == 'namespace':
@@ -27,6 +35,7 @@ class AdvStatistic(BasicStatistics):
                 self.nsCountDic[key] = 0
 
     def countInfoBoxes(self):
+        '''Startet einen SAX Parser um die Anzahl aller Infoboxen zu zählen'''
         parser = xml.sax.make_parser()
         parser.setFeature(xml.sax.handler.feature_namespaces, 0)
         handler = StatisticsWikiHandler('Box')
@@ -36,6 +45,7 @@ class AdvStatistic(BasicStatistics):
         self.formatResultsBoxes(handler.getResultsBoxes())
 
     def formatResultsBoxes(self, args):
+        '''Formatiert die Rückgabewerte des Handlers zu Infoboxen'''
         artikelCount, boxFirstLineCount, boxInlineCount, maxBoxInlineCount, maxBoxName, zeroBoxCount, totalBoxCount = args
 
         print(
@@ -49,6 +59,7 @@ class AdvStatistic(BasicStatistics):
             Gesammtzahl an Boxen {totalBoxCount}''')
 
     def countImages(self):
+        '''Startet einen SAX Parser um die Artikel auf Bilder zu Untersuchen'''
         parser = xml.sax.make_parser()
         parser.setFeature(xml.sax.handler.feature_namespaces, 0)
         handler = StatisticsWikiHandler('Image')
@@ -58,6 +69,7 @@ class AdvStatistic(BasicStatistics):
         self.formatResultsImages(handler.getResultsImages())
 
     def formatResultsImages(self, args):
+        '''Formatiert die Rückgabewerte des Handlers zu Bildern'''
         minImages, maxImages, imagesCount, artikelCount, sumTextLenght, minImageLengthRatio, maxImageLengthRatio, minRatioValues, maxRatioValues, maxImagesName, zeroImageCount = args
 
         print(
@@ -72,6 +84,7 @@ class AdvStatistic(BasicStatistics):
             Größte Ratio: {maxImageLengthRatio} Bei Länge {maxRatioValues[0]} {maxRatioValues[1]} Bilder, Name: {maxRatioValues[2]}''')
 
     def countNamespaces(self):
+        '''Zählt die Vorkommnisse aller Namensräume'''
         startTime = time.time()
         for event, elem in self.reader.getNextArticle():
             tagName = Utils.Utils.stripTagName(elem)

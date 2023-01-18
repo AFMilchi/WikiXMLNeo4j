@@ -4,8 +4,14 @@ import WikiHandler
 
 
 class DebugWikiHandler(WikiHandler.WikiHandler):
+    '''Klasse Dient dem Debuggen von besonderheiten im Volltext von Artikeln
+    Parameters:
+        text, title, current, redirect(string)
+        connector(DbConnector)
+        searchedArtikel(String)'''
 
     def __init__(self, searchedArtikel):
+        '''Konstruktor'''
         self.text = ''
         self.title = ''
         self.current = ''
@@ -18,6 +24,10 @@ class DebugWikiHandler(WikiHandler.WikiHandler):
         self.count = 0
 
     def endElement(self, tag):
+        '''Callbackfunktion bei schließenden Tags. Hier werden die
+        gesammelten Daten verarbeitet
+        Parameters:
+            tag(String): Name des Tags'''
         if tag == 'page':
             self.count += 1
             if self.count % 100000 == 0:

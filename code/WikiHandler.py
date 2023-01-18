@@ -4,8 +4,19 @@ import xml.sax
 
 
 class WikiHandler(xml.sax.ContentHandler):
+    '''Handlerfunktion zur Implementierung des SAX Parser
+    Parameters:
+        text, title, current, redirect (String)
+        id, ns, count (int)
+        connector(DbConnector): Interface zur Datenbank
+        inrevision(bool)
+    '''
 
     def __init__(self, type):
+        '''Konsturktor
+        Parameters:
+            type(String): Art des Parsmodus
+        '''
         self.text = ''
         self.title = ''
         self.id = -1
@@ -19,6 +30,10 @@ class WikiHandler(xml.sax.ContentHandler):
 
     # Gecallt bei Öffnenden Tags
     def startElement(self, tag, attr):
+        '''Callbackfunktion bei öffnenden Tags
+        Parameters:
+            tag(String): Name des Tags
+            attr(String): Attribute des Tags'''
         self.current = tag
         if self.current == 'page':
             self.title = ''
@@ -28,6 +43,9 @@ class WikiHandler(xml.sax.ContentHandler):
             self.text = ''
 
     def characters(self, content):
+        '''Callbackfunktion während dem Inhalt eines Tags
+        Parameters:
+            content(String): Inhalt des Tags'''
         if self.current == 'title':
             self.title = content.replace('"', "'")
         elif self.current == 'text':
@@ -38,6 +56,10 @@ class WikiHandler(xml.sax.ContentHandler):
             self.ns = int(content)
 
     def endElement(self, tag):
+        '''Callbackfunktion bei schließenden Tags. Hier werden die
+        gesammelten Daten verarbeitet
+        Parameters:
+            tag(String): Name des Tags'''
         if tag == 'page':
             self.count += 1
             if self.count % 100000 == 0:
@@ -63,6 +85,11 @@ class WikiHandler(xml.sax.ContentHandler):
         self.current = ''
 
     def extractCategories(self, inhalt):
+        '''Extrahiert alle Kategorien aus dem Volltext eines Artikels
+        Parameters:
+            inhalt(String):Volltext eines Artikels
+        Returns:
+            categorieList(List):Alle gefunden Kategorien'''
         categorieSearchString = '\[\[Kategorie:.*?\]?]'
         # Entfernt direkt Start und Endsymbohle und befüllt Liste
         categorieList = []
@@ -75,11 +102,19 @@ class WikiHandler(xml.sax.ContentHandler):
         return categorieList
 
     def writeAdjToCsv(self, fromNodeTitle, adjType, toNodeList):
+        '''Datenbankinterface um Daten in eine CSV Datei zu schreiben
+        Parameters:
+            fromNodeTitle(String)
+            adjType(String)
+            toNodeList(List)'''
         for toNode in toNodeList:
             self.connector.createAdjtoCsv(
                 fromNodeTitle, toNode, adjType)
 
     def extractInnerLinks(self, inhalt):
+        '''Extrahiert alle Artikelverlinkungen aus dem Volltext eines Artikels
+        Parameters:
+            inhalt(String):Volltext eines Artikels'''
         linkSearchString = '\[\[.*?\]?\]'
         linkList = []
         specialLinks = ['Kategorie:', 'en:',
