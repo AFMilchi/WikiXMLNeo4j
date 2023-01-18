@@ -11,6 +11,7 @@ FILENAME_WIKI = 'dewiki-latest-pages-articles.xml'
 
 
 def main():
+    '''Einstiegspunkt zum Starten der Module'''
     # processData('Kategorie')
     # processFullData('Verlinkung')
     # processCatTreeData('Artikel')
@@ -24,6 +25,9 @@ def main():
 
 
 def processFullData(parseType):
+    '''Starterfunktion zum Parsen und Erstellen des Full-Graphs
+    Parameters:
+        parseType(String): Gibt Art des Parsens an'''
     parser = xml.sax.make_parser()
     parser.setFeature(xml.sax.handler.feature_namespaces, 0)
     handler = FullWikiHandler(parseType)
@@ -33,6 +37,9 @@ def processFullData(parseType):
 
 
 def processCatTreeData(parseType):
+     '''Starterfunktion zum Parsen und Erstellen des Kategorie-Graphs
+    Parameters:
+        parseType(String): Gibt Art des Parsens an'''
     parser = xml.sax.make_parser()
     parser.setFeature(xml.sax.handler.feature_namespaces, 0)
     handler = CatTreeWikiHandler(parseType)
@@ -42,6 +49,9 @@ def processCatTreeData(parseType):
 
 
 def processArtikleData(parseType):
+      '''Starterfunktion zum Parsen und Erstellen des Artikel-Graphs
+    Parameters:
+        parseType(String): Gibt Art des Parsens an'''
     parser = xml.sax.make_parser()
     parser.setFeature(xml.sax.handler.feature_namespaces, 0)
     handler = ArtikelTreeWikiHandler(parseType)

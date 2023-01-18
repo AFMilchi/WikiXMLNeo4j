@@ -4,8 +4,19 @@ import WikiHandler
 
 
 class StatisticsWikiHandler(WikiHandler.WikiHandler):
+    '''Handlerfunktion zur Implementierung des SAX Parser
+    Spezialisiert zum Sammel von Statistiken
+    Parameters:
+        maxImagesname, maxBoxName (string)
+        minImages, maxImages, imagesCount, artikelCount, sumTextlengt
+            boxFirstLinecount, maxBoxInlineCount, zeroBoxCount, totalboxcount (int)
+        connector(DbConnector): Interface zur Datenbank
+    '''
 
     def __init__(self, type):
+        '''Konstruktor
+        Parameters:
+            type(String): Art des Parsmodus'''
         super().__init__(type)
         self.minImages = 0
         self.maxImages = 0
@@ -28,6 +39,10 @@ class StatisticsWikiHandler(WikiHandler.WikiHandler):
         self.totalBoxCount = 0
 
     def startElement(self, tag, attr):
+        '''Callbackfunktion bei öffnenden Tags
+        Parameters:
+            tag(String): Name des Tags
+            attr(String): Attribute des Tags'''
         self.current = tag
         if self.current == 'page':
             self.title = ''
@@ -40,6 +55,10 @@ class StatisticsWikiHandler(WikiHandler.WikiHandler):
             self.textLenght = int(attr['bytes'])
 
     def endElement(self, tag):
+        '''Callbackfunktion bei schließenden Tags. Hier werden die
+        gesammelten Daten verarbeitet
+        Parameters:
+            tag(String): Name des Tags'''
         if tag == 'page':
             self.count += 1
             if self.count % 100000 == 0:
@@ -55,6 +74,10 @@ class StatisticsWikiHandler(WikiHandler.WikiHandler):
         self.current = ''
 
     def processBoxes(self, inhalt):
+        '''Extrahiert Statistische Infos über die Infoboxen im Volltext
+        Parameters:
+            inhalt(string): Volltext des Artikels
+        '''
         lines = inhalt.splitlines()
         firstLine = lines[0]
         inLine = ' '.join(
@@ -72,11 +95,19 @@ class StatisticsWikiHandler(WikiHandler.WikiHandler):
             self.maxBoxName = self.title
 
     def extractBoxCount(self, inhalt):
+        '''Extrahiert die Anzahl von Inforboxen im Text
+        Parmeters:
+            inhalt(String):Volltext oder Ausschnitt von Artikel
+        Returns:
+            (int):Anzahl an Boxen'''
         boxSearchString = '{{Infobox'
         allList = re.findall(boxSearchString, inhalt)
         return (len(allList))
 
     def processImages(self, inhalt):
+        '''Extrahiert Statistische Infos über Verwendung von Bildern
+        Parameters:
+            inhalt(String):Volltext'''
         imCount = self.extractImagesCount(inhalt)
         self.imagesCount += imCount
         self.sumTextLenght += self.textLenght
@@ -97,12 +128,17 @@ class StatisticsWikiHandler(WikiHandler.WikiHandler):
             self.minImages = imCount
 
     def extractImagesCount(self, inhalt):
+        '''Extrahiert Anzahl Bilder aus String
+        Parameters:
+            inhalt(String)'''
         imageSearchString = '(Datei:|Bild:|File:|Image:).*?\.'
         allList = re.findall(imageSearchString, inhalt)
         return (len(allList))
 
     def getResultsImages(self):
+        '''Get Funktion um Alle Attribute der Bilder zu bekommen'''
         return self.minImages, self.maxImages, self.imagesCount, self.artikelCount, self.sumTextLenght, self.minImageLengthRatio, self.maxImageLengthRatio, self.minRatioValues, self.maxRatioValues, self.maxImagesName, self.zeroImageCount
 
     def getResultsBoxes(self):
+        '''Getter Funktion um alle Attribute der Boxen zu bekommen'''
         return self.artikelCount, self.boxFirstLineCount, self.boxInlineCount, self.maxBoxInlineCount, self.maxBoxName, self.zeroBoxCount, self.totalBoxCount

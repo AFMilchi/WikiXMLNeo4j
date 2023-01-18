@@ -4,8 +4,16 @@ import WikiHandler
 
 
 class FullWikiHandler(WikiHandler.WikiHandler):
+    '''Handlerfunktion zur Implementierung des SAX Parser
+    Spezialisiert zum erstellen des Full-Graphs 
+        connector(DbConnector): Interface zur Datenbank
+    '''
 
     def endElement(self, tag):
+        '''Callbackfunktion bei schließenden Tags. Hier werden die
+        gesammelten Daten verarbeitet
+        Parameters:
+            tag(String): Name des Tags'''
         if tag == 'page':
             self.count += 1
             if self.count % 100000 == 0:
@@ -31,6 +39,11 @@ class FullWikiHandler(WikiHandler.WikiHandler):
         self.current = ''
 
     def extractInnerLinks(self, inhalt):
+        '''Extrahiert alle Verlinkungen von Artikeln auf Andere aus dem Volltext
+        Parameters:
+            inhalt(String)
+        Returns:
+            linkList(List):Liste aller Zielverlinkungen'''
         linkSearchString = '\[\[.*?\]?\]'
         linkList = []
         specialLinks = ['Kategorie:', 'en:',

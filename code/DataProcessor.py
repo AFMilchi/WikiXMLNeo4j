@@ -5,12 +5,21 @@ import re
 
 
 class DataProcessor():
+    '''Klasse ist Depricated
+    Klasse zum Traversieren der XML Datei und Auslesen von gewünschten Informationen
+    Parameters:
+        reader(XMLStreamReader):Leser der XML
+        connector(DbConnector):Anbindung an die Datenbank'''
 
     def __init__(self):
+        '''Konstruktor'''
         self.reader = xr.XmlStreamReader()
         self.connector = dbc.DbConnector()
 
     def traverseData(self, kind):
+        '''Traviersiert die gesammte XML Struktur
+        Parameters:
+            kind:(string): Art der Verarbeitung'''
         totalCount = 0
         for event, elem in self.reader.getNextArticle():
             tagName = Utils.Utils.stripTagName(elem)

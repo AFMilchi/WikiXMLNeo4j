@@ -6,11 +6,15 @@ import Utils
 
 class BasicStatistics():
     '''Wertet einen XML Datenstrom aus
-    und erstellt Grundlegende Statistiken'''
+    und erstellt Grundlegende Statistiken
+    Parameters:
+        totalCount, articleCount, redirectCount, templateCount, categorieCount, startTime (int)
+        title(string)'''
 
     OUTPUT_FILENAME = 'output.csv'
 
     def __init__(self):
+        '''Konstruktor'''
         self.reader = xr.XmlStreamReader()
         self.totalCount = 0
         self.articleCount = 0
@@ -21,7 +25,11 @@ class BasicStatistics():
         self.startTime = 0
 
     def formatTimeElapsed(self, seconds):
-        '''Formatierung von Sekunden in hh:mm:ss.ss'''
+        '''Formatierung von Sekunden in hh:mm:ss.ss
+        Parameters:
+            seconds(int)
+        Returns:
+            :String'''
         h = int(seconds / (60 * 60))
         m = int((seconds % (60 * 60)) / 60)
         s = seconds % 60
